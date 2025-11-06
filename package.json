@@ -14,6 +14,7 @@
     "browser-sync": "^3.0.4",
     "gh-pages": "^6.3.0",
     "htmlhint": "^1.7.1",
+    "marked": "^16.4.1",
     "npm-watch": "^0.13.0",
     "prettier": "^3.6.2",
     "rimraf": "^6.0.1",
@@ -22,10 +23,10 @@
   },
   "scripts": {
     "build": "mkdir -p dist && npm run build:dist",
-    "build:dist": "mkdir -p dist && npm run build:assets && npm run build:modules",
+    "build:dist": "mkdir -p dist && node index.js > dist/index.html && npm run build:assets && npm run build:modules",
     "build:watch": "npm-watch",
-    "build:assets": "cp -r index.html assets dist/",
-    "build:modules": "mkdir -p dist/vendor && cp -r node_modules/vellum-doc dist/vendor/vellum-doc/ && cp -r node_modules/magick.css dist/vendor/magick.css",
+    "build:assets": "cp -r assets dist/",
+    "build:modules": "mkdir -p dist/vendor && cp -r node_modules/vellum-doc dist/vendor/vellum-doc/ && cp -r node_modules/magick.css/ dist/vendor/magick.css/",
     "clean": "rm -r dist",
     "lint": "npx prettier . --check && npx stylelint 'assets/styles/**/*.css'",
     "lint:fix": "npx prettier . --write",
@@ -38,7 +39,7 @@
       "patterns": [
         "**/*"
       ],
-      "extensions": "html,css",
+      "extensions": "md,html,css,liquid",
       "ignore": [
         "node_module",
         "dist"

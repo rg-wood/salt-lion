@@ -1,0 +1,48 @@
+{
+  "name": "year-zero-fantasy",
+  "version": "0.1.0",
+  "description": "Simple fantasy hack of the Year Zero Engine",
+  "license": "Year Zero Free Tabletop License",
+  "author": "Ric Wood <ric@grislyeye.com>",
+  "dependencies": {
+    "@grislyeye/link-preview": "^0.0.3",
+    "magick.css": "^1.0.6",
+    "normalize.css": "^8.0.1",
+    "vellum-doc": "^0.10.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "gh-pages": "^6.3.0",
+    "htmlhint": "^1.7.1",
+    "npm-watch": "^0.13.0",
+    "prettier": "^3.6.2",
+    "rimraf": "^6.0.1",
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard": "^39.0.1"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && npm run build:dist",
+    "build:dist": "mkdir -p dist && npm run build:assets && npm run build:modules",
+    "build:watch": "npm-watch",
+    "build:assets": "cp -r index.html assets dist/",
+    "build:modules": "mkdir -p dist/vendor && cp -r node_modules/vellum-doc dist/vendor/vellum-doc/ && cp -r node_modules/magick.css dist/vendor/magick.css",
+    "clean": "rm -r dist",
+    "lint": "npx prettier . --check && npx stylelint 'assets/styles/**/*.css'",
+    "lint:fix": "npx prettier . --write",
+    "test": "npm run lint && htmlhint _site/**/*.html",
+    "start": "npm run build && npm run start:server",
+    "start:server": "browser-sync start --server --files dist --ss dist"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "**/*"
+      ],
+      "extensions": "html,css",
+      "ignore": [
+        "node_module",
+        "dist"
+      ]
+    }
+  }
+}

@@ -242,17 +242,24 @@ see what it is.
 
 ## Equipment
 
+| WEAPON           | GRIP | BONUS | DAMAGE | RANGE   | WEIGHT |
+| ---------------- | ---- | ----- | ------ | ------- | ------ |
+| Unarmed          | —    | —     | 1      | Engaged | —      |
+| Blunt instrument | 1H   | +2    | 2      | Engaged | 1      |
+| Knife            | 1H   | +2    | 3      | Engaged | ½      |
+| Club             | 1H   | +3    | 2      | Engaged | 1      |
+| Sword            | 1H   | +3    | 3      | Engaged | 1      |
+| Battleaxe        | 2H   | +3    | 3      | Engaged | 2      |
+| Spear            | 1H   | +2    | 2      | Short   | 1      |
+| Rock             | 1H   | —     | 2      | Medium  | ¼      |
+| Sling            | 1H   | +1    | 2      | Medium  | ½      |
+| Bow              | 2H   | +2    | 2      | Long    | 1      |
+| Pistol           | 1H   | +2    | 3      | Medium  | ½      |
+| Rifle            | 2H   | +3    | 3      | Long    | 1      |
+
 ### Arcane Equipment
 
-Item Price Bonus Effect
-
----
-
-Libre Noctus 20 GOLD 2 Gear bonus for [necromancy](#necromancy).
-Necronomicon 100 GOLD 3 Gear bonus for [necromancy](#necromancy).
-
-Copyright © 2025 [Ric Wood](https://grislyeye.com). This game is not
-affiliated with, sponsored, or endorsed by Fria Ligan AB. The Year Zero
-Engine System Reference Document is used under Fria Ligan AB's Free
-Tabletop License.
-::::
+| Item         | Price    | Bonus | Effect                              |
+| ------------ | -------- | ----- | ----------------------------------- |
+| Libre Noctus | 20 GOLD  | 2     | Improves [necromancy](#necromancy). |
+| Necronomicon | 100 GOLD | 3     | Improves [necromancy](#necromancy). |

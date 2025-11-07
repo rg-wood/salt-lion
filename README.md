@@ -84,7 +84,7 @@ NO TALENT? If you don't have a relevant talent for the particalar action
 you want to perform, you can roll anyway -- simply roll the base dice
 for your attribute alone.
 
-#### Gear Dice
+### Gear Dice
 
 Useful gear can give you extra dice to roll, called a gear bonus.
 
@@ -202,7 +202,7 @@ You can suffer damage in many ways. These are the most common:
   the roll, but at the risk of suffering even more stress if you get any
   on the re-roll.
 
-  | FACTOR                                                      | STRESS |
+  | Factor                                                      | Stress |
   | ----------------------------------------------------------- | ------ |
   | Being threatened with violence                              | 1      |
   | Seeing a friendly character suffer a lethal critical injury | 2      |
@@ -231,7 +231,7 @@ see what it is.
 
 ## Equipment
 
-| WEAPON           | GRIP | BONUS | DAMAGE | RANGE   | WEIGHT |
+| Weapon           | Grip | Bonus | Damage | Range   | Weight |
 | ---------------- | ---- | ----- | ------ | ------- | ------ |
 | Unarmed          | —    | —     | 1      | Engaged | —      |
 | Blunt instrument | 1H   | +2    | 2      | Engaged | 1      |

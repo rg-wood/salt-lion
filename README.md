@@ -1,6 +1,6 @@
 # Year Zero Fantasy
 
-Simple fantasy hack of the Year Zero Engine
+Year Zero Fantasy is a hack of the Year Zero Engine for fantasy roleplaying, focussing on simplicity while building on top of the original fast, accessible and story driven system.
 
 ## Player Characters
 
@@ -109,6 +109,8 @@ it goes back and forth. But sooner or later, a decisive situation will
 arise, a point of no return, a conflict that conversation alone cannot
 resolve. Then it's time to break out the dice.
 
+As a rule, you only have one chance to succeed with any action. Once you have rolled the dice – and pushed the roll – you may not roll again to achieve the same goal. You need to try something different or wait until the circumstances have changed in a substantial way. Or let another player character try. This rule does not apply to combat, where you can attack the same enemy multiple times.
+
 ### Base Dice
 
 To roll, grab a number of six-sided dice equal to the most relevant
@@ -206,6 +208,10 @@ How a pushed roll plays out in story terms depends on what skill you are
 using. It can take the form of a great physical exertion, total mental
 focus, or emotional strain.
 
+You can only push a skill roll once. If you don’t succeed on your second try, you are stuck dealing with the consequences.
+
+You can only push skill rolls when you actively perform an action.
+
 ### Banes
 
 A base die showing a 1 is called a bane and can never be re-rolled when
@@ -217,6 +223,45 @@ All dice count after the push, even any dice you didn't re-roll.
 ### Opposed Rolls
 
 ## Combat
+
+### Initiative
+
+When combat begins, the first step is to determine who has the initiative. Do this before anyone rolls dice for an action. Each player taking part in the conflict, either voluntarily or involuntarily rolls Agility + 2d6. Participants act in order from highest to lowest number, until everyone has taken their turn. If characters draw, the one with the highest Agility goes first, or the GM randomly chooses the fastest character.
+
+#### NPC Iniative
+
+For a group of NPCs with identical stats, the GM can, if they want, draw one initiative card for the group instead of one per individual. All the NPCs in that group act at the same point in the round order. In what order they act individually within the group is up to the GM.
+
+### Slow and Fast Actions
+
+Slow actions:
+
+| ACTION              | PREREQUISITE           |
+| ------------------- | ---------------------- |
+| Crawl               | You are prone          |
+| Close combat attack | —                      |
+| Shoot ranged weapon | Ranged weapon          |
+| Reload              | Firearm                |
+| First aid           | Broken or dying victim |
+
+Fast actions:
+
+| FAST ACTION             | PREREQUISITE                |
+| ----------------------- | --------------------------- |
+| Run                     | No Engaged enemy            |
+| Move through door/hatch | —                           |
+| Get up                  | You are prone               |
+| Draw weapon             | —                           |
+| Block attack            | Attacked in close combat    |
+| Grapple attack          | You’ve grappled an opponent |
+| Retreat                 | Engaged enemy               |
+| Aim                     | Ranged weapon               |
+| Seek cover              | Cover in same zone          |
+| Enter/exit vehicle      | Vehicle                     |
+| Start engine            | Vehicle                     |
+| Grab the wheel          | Vehicle                     |
+| Drive                   | Vehicle                     |
+| Use item                | Varies                      |
 
 ### Damage & Stress
 
@@ -265,6 +310,69 @@ is reduced to zero, and a mental critical injury when your
 
 When you suffer a critical injury, roll on the relevant table below to
 see what it is.
+
+#### Physical Critical Injuries
+
+| D66 | INJURY                | LETHAL | TIMELIMIT | EFFECTS                                                                                    | HEALING TIME |
+| --- | --------------------- | ------ | --------- | ------------------------------------------------------------------------------------------ | ------------ |
+| 11  | Winded                | No     | —         | None.                                                                                      | —            |
+| 12  | Stunned               | No     | —         | None.                                                                                      | —            |
+| 13  | Crippling pain        | No     | —         | None.                                                                                      | —            |
+| 14  | Sprained ankle        | No     | —         | Mobility −2 and movement is a slow action until a Healing roll is made.                    | —            |
+| 15  | Blood in eyes         | No     | —         | Observation and Marksmanship −2 until a Healing roll is made.                              | —            |
+| 16  | Concussion            | No     | —         | Mobility −2.                                                                               | D6           |
+| 21  | Severed ear           | No     | —         | Observation −2.                                                                            | D6           |
+| 22  | Broken toes           | No     |           | Movement becomes a slow action.                                                            | D6           |
+| 23  | Broken hand           | No     | —         | Hand cannot be used.                                                                       | D6           |
+| 24  | Knocked out teeth     | No     | —         | Persuasion −2.                                                                             | D6           |
+| 25  | Impaled thigh         | No     | —         | Movement becomes a slow action.                                                            | 2D6          |
+| 26  | Slashed shoulder      | No     | —         | Arm cannot be used.                                                                        | D6           |
+| 31  | Broken nose           | No     | —         | Persuasion and Observation −1.                                                             | D6           |
+| 32  | Crotch hit            | No     | —         | One point of damage for every Mobility or Melee roll made.                                 | D6           |
+| 33  | Broken ribs           | No     | —         | Mobility and Observation −2.                                                               | 2D6          |
+| 34  | Gouged eye            | No     | —         | Marksmanship and Observation −2.                                                           | 2D6          |
+| 35  | Busted kneecap        | No     | —         | Movement becomes a slow action.                                                            | 2D6          |
+| 36  | Broken arm            | No     | —         | Arm cannot be used.                                                                        | 2D6          |
+| 41  | Broken leg            | No     | —         | Movement becomes a slow action.                                                            | 2D6          |
+| 42  | Crushed foot          | No     | —         | Movement becomes a slow action.                                                            | 3D6          |
+| 43  | Crushed elbow         | No     | —         | Arm cannot be used.                                                                        | 3D6          |
+| 44  | Punctured lung        | Yes    | Shift     | Stamina and Mobility −2.                                                                   | D6           |
+| 45  | Bleeding gut          | Yes    | Shift     | One point of damage for every Mobility or Melee roll made.                                 | D6           |
+| 46  | Ruptured intes- tines | Yes    | Shift     | Disease with virulence 6.                                                                  | 2D6          |
+| 51  | Busted kidney         | Yes    | Day       | Mobility −2 and movement is a slow action.                                                 | 2D6          |
+| 52  | Severed arm artery    | Yes −1 | Stretch   | Arm cannot be used.                                                                        | D6           |
+| 53  | Severed leg artery    | Yes −1 | Stretch   | Movement becomes a slow action.                                                            | D6           |
+| 54  | Severed arm           | Yes −1 | Shift     | Arm cannot be used.                                                                        | Permanent    |
+| 55  | Severed leg           | Yes −1 | Shift     | Movement becomes a slow action.                                                            | Permanent    |
+| 56  | Cracked spine         | No     | —         | Paralyzed from the neck down. If no Healing roll is made in time, the effect is permanent. | 3D6          |
+| 61  | Ruptured jugular      | Yes −1 | Round     | Stamina −1.                                                                                | 2D6          |
+| 62  | Ruptured aorta        | Yes −2 | Round     | Stamina −2.                                                                                | 3D6          |
+| 63  | Disemboweled          | Yes    | —         | Instant death.                                                                             | —            |
+| 64  | Crushed skull         | Yes    | —         | Your story ends here.                                                                      | —            |
+| 65  | Pierced head          | Yes    | —         | You die immediately.                                                                       | —            |
+| 66  | Impaled heart         | Yes    | —         | Your heart beats for the last time.                                                        | —            |
+
+#### Mental Critical Injuries
+
+| D66   | TRAUMA                | EFFECTS                                                                                                                                                                                          | HEALING TIME |
+| ----- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
+| 11-16 | Trembling             | Modifier −1 on all Agility-based rolls.                                                                                                                                                          | D6           |
+| 21    | White hair            | None.                                                                                                                                                                                            | Permanent    |
+| 22-24 | Anxious               | Modifier −1 on all Wits-based rolls.                                                                                                                                                             | D6           |
+| 25–31 | Sullen                | Modifier −1 on all Empathy-based rolls.                                                                                                                                                          | D6           |
+| 32-35 | Nightmares            | Make an Insight roll every shift spent sleeping. Failure means that the sleep doesn’t count.                                                                                                     | D6           |
+| 36–41 | Nocturnal             | You can only sleep during the light part of the day.                                                                                                                                             | 2D6          |
+| 42-43 | Phobic                | You are terrified by something related to what broke you. The GM decides what it is. You suffer one point of stress / damage to Wits each round within Short range of the object of your phobia. | 2D6          |
+| 44-45 | Alcoholic             | You must drink alcohol every day, or suffer one point of stress / damage to Agility.                                                                                                             | 3D6          |
+| 46-51 | Claustrophobic        | Every stretch in a confined environment, you suffer one point of stress / damage to Wits.                                                                                                        | 2D6          |
+| 52    | Mythomaniac           | You cannot stop yourself from lying about everything. The effect needs to be roleplayed.                                                                                                         | 2D6          |
+| 53-54 | Paranoia              | You are certain that someone is out to get you. The effect needs to be roleplayed.                                                                                                               | 2D6          |
+| 55    | Delusion              | You are totally convinced of something that is totally untrue, for example that a certain color or item doesn’t exist.                                                                           | 3D6          |
+| 56    | Hallucinations        | Make an Insight roll every shift. If you fail, you suffer a powerful hallucination. The GM deter- mines the details.                                                                             | 3D6          |
+| 61-62 | Altered person- ality | Your personality is altered in a fundamental way. Determine how together with the GM. The effect should be roleplayed.                                                                           | Permanent    |
+| 63    | Amnesia               | You lose all memory, and cannot recollect who you or the other PCs are. The effect should be roleplayed.                                                                                         | D6           |
+| 64-65 | Catatonic             | You stare blankly into oblivion, and do not respond to any stimuli.                                                                                                                              | D6           |
+| 66    | Heart attack          | Your heart stops, and you die of pure fright.                                                                                                                                                    | —            |
 
 ## Equipment
 
@@ -321,5 +429,7 @@ And in a separate window run:
 This section describes the variouis choices and deviations I made writing Year Zero Fantasy, based on material from the original [Year Zero Engine SRD](https://freeleaguepublishing.com/wp-content/uploads/2023/11/YZE-Standard-Reference-Document.pdf). It may be of use to those hacking this system.
 
 #### Simplifications
+
+Strictly only use D6s.
 
 [Health](#health) and [Resolve](#resolve) are the totals of two attributes, rather than their average. This means they are double the values expected from the Year Zero SRD, so damages are roughly doubled as well.

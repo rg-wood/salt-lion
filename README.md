@@ -15,7 +15,7 @@ sheet, a pencil, and follow these steps:
 5.  Pick your gear.
 6.  Choose a name.
 
-### Attributes
+### Determine Attributes
 
 Your character has four attributes that indicate your basic physical and
 mental capabilities. Your attributes are used when you are
@@ -31,9 +31,9 @@ Distribute 14 points across your attributes. You can assign no less than
 - **WITS:** Sensory perception, intelligence, and sanity.
 - **EMPATHY:** Personal charisma and ability to manipulate others.
 
-### Talents
+### Determine Talents
 
-Your talents are the knowledge and abilities you have acquired during
+Your [talents](#talents) are the knowledge and abilities you have acquired during
 your life. They are important, as they determine, along with your
 [attributes](#attributes), how effectively you can perform certain
 actions in the game.
@@ -42,19 +42,7 @@ Talents give you +1 to +3 bonus dice to your [base dice
 pool](#base-dice), depending on their level. Some talents may give you
 other benefits, which are listed in their descriptions.
 
-You can distribute 5 points across your starting talents.
-
-#### Defender
-
-You gain a bonus equal to the level of this talent to defend allies
-within SHORT distance of you.
-
-#### Necromancer
-
-You gain a bonus equal to the level of this talent to speak with the
-undead. Additionally, you can use WITS to sense the presence of the
-undead. Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll.
+You can distribute 5 points across your starting talents. No talent can start above level 2.
 
 ### Health
 
@@ -63,6 +51,55 @@ Your starting Health equals your Strength and Agility scores.
 ### Resolve
 
 Your starting Resolve equals your Wits and Empathy scores.
+
+### Experience
+
+The things you learn during the game are measured in Experience Points (XP). You receive XP after the end of each game session. Talk it through and let the whole group discuss what has happened. For each of the below questions that you can reply “yes” to, you get one XP:
+
+- Did you participate in the game session?
+- Did you explore a new location?
+- Did you defeat one or more dangerous adversaries?
+- Did you overcome an obstacle without using force?
+- Did you act according to your [weakness](#weaknesses) / dark secret / big dream / relationships?
+- Did you perform another extraordinary action of some kind?
+
+The GM has the final word when it comes to how much XP each character should get.
+
+You can use your XP to improve your [talents](#talents), or to learn new ones. You can only spend XP when your PC gets a chance to rest, or between game sessions.
+
+To increase a talent level by one step costs a number of XP indicated by the table below. You can only increase a talent level one step at a time. Learning a new talent costs 5 XP.
+
+| Talent Level | Cost  |
+| ------------ | ----- |
+| 1            | 5 XP  |
+| 2            | 10 XP |
+| 3            | 15 XP |
+
+## Talents
+
+### Common Talents
+
+#### Defender
+
+You gain a bonus equal to the level of this talent to defend allies
+within SHORT distance of you.
+
+#### True Grit
+
+Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
+
+#### Tough
+
+Your maximum [Health](#health) score is increased by 1 per the level of this talent.
+
+### Magic Talents
+
+#### Necromancer
+
+You gain a bonus equal to the level of this talent to speak with the
+undead. Additionally, you can use WITS to sense the presence of the
+undead. Some [equipment](#equipment) can give you [Gear
+Dice](#gear-dice) that can be added to the roll.
 
 ## Rolling
 
@@ -169,7 +206,7 @@ How a pushed roll plays out in story terms depends on what skill you are
 using. It can take the form of a great physical exertion, total mental
 focus, or emotional strain.
 
-#### Banes
+### Banes
 
 A base die showing a 1 is called a bane and can never be re-rolled when
 pushing. After a push, you cannot change back to the previous result.
@@ -213,7 +250,7 @@ You can suffer damage in many ways. These are the most common:
   | Witnessing a massacre                                       | 4      |
   | Being tortured                                              | 4      |
 
-#### Broken
+### Broken
 
 Your PC can be broken by [damage or stress](#damage-and-stress). You are broken if [Health](#health) or [Resolve](#resolve) are reduced to zero. This basically means you are taken out of action, and you might risk even lethal injuries. When broken, you can't perform any actions or make rolls.
 
@@ -231,22 +268,24 @@ see what it is.
 
 ## Equipment
 
-| Weapon           | Grip | Bonus | Damage | Range   | Weight |
-| ---------------- | ---- | ----- | ------ | ------- | ------ |
-| Unarmed          | —    | —     | 1      | Engaged | —      |
-| Blunt instrument | 1H   | +2    | 2      | Engaged | 1      |
-| Knife            | 1H   | +2    | 3      | Engaged | ½      |
-| Club             | 1H   | +3    | 2      | Engaged | 1      |
-| Sword            | 1H   | +3    | 3      | Engaged | 1      |
-| Battleaxe        | 2H   | +3    | 3      | Engaged | 2      |
-| Spear            | 1H   | +2    | 2      | Short   | 1      |
-| Rock             | 1H   | —     | 2      | Medium  | ¼      |
-| Sling            | 1H   | +1    | 2      | Medium  | ½      |
-| Bow              | 2H   | +2    | 2      | Long    | 1      |
-| Pistol           | 1H   | +2    | 3      | Medium  | ½      |
-| Rifle            | 2H   | +3    | 3      | Long    | 1      |
+### Weapons
 
-### Arcane Equipment
+| Weapon           | Price | Grip | Bonus | Damage | Range   |
+| ---------------- | ----- | ---- | ----- | ------ | ------- |
+| Unarmed          |       | —    | —     | 1      | Engaged |
+| Blunt instrument |       | 1H   | +2    | 2      | Engaged |
+| Knife            |       | 1H   | +2    | 3      | Engaged |
+| Club             |       | 1H   | +3    | 2      | Engaged |
+| Sword            |       | 1H   | +3    | 3      | Engaged |
+| Battleaxe        |       | 2H   | +3    | 3      | Engaged |
+| Spear            |       | 1H   | +2    | 2      | Short   |
+| Rock             |       | 1H   | —     | 2      | Medium  |
+| Sling            |       | 1H   | +1    | 2      | Medium  |
+| Bow              |       | 2H   | +2    | 2      | Long    |
+| Pistol           |       | 1H   | +2    | 3      | Medium  |
+| Rifle            |       | 2H   | +3    | 3      | Long    |
+
+### Arcane Tools
 
 | Item         | Price    | Bonus | Effect                              |
 | ------------ | -------- | ----- | ----------------------------------- |
@@ -255,4 +294,6 @@ see what it is.
 
 ## Appendix 1: Design Notes
 
-For simplicity, [Health](#health) and [Resolve](#resolve) are the totals of two attributes, rather than their average. This means they are double the values expected from the Year Zero SRD, so damages must increase as well.
+### Simplifications
+
+[Health](#health) and [Resolve](#resolve) are the totals of two attributes, rather than their average. This means they are double the values expected from the Year Zero SRD, so damages are roughly doubled as well.

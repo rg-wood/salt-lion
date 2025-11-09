@@ -407,6 +407,12 @@ see what it is.
 
 ### Recovery
 
+Being broken is not fatal in itself – only [critical injuries](#critical-injuries) can actually kill you. There are two ways to recover after being broken, assuming you’re not dead.
+
+- GETTING HELP: Someone can help you recover by using Empathy. This is a slow action. If the roll is successful, you immediately heal damage or stress equal to the number of successes rolled. Getting help only has this effect on a broken victim.
+- ON YOUR OWN: If no one is around to help you, you automatically heal one point of damage or stress after one Shift has passed.
+- NOT BROKEN? If you are not broken, you heal one point of damage or stress per shift. You can heal damage and stress at the same time.
+
 ## Equipment
 
 ### Weapons

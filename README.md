@@ -8,12 +8,13 @@ How you create your player character is explained in detail in this
 chapter. The summary below is a helpful overview. Grab a character
 sheet, a pencil, and follow these steps:
 
-1.  Determine your [attributes](#attributes).
-2.  Determine your [talents](#talents).
-3.  Determine your [Health](#health) and [Resolve](#resolve).
-4.  Determine your personality traits.
-5.  Pick your gear.
-6.  Choose a name.
+1.  Choose your [profession](#professions).
+2.  Determine your [attributes](#attributes).
+3.  Determine your [talents](#talents).
+4.  Determine your [Health](#health) and [Resolve](#resolve).
+5.  Determine your personality traits.
+6.  Pick your gear.
+7.  Choose a name.
 
 ### Determine Attributes
 
@@ -75,9 +76,23 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 | 2            | 10 XP |
 | 3            | 15 XP |
 
+## Professions
+
+### Fighter
+
+**Talents:** [Defender](#defender), [Tough](#tough)
+
+### Priest
+
+### Rogue
+
+### Sorcerer
+
+**Talents:** [Necromancy](#necromancy).
+
 ## Talents
 
-### Common Talents
+### Combat Talents
 
 #### Defender
 
@@ -224,13 +239,17 @@ All dice count after the push, even any dice you didn't re-roll.
 
 ## Combat
 
+### Zones
+
 ### Initiative
 
 When combat begins, the first step is to determine who has the initiative. Do this before anyone rolls dice for an action. Each player taking part in the conflict, either voluntarily or involuntarily rolls Agility + 2d6. Participants act in order from highest to lowest number, until everyone has taken their turn. If characters draw, the one with the highest Agility goes first, or the GM randomly chooses the fastest character.
 
-#### NPC Iniative
+#### NPC Initiative
 
 For a group of NPCs with identical stats, the GM can, if they want, draw one initiative card for the group instead of one per individual. All the NPCs in that group act at the same point in the round order. In what order they act individually within the group is up to the GM.
+
+#### Rounds
 
 ### Slow and Fast Actions
 
@@ -262,6 +281,18 @@ Fast actions:
 | Grab the wheel          | Vehicle                     |
 | Drive                   | Vehicle                     |
 | Use item                | Varies                      |
+
+### Movement
+
+### Sneak Attacks
+
+### Ambush
+
+### Close Combat
+
+### Ranged Combat
+
+### Armour
 
 ### Damage & Stress
 
@@ -373,6 +404,8 @@ see what it is.
 | 63    | Amnesia               | You lose all memory, and cannot recollect who you or the other PCs are. The effect should be roleplayed.                                                                                         | D6           |
 | 64-65 | Catatonic             | You stare blankly into oblivion, and do not respond to any stimuli.                                                                                                                              | D6           |
 | 66    | Heart attack          | Your heart stops, and you die of pure fright.                                                                                                                                                    | —            |
+
+### Recovery
 
 ## Equipment
 

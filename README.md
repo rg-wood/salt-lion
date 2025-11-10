@@ -32,6 +32,14 @@ Distribute 14 points across your attributes. You can assign no less than
 - **WITS:** Sensory perception, intelligence, and sanity.
 - **EMPATHY:** Personal charisma and ability to manipulate others.
 
+| Attribute | Description   |
+| --------- | ------------- |
+| 5         | Extraordinary |
+| 4         | Capable       |
+| 3         | Average       |
+| 2         | Below Average |
+| 1         | Feeble        |
+
 ### Determine Talents
 
 Your [talents](#talents) are the knowledge and abilities you have acquired during

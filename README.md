@@ -119,14 +119,14 @@ Your maximum [Health](#health) score is increased by 1 per the level of this tal
 
 #### Arcane
 
-As a [slow action](slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). Some [equipment](#equipment) can give you [Gear
+As a [slow action](#slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). Some [equipment](#equipment) can give you [Gear
 Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [frustrated](#frustrated-rolls).
 
 #### Malediction
 
 **Requirements:** [Arcane](#arcane)
 
-As a [slow action](slow-actions) you can use WITS to deal a [critical injury](#critical-injury) to a target within Medium [range](#ranges). The caster decides whether the injury is physical or mental.
+As a [slow action](#slow-actions) you can use WITS to deal a [critical injury](#critical-injury) to a target within Medium [range](#ranges). The caster decides whether the injury is physical or mental.
 
 Assume the first roll on the d66 you would normally roll for a critical injury is 1, and roll a 1d6 for the second roll. Each additional success increases the first roll by 1, up to a maximum of 6. For example, if you had 2 successes and rolled a 3, you would inflict the injury listed under 23 on the injury table.
 

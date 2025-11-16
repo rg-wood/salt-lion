@@ -347,18 +347,16 @@ The point in the initiative order at which you act is called your turn. On your 
 
 ### Armour
 
-Body armor can protect you from damage. Armor doesn’t 
-provide protection from other kinds of damage, or from dam-
-age you inflict on yourself when you push a roll. The effect of 
-armor is determined by its armor rating.
+Body armour can protect you from damage. Armour doesn’t
+provide protection from other kinds of damage, or from damage you inflict on yourself when you push a roll. The effect of
+armour is determined by its armour rating.
 
-When you suffer damage from a physical attack, roll a 
-number of base dice equal to the armor rating.Every success you roll decreases the damage by one. This roll does not count as an action and cannot be pushed.
+When you suffer damage from a physical attack, roll a
+number of base dice equal to the armour rating. Every success you roll decreases the damage by one. This roll does not count as an action and cannot be pushed.
 
-If any damage penetrates your armor, 
-its armor rating is decreased – every bane you rolled reduces 
-the armor rating by one step. If the armor absorbs all the dam-
-age, any banes rolled have no effect. Armor can be repaired.
+If any damage penetrates your armour,
+its armour rating is decreased – every bane you rolled reduces
+the armour rating by one step. If the armour absorbs all the damage, any banes rolled have no effect. Armour can be repaired.
 
 ### Damage and Stress
 

@@ -31,7 +31,7 @@
     "clean": "rm -r dist",
     "lint": "npx prettier . --check && npx stylelint 'assets/styles/**/*.css' && htmlhint _site/**/*.html",
     "lint:fix": "npx prettier . --write",
-    "test": "npm run lint && linkinator --markdown --check-fragments README.md",
+    "test": "npm run lint && linkinator --check-fragments dist/**/*.html",
     "start": "npm run build && npm run start:server",
     "start:server": "browser-sync start --server --files dist --ss dist"
   },

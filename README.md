@@ -355,18 +355,18 @@ Some actions can happen outside your turn in reaction to another character's act
 
 Various factors can affect rolls in combat. The following is a (nonexuastive) list of possible [modifiers](#modifiers):
 
-| FACTOR         | MODIFIER |
-| -------------- | -------- |
-| Aimed shot     | +2       |
-| Target Engaged | −3/+3    |
-| Medium range   | −1       |
-| Long range     | −2       |
-| Extreme range  | −3       |
-| Large target   | +2       |
-| Small target   | −2       |
-| Dim light      | −1       |
-| Darkness       | −2       |
-| Attacker prone     | −2     |
+| FACTOR             | MODIFIER |
+| ------------------ | -------- |
+| Aimed shot         | +2       |
+| Target Engaged     | −3/+3    |
+| Medium range       | −1       |
+| Long range         | −2       |
+| Extreme range      | −3       |
+| Large target       | +2       |
+| Small target       | −2       |
+| Dim light          | −1       |
+| Darkness           | −2       |
+| Attacker prone     | −2       |
 | Target prone       | +2       |
 | Defenseless target | +3       |
 

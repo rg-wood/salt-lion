@@ -62,9 +62,10 @@ vellum-doc::part(index-h4) {
 
 #document h1,
 #document h2,
-#document h3 {
-  margin-top: 6rem;
-  margin-bottom: 4rem;
+#document h3,
+#document h4 {
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 #document footer {

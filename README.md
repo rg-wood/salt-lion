@@ -436,66 +436,66 @@ see what it is.
 
 #### Physical Critical Injuries
 
-| D66  | INJURY                | EFFECTS                                                      |
-| ---- | --------------------- | ------------------------------------------------------------ |
-| 11   | Winded                | None.                                                        |
-| 12   | Stunned               | None.                                                        |
-| 13   | Crippling pain        | None.                                                        |
-| 14   | Sprained ankle        | Mobility −2 and movement is a slow action until a Healing roll is made. |
-| 15   | Blood in eyes         | Observation and Marksmanship −2 until a Healing roll is made. |
-| 16   | Concussion            | Mobility −2.                                                 |
-| 21   | Severed ear           | Observation −2.                                              |
-| 22   | Broken toes           | Movement becomes a slow action.                              |
-| 23   | Broken hand           | Hand cannot be used.                                         |
-| 24   | Knocked out teeth     | Persuasion −2.                                               |
-| 25   | Impaled thigh         | Movement becomes a slow action.                              |
-| 26   | Slashed shoulder      | Arm cannot be used.                                          |
-| 31   | Broken nose           | Persuasion and Observation −1.                               |
-| 32   | Crotch hit            | One point of damage for every Mobility or Melee roll made.   |
-| 33   | Broken ribs           | Mobility and Observation −2.                                 |
-| 34   | Gouged eye            | Marksmanship and Observation −2.                             |
-| 35   | Busted kneecap        | Movement becomes a slow action.                              |
-| 36   | Broken arm            | Arm cannot be used.                                          |
-| 41   | Broken leg            | Movement becomes a slow action.                              |
-| 42   | Crushed foot          | Movement becomes a slow action.                              |
-| 43   | Crushed elbow         | Arm cannot be used.                                          |
-| 44   | Punctured lung        | Stamina and Mobility −2.                                     |
-| 45   | Bleeding gut          | One point of damage for every Mobility or Melee roll made.   |
-| 46   | Ruptured intes- tines | Disease with virulence 6.                                    |
-| 51   | Busted kidney         | Mobility −2 and movement is a slow action.                   |
-| 52   | Severed arm artery    | Arm cannot be used.                                          |
-| 53   | Severed leg artery    | Movement becomes a slow action.                              |
-| 54   | Severed arm           | Arm cannot be used.                                          |
-| 55   | Severed leg           | Movement becomes a slow action.                              |
-| 56   | Cracked spine         | Paralyzed from the neck down. If no Healing roll is made in time, the effect is permanent. |
-| 61   | Ruptured jugular      | Stamina −1.                                                  |
-| 62   | Ruptured aorta        | Stamina −2.                                                  |
-| 63   | Disemboweled          | Instant death.                                               |
-| 64   | Crushed skull         | Your story ends here.                                        |
-| 65   | Pierced head          | You die immediately.                                         |
-| 66   | Impaled heart         | Your heart beats for the last time.                          |
+| D66 | INJURY                | EFFECTS                                                                                    |
+| --- | --------------------- | ------------------------------------------------------------------------------------------ |
+| 11  | Winded                | None.                                                                                      |
+| 12  | Stunned               | None.                                                                                      |
+| 13  | Crippling pain        | None.                                                                                      |
+| 14  | Sprained ankle        | Mobility −2 and movement is a slow action until a Healing roll is made.                    |
+| 15  | Blood in eyes         | Observation and Marksmanship −2 until a Healing roll is made.                              |
+| 16  | Concussion            | Mobility −2.                                                                               |
+| 21  | Severed ear           | Observation −2.                                                                            |
+| 22  | Broken toes           | Movement becomes a slow action.                                                            |
+| 23  | Broken hand           | Hand cannot be used.                                                                       |
+| 24  | Knocked out teeth     | Persuasion −2.                                                                             |
+| 25  | Impaled thigh         | Movement becomes a slow action.                                                            |
+| 26  | Slashed shoulder      | Arm cannot be used.                                                                        |
+| 31  | Broken nose           | Persuasion and Observation −1.                                                             |
+| 32  | Crotch hit            | One point of damage for every Mobility or Melee roll made.                                 |
+| 33  | Broken ribs           | Mobility and Observation −2.                                                               |
+| 34  | Gouged eye            | Marksmanship and Observation −2.                                                           |
+| 35  | Busted kneecap        | Movement becomes a slow action.                                                            |
+| 36  | Broken arm            | Arm cannot be used.                                                                        |
+| 41  | Broken leg            | Movement becomes a slow action.                                                            |
+| 42  | Crushed foot          | Movement becomes a slow action.                                                            |
+| 43  | Crushed elbow         | Arm cannot be used.                                                                        |
+| 44  | Punctured lung        | Stamina and Mobility −2.                                                                   |
+| 45  | Bleeding gut          | One point of damage for every Mobility or Melee roll made.                                 |
+| 46  | Ruptured intes- tines | Disease with virulence 6.                                                                  |
+| 51  | Busted kidney         | Mobility −2 and movement is a slow action.                                                 |
+| 52  | Severed arm artery    | Arm cannot be used.                                                                        |
+| 53  | Severed leg artery    | Movement becomes a slow action.                                                            |
+| 54  | Severed arm           | Arm cannot be used.                                                                        |
+| 55  | Severed leg           | Movement becomes a slow action.                                                            |
+| 56  | Cracked spine         | Paralyzed from the neck down. If no Healing roll is made in time, the effect is permanent. |
+| 61  | Ruptured jugular      | Stamina −1.                                                                                |
+| 62  | Ruptured aorta        | Stamina −2.                                                                                |
+| 63  | Disemboweled          | Instant death.                                                                             |
+| 64  | Crushed skull         | Your story ends here.                                                                      |
+| 65  | Pierced head          | You die immediately.                                                                       |
+| 66  | Impaled heart         | Your heart beats for the last time.                                                        |
 
 #### Mental Critical Injuries
 
-| D66   | TRAUMA                | EFFECTS                                                      |
-| ----- | --------------------- | ------------------------------------------------------------ |
-| 11-16 | Trembling             | Modifier −1 on all Agility-based rolls.                      |
-| 21    | White hair            | None.                                                        |
-| 22-24 | Anxious               | Modifier −1 on all Wits-based rolls.                         |
-| 25–31 | Sullen                | Modifier −1 on all Empathy-based rolls.                      |
-| 32-35 | Nightmares            | Make an Insight roll every shift spent sleeping. Failure means that the sleep doesn’t count. |
-| 36–41 | Nocturnal             | You can only sleep during the light part of the day.         |
+| D66   | TRAUMA                | EFFECTS                                                                                                                                                                                          |
+| ----- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 11-16 | Trembling             | Modifier −1 on all Agility-based rolls.                                                                                                                                                          |
+| 21    | White hair            | None.                                                                                                                                                                                            |
+| 22-24 | Anxious               | Modifier −1 on all Wits-based rolls.                                                                                                                                                             |
+| 25–31 | Sullen                | Modifier −1 on all Empathy-based rolls.                                                                                                                                                          |
+| 32-35 | Nightmares            | Make an Insight roll every shift spent sleeping. Failure means that the sleep doesn’t count.                                                                                                     |
+| 36–41 | Nocturnal             | You can only sleep during the light part of the day.                                                                                                                                             |
 | 42-43 | Phobic                | You are terrified by something related to what broke you. The GM decides what it is. You suffer one point of stress / damage to Wits each round within Short range of the object of your phobia. |
-| 44-45 | Alcoholic             | You must drink alcohol every day, or suffer one point of stress / damage to Agility. |
-| 46-51 | Claustrophobic        | Every stretch in a confined environment, you suffer one point of stress / damage to Wits. |
-| 52    | Mythomaniac           | You cannot stop yourself from lying about everything. The effect needs to be roleplayed. |
-| 53-54 | Paranoia              | You are certain that someone is out to get you. The effect needs to be roleplayed. |
-| 55    | Delusion              | You are totally convinced of something that is totally untrue, for example that a certain color or item doesn’t exist. |
-| 56    | Hallucinations        | Make an Insight roll every shift. If you fail, you suffer a powerful hallucination. The GM deter- mines the details. |
-| 61-62 | Altered person- ality | Your personality is altered in a fundamental way. Determine how together with the GM. The effect should be roleplayed. |
-| 63    | Amnesia               | You lose all memory, and cannot recollect who you or the other PCs are. The effect should be roleplayed. |
-| 64-65 | Catatonic             | You stare blankly into oblivion, and do not respond to any stimuli. |
-| 66    | Heart attack          | Your heart stops, and you die of pure fright.                |
+| 44-45 | Alcoholic             | You must drink alcohol every day, or suffer one point of stress / damage to Agility.                                                                                                             |
+| 46-51 | Claustrophobic        | Every stretch in a confined environment, you suffer one point of stress / damage to Wits.                                                                                                        |
+| 52    | Mythomaniac           | You cannot stop yourself from lying about everything. The effect needs to be roleplayed.                                                                                                         |
+| 53-54 | Paranoia              | You are certain that someone is out to get you. The effect needs to be roleplayed.                                                                                                               |
+| 55    | Delusion              | You are totally convinced of something that is totally untrue, for example that a certain color or item doesn’t exist.                                                                           |
+| 56    | Hallucinations        | Make an Insight roll every shift. If you fail, you suffer a powerful hallucination. The GM deter- mines the details.                                                                             |
+| 61-62 | Altered person- ality | Your personality is altered in a fundamental way. Determine how together with the GM. The effect should be roleplayed.                                                                           |
+| 63    | Amnesia               | You lose all memory, and cannot recollect who you or the other PCs are. The effect should be roleplayed.                                                                                         |
+| 64-65 | Catatonic             | You stare blankly into oblivion, and do not respond to any stimuli.                                                                                                                              |
+| 66    | Heart attack          | Your heart stops, and you die of pure fright.                                                                                                                                                    |
 
 ### Recovery
 

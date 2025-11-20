@@ -12,9 +12,16 @@ vellum-doc {
 }
 
 vellum-doc::part(index) {
+  background-color: transparent;
   padding-right: 1em;
   padding-left: 1em;
-  border-right: 2px solid black;
+  border-right: 4px solid black;
+}
+
+@media (prefers-color-scheme: dark) {
+  vellum-doc::part(index) {
+    border-right: 4px solid white;
+  }
 }
 
 vellum-doc::part(index-h1) {

@@ -98,151 +98,6 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 
 **Talents:** [Necromancer](#necromancer).
 
-## Talents
-
-### Combat Talents
-
-#### Axe Fighter
-
-#### Brawler
-
-You gain a bonus equal to the level of this talent for unarmed attacks.
-
-#### Defender
-
-You can block attacks against allies
-within SHORT distance of you. You also gain a bonus equal to the level of this talent to block.
-
-#### Fast Reflexes
-
-You gain a bonus equal to the level of this talent to dodge attacks and other AGILITY rolls to react to sudden events.
-
-#### Frenzy
-
-You can use this taken to gain a bonus equal to the level of this talent to any melee attacks. When you use this talent, attacks against you have +2 modifier until your next [turn](#turns).
-
-#### Grit
-
-Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
-
-#### Knife Fighter
-
-#### Marksman
-
-#### Sword Master
-
-#### Tough
-
-Your maximum [Health](#health) score is increased by 1 per the level of this talent.
-
-### General Talents
-
-#### Compassionate
-
-#### Deceitful
-
-#### Vigilant
-
-#### Insightful
-
-You gain a bonus equal to the level of this talent to EMPATHY rolls to read other people and see through lies. 
-
-#### Persuasive
-
-#### Reckless
-
-You can push any skill roll based on Agility twice, not just once like other characters.
-
-#### Sleight of Hand
-
-#### Stealthy
-
-### Magic Talents
-
-#### Arcane
-
-As a [slow action](#slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
-
-#### Seer
-
-#### Malediction
-
-**Requirements:** [Arcane](#arcane)
-
-As a [slow action](#slow-actions) you can use WITS to deal a [critical injury](#critical-injury) to a target within Medium [range](#ranges). The caster decides whether the injury is physical or mental.
-
-Assume the first roll on the d66 you would normally roll for a critical injury is 1, and roll a 1d6 for the second roll. Each additional success increases the first roll by 1, up to a maximum of 6. For example, if you had 2 successes and rolled a 3, you would inflict the injury listed under 23 on the injury table.
-
-Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
-
-#### Necromancer
-
-**Requirements:** [Arcane](#arcane)
-
-You can use WITS to sense, summon and control the
-undead. Typically, this is an [opposed roll](#opposed-rolls). Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
-
-### Occupational Talents
-
-#### Assassin
-
-#### Burglar
-
-#### Carpenter
-
-#### Cook                                                                                                                                                                                                                                                                  
-
-#### Diplomat
-
-#### Fanatic
-
-Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
-
-#### Fence
-
-#### Fletcher
-
-#### Footpad
-
-#### Guard
-
-#### Healer
-
-#### Hermit
-
-#### Historian
-
-#### Hunter
-
-#### Merchant
-
-#### Minstrel
-
-#### Miner
-
-#### Mummer
-
-#### Noble
-
-#### Historian
-
-#### Priest
-
-#### Ruffian
-
-#### Sailor
-
-#### Smith
-
-#### Traveller
-
-#### Quarter Master
-
-#### Woodsman
-
 ## Rolling
 
 Roleplaying is a conversation. The GM describes the scene, you describe
@@ -605,6 +460,167 @@ Being broken is not fatal in itself – only [critical injuries](#critical-injur
 - GETTING HELP: Someone can help you recover by using EMPATHY. This is a slow action. If the roll is successful, you immediately heal damage or stress equal to the number of successes rolled. Getting help only has this effect on a broken victim.
 - ON YOUR OWN: If no one is around to help you, you automatically heal one point of damage or stress after one quarter day has passed.
 - NOT BROKEN? If you are not broken, you heal one point of [Health](#health) or [Resolve](#resolve) per quarter day. You can heal damage and stress at the same time.
+
+## Talents
+
+### Combat Talents
+
+#### Axe Fighter
+
+#### Brawler
+
+You gain a bonus equal to the level of this talent for unarmed attacks.
+
+#### Defender
+
+You can block attacks against allies
+within SHORT distance of you. You also gain a bonus equal to the level of this talent to block.
+
+#### Fast Reflexes
+
+You gain a bonus equal to the level of this talent to dodge attacks and other AGILITY rolls to react to sudden events.
+
+#### Frenzy
+
+You can use this taken to gain a bonus equal to the level of this talent to any melee attacks. When you use this talent, attacks against you have +2 modifier until your next [turn](#turns).
+
+#### Grit
+
+Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
+
+#### Knife Fighter
+
+#### Marksman
+
+#### Sword Master
+
+#### Tough
+
+Your maximum [Health](#health) score is increased by 1 per the level of this talent.
+
+### General Talents
+
+#### Compassionate
+
+#### Deceitful
+
+#### Vigilant
+
+#### Insightful
+
+You gain a bonus equal to the level of this talent to EMPATHY rolls to read other people and see through lies. 
+
+#### Persuasive
+
+#### Reckless
+
+You can push any skill roll based on Agility twice, not just once like other characters.
+
+#### Sleight of Hand
+
+#### Stealthy
+
+### Magic Talents
+
+#### Arcane
+
+As a [slow action](#slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). Some [equipment](#equipment) can give you [Gear
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
+
+#### Bless
+
+#### Channel
+
+You can use EMPATH to sense, summon and control spirits, such as  angels, demons and...
+
+#### Elementalist
+
+#### Healing
+
+#### Illusion
+
+#### Malediction
+
+**Requirements:** [Arcane](#arcane)
+
+As a [slow action](#slow-actions) you can use WITS to deal a [critical injury](#critical-injury) to a target within Medium [range](#ranges). The caster decides whether the injury is physical or mental.
+
+Assume the first roll on the d66 you would normally roll for a critical injury is 1, and roll a 1d6 for the second roll. Each additional success increases the first roll by 1, up to a maximum of 6. For example, if you had 2 successes and rolled a 3, you would inflict the injury listed under 23 on the injury table.
+
+Some [equipment](#equipment) can give you [Gear
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
+
+#### Necromancer
+
+**Requirements:** [Arcane](#arcane)
+
+You can use WITS to sense, summon and control the
+undead. Typically, this is an [opposed roll](#opposed-rolls). Some [equipment](#equipment) can give you [Gear
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
+
+#### Prophecy
+
+#### Ward
+
+### Occupational Talents
+
+#### Agitator
+
+#### Assassin
+
+#### Burglar
+
+#### Carpenter
+
+#### Cook                                                                                                                                                                                                                                                                  
+
+#### Diplomat
+
+#### Fanatic
+
+Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
+
+#### Fence
+
+#### Fletcher
+
+#### Footpad
+
+#### Guard
+
+#### Healer
+
+#### Hermit
+
+#### Historian
+
+#### Hunter
+
+#### Merchant
+
+#### Minstrel
+
+#### Miner
+
+#### Mummer
+
+#### Noble
+
+#### Historian
+
+#### Priest
+
+#### Ruffian
+
+#### Sailor
+
+#### Smith
+
+#### Traveller
+
+#### Quarter Master
+
+#### Woodsman
 
 ## Equipment
 

@@ -1,6 +1,6 @@
 # Year Zero Fantasy
 
-Year Zero Fantasy is a hack of the Year Zero Engine for fantasy roleplaying, focussing on simplicity while building on top of the original fast, accessible and story driven system.
+Year Zero Fantasy is a hack of the Year Zero Engine for fantasy roleplaying, focussing on simplicity while building on top of the original fast, accessible and story-driven system.
 
 ## Player Characters
 
@@ -16,7 +16,7 @@ sheet, a pencil, and follow these steps:
 6.  Pick your gear.
 7.  Choose a name.
 
-### Determine Attributes
+### Attributes
 
 Your character has four attributes that indicate your basic physical and
 mental capabilities. Your attributes are used when you are
@@ -61,6 +61,8 @@ Your starting Health equals your Strength and Agility scores. See [Damage and St
 
 Your starting Resolve equals your Wits and Empathy scores. See [Damage and Stress](#damage-and-stress) for more information.
 
+#### Personality Traits
+
 ### Experience
 
 The things you learn during the game are measured in Experience Points (XP). You receive XP after the end of each game session. Talk it through and let the whole group discuss what has happened. For each of the below questions that you can reply “yes” to, you get one XP:
@@ -92,7 +94,7 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 
 ### Rogue
 
-#### Saint
+### Saint
 
 ### Sorcerer
 
@@ -116,7 +118,7 @@ attribute. These are your base dice. Then roll all the dice together.
 SUCCESS: To succeed with your action, you must roll at least one 6. A 6
 is called a success.If you roll several 6s, you get several successes.
 
-NO TALENT? If you don't have a relevant talent for the particalar action
+NO TALENT? If you don't have a relevant talent for the particular action
 you want to perform, you can roll anyway -- simply roll the base dice
 for your attribute alone.
 
@@ -126,7 +128,7 @@ Useful gear can give you extra dice to roll, called a gear bonus.
 
 For every bane (1) you roll on your base dice from gear when pushing,
 the item's gear bonus is decreased by one. It simply doesn't work as
-well anymore. If the gear bonus reaches zero, the item is broken and
+well any more. If the gear bonus reaches zero, the item is broken and
 cannot be used. The gear bonus of an item can be reduced by external
 damage as well.
 
@@ -168,7 +170,7 @@ the roll.
 
 ### Moves
 
-Whenever everyone looks to the gM to see what happens or the rules say, they choose a move.
+Whenever everyone looks to the GM to see what happens or the rules say, they choose a move.
 
 A **soft move** is one without immediate, irrevocable consequences.
 That usually means it's something not all that bad, like revealing that
@@ -256,7 +258,7 @@ The distance between you and your opponents is divided into five range categorie
 | Short   | A few meters away, in the same zone as you       |
 | Medium  | Up to 25 meters away, in an adjacent zone        |
 | Long    | Up to about one hundred meters (four zones) away |
-| Extreme | Up to about one kilometer                        |
+| Extreme | Up to about one kilometre                        |
 
 ### Initiative
 
@@ -307,7 +309,7 @@ Some actions can happen outside your turn in reaction to another character's act
 
 ### Combat Modifiers
 
-Various factors can affect rolls in combat. The following is a (nonexuastive) list of possible [modifiers](#modifiers):
+Various factors can affect rolls in combat. The following is a (non-exhaustive) list of possible [modifiers](#modifiers):
 
 | FACTOR             | MODIFIER |
 | ------------------ | -------- |
@@ -322,7 +324,7 @@ Various factors can affect rolls in combat. The following is a (nonexuastive) li
 | Darkness           | −2       |
 | Attacker prone     | −2       |
 | Target prone       | +2       |
-| Defenseless target | +3       |
+| Defenceless target | +3       |
 
 ### Armour
 
@@ -346,7 +348,7 @@ injuries](#critical-injuries).
 
 You can suffer damage in many ways. These are the most common:
 
-- PUSHING: [Pushing](#pushing) can inflict damage and stress. Armor has
+- PUSHING: [Pushing](#pushing) can inflict damage and stress. Armour has
   no effect against damage from pushing.
 - ATTACKS: Whenever you [attack](#attacks) someone in [combat](#combat),
   you inflict damage equal to the base damage rating of the weapon, plus
@@ -392,44 +394,46 @@ see what it is.
 
 #### Physical Critical Injuries
 
-| D66  | INJURY              | EFFECTS     |
-| ---- | ------------------- | ----------- |
-| 11   | Winded              | -1 Physical |
-| 12   | Stunned             | -1 Physical |
-| 13   | Crippling pain      | -1 Physical |
-| 14   | Sprained ankle      | -1 Physical |
-| 15   | Blood in eyes       | -1 Physical |
-| 16   | Concussion          | -1 Physical |
-| 21   | Severed ear         | -1 Physical |
-| 22   | Broken toes         | -1 Physical |
-| 23   | Broken hand         | -2 Physical |
-| 24   | Knocked out teeth   | -1 Social   |
-| 25   | Impaled thigh       | -2 Physical |
-| 26   | Slashed shoulder    | -2 Physical |
-| 31   | Broken nose         | -1 Physical |
-| 32   | Crotch hit          | -1 Physical |
-| 33   | Broken ribs         | -2 Physical |
-| 34   | Gouged eye          | -2 Physical |
-| 35   | Busted kneecap      | -2 Physical |
-| 36   | Broken arm          | -3 Physical |
-| 41   | Broken leg          | -3 Physical |
-| 42   | Crushed foot        | -3 Physical |
-| 43   | Crushed elbow       | -3 Physical |
-| 44   | Punctured lung      | -3 Physical |
-| 45   | Bleeding gut        | -3 Physical |
-| 46   | Ruptured intestines | -3 Physical |
-| 51   | Busted kidney       | -3 Physical |
-| 52   | Severed arm artery  | -3 Physical |
-| 53   | Severed leg artery  | -3 Physical |
-| 54   | Severed arm         | -3 Physical |
-| 55   | Severed leg         | -3 Physical |
-| 56   | Cracked spine       | Paralysis   |
-| 61   | Ruptured jugular    | Stamina −1  |
-| 62   | Ruptured aorta      | Stamina −2  |
-| 63   | Disemboweled        | Death       |
-| 64   | Crushed skull       | Death       |
-| 65   | Pierced head        | Death       |
-| 66   | Impaled heart       | Death       |
+| D66  | INJURY               | EFFECTS     |
+| ---- | -------------------- | ----------- |
+| 11   | Winded               | -1 Physical |
+| 12   | Stunned              | -1 Physical |
+| 13   | Crippling pain       | -1 Physical |
+| 14   | Sprained ankle       | -1 Physical |
+| 15   | Blood in eyes        | -1 Physical |
+| 16   | Concussion           | -1 Physical |
+| 21   | Severed ear          | -1 Physical |
+| 22   | Broken toes          | -1 Physical |
+| 23   | Broken hand          | -2 Physical |
+| 24   | Knocked out teeth    | -1 Social   |
+| 25   | Impaled thigh        | -2 Physical |
+| 26   | Slashed shoulder     | -2 Physical |
+| 31   | Broken nose          | -1 Physical |
+| 32   | Crotch hit           | -1 Physical |
+| 33   | Broken ribs          | -2 Physical |
+| 34   | Gouged eye           | -2 Physical |
+| 35   | Busted kneecap       | -2 Physical |
+| 36   | Broken arm           | -3 Physical |
+| 41   | Broken leg           | -3 Physical |
+| 42   | Crushed foot         | -3 Physical |
+| 43   | Crushed elbow        | -3 Physical |
+| 44   | Punctured lung*      | -3 Physical |
+| 45   | Bleeding gut*        | -3 Physical |
+| 46   | Ruptured intestines* | -3 Physical |
+| 51   | Busted kidney*       | -3 Physical |
+| 52   | Severed arm artery*  | -3 Physical |
+| 53   | Severed leg artery*  | -3 Physical |
+| 54   | Severed arm*         | -3 Physical |
+| 55   | Severed leg*         | -3 Physical |
+| 56   | Cracked spine*       | Paralysis   |
+| 61   | Ruptured jugular*    | Stamina −1  |
+| 62   | Ruptured aorta*      | Stamina −2  |
+| 63   | Disembowelled        | Death       |
+| 64   | Crushed skull        | Death       |
+| 65   | Pierced head         | Death       |
+| 66   | Impaled heart        | Death       |
+
+*\*Potentially lethal critical injuries. Roll for Stamina. If you fail, you die.* 
 
 #### Mental Critical Injuries
 
@@ -443,12 +447,12 @@ see what it is.
 | 36–41 | Despair        | -2 Mental   |
 | 42-43 | Panic          | -2 Mental   |
 | 44-45 | Fearful        | -2 Mental   |
-| 46-51 | Paranoia       | -2 Mental   |
+| 46-51 | Paranoid       | -2 Mental   |
 | 52    | Mania          | -2 Mental   |
 | 53-54 | Delusional     | -2 Mental   |
 | 55    | Traumatised    | -3 Mental   |
 | 56    | Hallucinations | -3 Mental   |
-| 61-62 | Unstable       | -3 Mental   |
+| 61-62 | Violent        | -3 Mental   |
 | 63    | Amnesia        | -3 Mental   |
 | 64-65 | Catatonic      | Paralysis   |
 | 66    | Heart attack   | Death       |
@@ -460,6 +464,34 @@ Being broken is not fatal in itself – only [critical injuries](#critical-injur
 - GETTING HELP: Someone can help you recover by using EMPATHY. This is a slow action. If the roll is successful, you immediately heal damage or stress equal to the number of successes rolled. Getting help only has this effect on a broken victim.
 - ON YOUR OWN: If no one is around to help you, you automatically heal one point of damage or stress after one quarter day has passed.
 - NOT BROKEN? If you are not broken, you heal one point of [Health](#health) or [Resolve](#resolve) per quarter day. You can heal damage and stress at the same time.
+
+## Equipment
+
+### Weapons
+
+| Weapon           | Bonus | Damage | Range   |
+| ---------------- | ----- | ------ | ------- |
+| Unarmed          | —     | 1      | Engaged |
+| Blunt instrument | +2    | 2      | Engaged |
+| Knife            | +2    | 3      | Engaged |
+| Club             | +3    | 2      | Engaged |
+| Sword            | +3    | 3      | Engaged |
+| Battleaxe*       | +3    | 3      | Engaged |
+| Spear            | +2    | 2      | Short   |
+| Rock             | —     | 2      | Medium  |
+| Sling            | +1    | 2      | Medium  |
+| Bow*             | +2    | 2      | Long    |
+| Pistol           | +2    | 3      | Medium  |
+
+*\*Requires two hands to wield.*
+
+### Arcane Tools
+
+| Item            | Price    | Bonus                          |
+| --------------- | -------- | ------------------------------ |
+| Dead man's hand | 10 GOLD  | +1 [Necromancy](#necromancer). |
+| Libre Noctus    | 20 GOLD  | +2 [Necromancy](#necromancer). |
+| Necronomicon    | 100 GOLD | +3 [Necromancy](#necromancer). |
 
 ## Talents
 
@@ -474,7 +506,7 @@ You gain a bonus equal to the level of this talent for unarmed attacks.
 #### Defender
 
 You can block attacks against allies
-within SHORT distance of you. You also gain a bonus equal to the level of this talent to block.
+within SHORT distance of you as a [reaction](#reactions). You also gain a bonus equal to the level of this talent to block.
 
 #### Fast Reflexes
 
@@ -622,37 +654,11 @@ Your maximum [Resolve](#resolve) score is increased by 1 per the level of this t
 
 #### Woodsman
 
-## Equipment
-
-### Weapons
-
-| Weapon           | Bonus | Damage | Range   |
-| ---------------- | ----- | ------ | ------- |
-| Unarmed          | —     | 1      | Engaged |
-| Blunt instrument | +2    | 2      | Engaged |
-| Knife            | +2    | 3      | Engaged |
-| Club             | +3    | 2      | Engaged |
-| Sword            | +3    | 3      | Engaged |
-| Battleaxe        | +3    | 3      | Engaged |
-| Spear            | +2    | 2      | Short   |
-| Rock             | —     | 2      | Medium  |
-| Sling            | +1    | 2      | Medium  |
-| Bow              | +2    | 2      | Long    |
-| Pistol           | +2    | 3      | Medium  |
-
-### Arcane Tools
-
-| Item            | Price    | Effect                         |
-| --------------- | -------- | ------------------------------ |
-| Dead man's hand | 10 GOLD  | +1 [Necromancy](#necromancer). |
-| Libre Noctus    | 20 GOLD  | +2 [Necromancy](#necromancer). |
-| Necronomicon    | 100 GOLD | +3 [Necromancy](#necromancer). |
-
 ## Appendices
 
 ### Hacking
 
-Requires [Node.js](http://nodejs.org/). To set-up your environment execute:
+Requires [Node.js](http://nodejs.org/). To set up your environment execute:
 
     $ npm i
 
@@ -668,16 +674,22 @@ To run:
 
     $ npm start
 
-And in a separate window run:
+And in a separate window execute:
 
     $ npm run build:watch
 
 ### Design Notes
 
-This section describes the variouis choices and deviations I made writing Year Zero Fantasy, based on material from the original [Year Zero Engine SRD](https://freeleaguepublishing.com/wp-content/uploads/2023/11/YZE-Standard-Reference-Document.pdf). It may be of use to those hacking this system.
+This section describes the various choices and deviations I made writing Year Zero Fantasy, based on material from the original [Year Zero Engine SRD](https://freeleaguepublishing.com/wp-content/uploads/2023/11/YZE-Standard-Reference-Document.pdf).
+
+This game is designed to be open and modifiable, and this section may be of use to those hacking it.
 
 #### Simplifications
 
-Strictly only use D6s.
+Only use D6s.
 
 [Health](#health) and [Resolve](#resolve) are the totals of two attributes, rather than their average. This means they are double the values expected from the Year Zero SRD, so damages are roughly doubled as well.
+
+### Style Guide
+
+This document user British English for spelling and grammar.

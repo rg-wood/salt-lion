@@ -8,13 +8,14 @@ How you create your player character is explained in detail in this
 chapter. The summary below is a helpful overview. Grab a character
 sheet, a pencil, and follow these steps:
 
-1.  Choose your [class](#class).
-2.  Determine your [attributes](#attributes).
-3.  Determine your [talents](#talents).
-4.  Determine your [Health](#health) and [Resolve](#resolve).
-5.  Determine your personality traits.
-6.  Pick your gear.
-7.  Choose a name.
+1.  Choose an [occupational talent](#occupational-talents).
+2.  Choose your [class](#class).
+3.  Determine your [attributes](#attributes).
+4.  Determine your [talents](#talents).
+5.  Determine your [Health](#health) and [Resolve](#resolve).
+6.  Determine your personality traits.
+7.  Pick your gear.
+8.  Choose a name.
 
 ### Attributes
 
@@ -32,7 +33,7 @@ Distribute 14 points across your attributes. You can assign no less than
 - **WITS:** Sensory perception, intelligence, and sanity.
 - **EMPATHY:** Personal charisma and ability to manipulate others.
 
-| Attribute | Description   |
+| ATTRIBUTE | DESCRIPTION   |
 | --------- | ------------- |
 | 5         | Extraordinary |
 | 4         | Capable       |
@@ -80,7 +81,7 @@ You can use your XP to improve your [talents](#talents), or to learn new ones. Y
 
 To increase a talent level by one step costs a number of XP indicated by the table below. You can only increase a talent level one step at a time. Learning a new talent costs 5 XP.
 
-| Talent Level | Cost  |
+| TALENT LEVEL | COST  |
 | ------------ | ----- |
 | 1            | 5 XP  |
 | 2            | 10 XP |
@@ -135,7 +136,7 @@ damage as well.
 ### Modifiers
 
 Sometimes, external factors help you to succeed. Such modifiers will
-give you additional base dice to roll. Other times, something hampers
+give you additional [base dice](#base-dice) to [roll](#rolling). Other times, something hampers
 your action. This removes base dice from your pool. You can get such
 modifiers to skill rolls in several different ways: talents, the
 difficulty of the action itself, and help from others.
@@ -145,10 +146,8 @@ extra base dice, and so on. A −1 modifier means you roll one base die
 fewer than normal, −2 means two fewer, and so on. Several modifiers can
 apply to the same roll, and they are cumulative.
 
-Always add and remove base dice from your skills, if you can (not from
-attributes or gear). If you don't have enough dice from skills, remove
-base dice from gear. If you run out of gear dice as well, remove base
-dice from attributes. If you end up with no dice at all, you have no
+If you don't have enough base dice, remove
+[gear dice](#gear-dice). If you end up with no dice at all, you have no
 chance to succeed -- time to rethink your strategy!
 
 ### Complicated Success
@@ -236,7 +235,7 @@ Sometimes actions are more than just difficult: they require willpower to push t
 
 Additionally, you can incur [critical injuries](#critical-injuries) when you're [broken](#broken) by an aggravated roll. You can still push aggravated rolls.
 
-The rules will tell you when a roll is aggravated. Typically this is when you're using magic.
+The rules will tell you when a roll is aggravated. Typically when you're using [magic talents](#magic-talents).
 
 ## Combat
 
@@ -262,7 +261,7 @@ The distance between you and your opponents is divided into five range categorie
 
 ### Initiative
 
-When combat begins, the first step is to determine who has the initiative. Do this before anyone rolls dice for an action. Each player taking part in the conflict, either voluntarily or involuntarily rolls Agility + 2d6. Participants act in order from highest to lowest number, until everyone has taken their turn. If characters draw, the one with the highest Agility goes first, or the GM randomly chooses the fastest character.
+When combat begins, the first step is to determine who has the initiative. Do this before anyone rolls dice for an action. Each player taking part in the conflict, either voluntarily or involuntarily, rolls Agility + 2d6. Participants act in order from highest to lowest number, until everyone has taken their turn. If characters draw, the one with the highest Agility goes first, or the GM randomly chooses the fastest character.
 
 #### NPC Initiative
 
@@ -361,16 +360,16 @@ You can suffer damage in many ways. These are the most common:
   the roll, but at the risk of suffering even more stress if you get any
   on the re-roll.
 
-  | Factor                                                      | Stress |
-  | ----------------------------------------------------------- | ------ |
-  | Being threatened with violence                              | 1      |
-  | Seeing a friendly character suffer a lethal critical injury | 2      |
-  | Seeing something unnatural                                  | 2      |
-  | Seeing a friendly character die                             | 3      |
-  | Being interrogated                                          | 3      |
-  | Facing a frightening supernatural being                     | 3      |
-  | Witnessing a massacre                                       | 4      |
-  | Being tortured                                              | 4      |
+  | FACTOR                                                                            | STRESS |
+  | --------------------------------------------------------------------------------- | ------ |
+  | Being threatened with violence                                                    | 1      |
+  | Seeing a friendly character suffer a lethal [critical injury](#critical-injuries) | 2      |
+  | Seeing something unnatural                                                        | 2      |
+  | Seeing a friendly character die                                                   | 3      |
+  | Being interrogated                                                                | 3      |
+  | Facing a frightening supernatural being                                           | 3      |
+  | Witnessing a massacre                                                             | 4      |
+  | Being tortured                                                                    | 4      |
 
 ### Broken
 
@@ -395,7 +394,7 @@ is reduced to zero, and a mental critical injury when your
 
 You cannot gain critical injuries when you're broken by [pushing a roll](#pushing).
 
-Critical injuries are are as much mechanical as they are narrative, and should be roleplayed.
+Critical injuries are as much mechanical as they are narrative, and should be roleplayed.
 
 When you suffer a critical injury, roll on the relevant table below to
 see what it is.
@@ -483,7 +482,7 @@ _\*Permanent injury, cannot be [recovered](#recovering-from-critical-injuries)._
 
 ### Weapons
 
-| Weapon           | Bonus | Damage | Range   |
+| WEAPON           | BONUS | DAMAGE | RANGE   |
 | ---------------- | ----- | ------ | ------- |
 | Unarmed          | —     | 1      | Engaged |
 | Blunt instrument | +2    | 2      | Engaged |
@@ -501,7 +500,7 @@ _\*Requires two hands to wield._
 
 ### Arcane Tools
 
-| Item            | Price    | Bonus                          |
+| ITEM            | PRICE    | BONUS                          |
 | --------------- | -------- | ------------------------------ |
 | Dead man's hand | 10 GOLD  | +1 [Necromancy](#necromancer). |
 | Libre Noctus    | 20 GOLD  | +2 [Necromancy](#necromancer). |
@@ -534,23 +533,25 @@ You can use this taken to gain a bonus equal to the level of this talent to any 
 
 Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
 
-#### Knife Fighter
-
-#### Marksman
-
-#### Sword Master
-
-#### Tough
+#### Hardy
 
 Your maximum [Health](#health) score is increased by 1 per the level of this talent.
 
+#### Knife Fighter
+
+You can use this taken to gain a bonus equal to the level of this talent to any roll involving skill with knives or daggers, including [combat](#combat) actions using these weapons.
+
+#### Marksman
+
+#### Sword Fighter
+
 ### General Talents
+
+#### Acrobatic
 
 #### Compassionate
 
 #### Deceitful
-
-#### Vigilant
 
 #### Insightful
 
@@ -566,7 +567,13 @@ You can push any skill roll based on Agility twice, not just once like other cha
 
 #### Stealthy
 
+#### Traveller
+
+#### Vigilant
+
 ### Magic Talents
+
+#### Alchemist
 
 #### Arcane
 
@@ -602,7 +609,7 @@ Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are
 
 #### Memory of Ages
 
-You have live a hundred lifetimes, and can plumb the depths of your centuries-long memories. However, you risk reliving past traumas. You can push WITS rolls related to any kinds of lore (history, religion, etc.) twice, not just once like other characters. You gain a bonus equal to the level of this talent to these rolls.
+You have lived a hundred lifetimes, and can plumb the depths of your centuries-long memories. However, you risk reliving past traumas. You can push WITS rolls related to any kinds of lore (history, religion, etc.) twice, not just once like other characters. You gain a bonus equal to the level of this talent to these rolls.
 
 #### Necromancer
 
@@ -617,6 +624,8 @@ Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are
 #### Ward
 
 ### Occupational Talents
+
+#### Apothecary
 
 #### Agitator
 
@@ -650,8 +659,6 @@ Your maximum [Resolve](#resolve) score is increased by 1 per the level of this t
 
 #### Hunter
 
-#### Merchant
-
 #### Minstrel
 
 #### Miner
@@ -662,6 +669,8 @@ Your maximum [Resolve](#resolve) score is increased by 1 per the level of this t
 
 #### Historian
 
+#### Peddlar
+
 #### Priest
 
 #### Ruffian
@@ -670,9 +679,7 @@ Your maximum [Resolve](#resolve) score is increased by 1 per the level of this t
 
 #### Smith
 
-#### Traveller
-
-#### Quarter Master
+#### Soldier
 
 #### Woodsman
 

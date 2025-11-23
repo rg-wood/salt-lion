@@ -286,6 +286,7 @@ Some actions can happen outside your turn in reaction to another character's act
 | Crawl                 | You are prone          |
 | Close combat attack   | —                      |
 | Shoot ranged weapon   | Ranged weapon          |
+| Grapple               |                        |
 | Reload                | Firearm                |
 | First aid             | Broken or dying victim |
 | Help with Slow Action | —                      |
@@ -294,6 +295,8 @@ Some actions can happen outside your turn in reaction to another character's act
 
 | FAST ACTION             | PREREQUISITE                |
 | ----------------------- | --------------------------- |
+| Dodge                   | —                           |
+| Block                   | —                           |
 | Run                     | No Engaged enemy            |
 | Move through door/hatch | —                           |
 | Get up                  | You are prone               |
@@ -388,8 +391,8 @@ Being broken is not fatal in itself – only [critical injuries](#critical-injur
 ### Critical Injuries
 
 Critical injuries are dangerous, even lethal, injuries to your body or
-mind. You suffer a physical critical injury when your [Health](#health)
-is reduced to zero, and a mental critical injury when your
+mind. You suffer a [physical critical injury](#physical-injuries) when your [Health](#health)
+is reduced to zero, and a [mental critical injury](#mental-injuries) when your
 [Resolve](#resolve) is reduced to zero.
 
 You cannot gain critical injuries when you're broken by [pushing a roll](#pushing).
@@ -399,7 +402,7 @@ Critical injuries are as much mechanical as they are narrative, and should be ro
 When you suffer a critical injury, roll on the relevant table below to
 see what it is.
 
-#### Recovering from Critical Injuries
+#### Recovering from Injuries
 
 Each critical injury has a specific effect that you suffer for a number of days equal to the first roll (i.e. 5 days if you roll 54 on a D66). If you have several crits, they will heal simultaneously. If an injury is listed as permanent, it will never heal.
 
@@ -409,7 +412,7 @@ CARE: If someone tends to you for a quarter day during the process of healing a 
 
 DAMAGE: Note that you can heal all of your [damage or stress](#damage-and-stress), but still suffer the effects of a critical injury.
 
-#### Physical Critical Injuries
+#### Physical Injuries
 
 | D66 | INJURY                | EFFECTS     |
 | --- | --------------------- | ----------- |
@@ -452,9 +455,9 @@ DAMAGE: Note that you can heal all of your [damage or stress](#damage-and-stress
 
 _\*Potentially lethal critical injuries. Roll for Stamina. If you fail, you die._
 
-_†Permanent injury, cannot be [recovered](#recovering-from-critical-injuries)._
+_†Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 
-#### Mental Critical Injuries
+#### Mental Injuries
 
 | D66   | TRAUMA         | EFFECTS     |
 | ----- | -------------- | ----------- |
@@ -476,9 +479,14 @@ _†Permanent injury, cannot be [recovered](#recovering-from-critical-injuries).
 | 64-65 | Catatonic      | Paralysis   |
 | 66    | Heart attack   | Death       |
 
-_\*Permanent injury, cannot be [recovered](#recovering-from-critical-injuries)._
+_\*Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 
 ## Equipment
+
+| ITEM         | PRICE | BONUS                     |
+| ------------ | ----- | ------------------------- |
+| Cloak        |       | +1 [Stealthy](#stealthy). |
+| Cloak, black |       | +2 [Stealthy](#stealthy). |
 
 ### Weapons
 
@@ -512,6 +520,8 @@ _\*Requires two hands to wield._
 
 #### Axe Fighter
 
+You gain a bonus equal to the level of this talent for [combat](#combat) actions using axes, such as parrying or attacks.
+
 #### Brawler
 
 You gain a bonus equal to the level of this talent for unarmed attacks.
@@ -523,35 +533,53 @@ within SHORT distance of you as a [reaction](#reactions). You also gain a bonus 
 
 #### Fast Reflexes
 
-You gain a bonus equal to the level of this talent to dodge attacks and other AGILITY rolls to react to sudden events.
+You gain a bonus equal to the level of this talent to dodge [actions](#fast-actions) and other AGILITY rolls to react to sudden events.
 
 #### Frenzy
 
-You can use this taken to gain a bonus equal to the level of this talent to any melee attacks. When you use this talent, attacks against you have +2 modifier until your next [turn](#turns).
-
-#### Grit
-
-Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
+You can use this talent to gain a bonus equal to the level of this talent to any melee attacks. When you use this talent, attacks against you have +2 modifier until your next [turn](#turns).
 
 #### Hardy
 
 Your maximum [Health](#health) score is increased by 1 per the level of this talent.
 
+#### Improvised Weapons
+
+You gain a bonus equal to the level of this talent for [combat](#combat) actions, such as parrying or attacks, using improvised weapons such as clubs.
+
 #### Knife Fighter
 
-You can use this taken to gain a bonus equal to the level of this talent to any roll involving skill with knives or daggers, including [combat](#combat) actions using these weapons.
+You can use this talent to gain a bonus equal to the level of this talent to any roll involving skill with knives or daggers, including [combat](#combat) actions using these weapons.
 
 #### Marksman
 
+You gain a bonus equal to the level of this talent for ranged attacks.
+
 #### Sword Fighter
+
+You gain a bonus equal to the level of this talent for [combat](#combat) actions using swords, such as parrying or attacks.
 
 ### General Talents
 
 #### Acrobatic
 
+You gain a bonus equal to the level of this talent for AGILITY rolls to balance, jump, tumble or other acrobatic feats.
+
+#### Adaptable
+
+You can switch to using a different attribute for a roll. You gain a bonus equal to the level of this talent to this roll, but the roll is [aggravated](#aggravated-rolls).
+
 #### Compassionate
 
+You gain a bonus equal to the level of this talent to EMPATHY rolls to comfort others, particularly when healing [Resolve](#resolve).
+
 #### Deceitful
+
+You gain a bonus equal to the level of this talent to EMPATHY rolls to deceive.
+
+#### Grit
+
+Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
 
 #### Insightful
 
@@ -559,17 +587,27 @@ You gain a bonus equal to the level of this talent to EMPATHY rolls to read othe
 
 #### Persuasive
 
+You gain a bonus equal to the level of this talent to EMPATHY rolls to persuade, manipulate or charm.
+
 #### Reckless
 
-You can push any skill roll based on Agility twice, not just once like other characters.
+You can push any skill roll based on AGILITY twice, not just once like other characters.
 
 #### Sleight of Hand
 
+You gain a bonus equal to the level of this talent for rolls to hide or sneak around undetected.
+
 #### Stealthy
+
+You gain a bonus equal to the level of this talent for rolls to hide or sneak around undetected.
 
 #### Traveller
 
+You gain a bonus equal to the level of this talent for rolls to recall the lore of far lands and countries.
+
 #### Vigilant
+
+You gain a bonus equal to the level of this talent for rolls to hide or sneak around undetected.
 
 ### Magic Talents
 

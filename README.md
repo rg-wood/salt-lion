@@ -770,6 +770,9 @@ Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are
 
 #### Bless
 
+As a [slow action](#slow-actions) you can use EMPATHY to deal a [critical injury](#critical-injury) to a gift a target within Medium [range](#ranges) a +1 to +3 bonus to rolls involving one attribute. Some [equipment](#equipment) can give you [Gear
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
+
 #### Channel
 
 You can use EMPATHY to sense, summon and control spirits, such as angels, demons and...

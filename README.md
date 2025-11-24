@@ -8,7 +8,7 @@ How you create your player character is explained in detail in this
 chapter. The summary below is a helpful overview. Grab a character
 sheet, a pencil, and follow these steps:
 
-1.  Choose an [occupational talent](#occupational-talents).
+1.  Choose a [background](#background).
 2.  Choose your [class](#class).
 3.  Determine your [attributes](#attributes).
 4.  Determine your [talents](#talents).
@@ -87,6 +87,108 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 | 2            | 10 XP |
 | 3            | 15 XP |
 
+## Backgrounds
+
+### Artisan
+
+**Talents:** Any [crafting talent](#crafting-talents)
+
+### Agitator
+
+**Talents:** [Persuasive](#persuasive)
+
+### Burglar
+
+**Talents:** [Intimidating](#intimidating), [Streetwise](#streetwise)
+
+### Cook
+
+**Talents:**
+
+### Diplomat
+
+**Talents:** [Deceitful](#deceitful), [Persuasive](#persuasive), [Trade](#trade)
+
+### Fanatic
+
+**Talents:** [Religion](#religion), [Willpower](#willpower)
+
+### Fence
+
+**Talents:**
+
+### Fletcher
+
+**Talents:** [Fletching Craft](#craft-talents)
+
+### Guard
+
+**Talents:**
+
+### Healer
+
+**Talents:**
+
+### Hermit
+
+**Talents:**
+
+### Hunter
+
+**Talents:**
+
+### Minstrel
+
+**Talents:**
+
+### Miner
+
+**Talents:**
+
+### Mummer
+
+**Talents:**
+
+### Noble
+
+**Talents:**
+
+### Historian
+
+**Talents:**
+
+### Peddlar
+
+**Talents:**
+
+### Priest
+
+**Talents:**
+
+### Ruffian
+
+**Talents:** [Intimidating](#intimidating), [Streetwise](#streetwise)
+
+### Sailor
+
+**Talents:**
+
+### Scholar
+
+**Talents:**
+
+### Smith
+
+**Talents:**
+
+### Soldier
+
+**Talents:**
+
+### Woodsman
+
+**Talents:**
+
 ## Class
 
 ### Fighter
@@ -149,6 +251,20 @@ apply to the same roll, and they are cumulative.
 If you don't have enough base dice, remove
 [gear dice](#gear-dice). If you end up with no dice at all, you have no
 chance to succeed -- time to rethink your strategy!
+
+### Difficulty
+
+Normally, the GM doesn’t assess how difficult an action is. You only roll dice in challenging situations – period. But sometimes, the GM might want to underscore that external factors either help or hinder an action. Use the difficulty table for guidance.
+
+| DIFFICULTY | MODIFIER |
+| ---------- | -------- |
+| Trivial    | +3       |
+| Simple     | +2       |
+| Easy       | +1       |
+| Average    | 0        |
+| Demanding  | -1       |
+| Hard       | -2       |
+| Formidable | -3       |
 
 ### Complicated Success
 
@@ -446,14 +562,14 @@ DAMAGE: Note that you can heal all of your [damage or stress](#damage-and-stress
 | 54  | Severed arm\*†        | -3 Physical |
 | 55  | Severed leg\*†        | -3 Physical |
 | 56  | Cracked spine\*       | Paralysis   |
-| 61  | Ruptured jugular\*    | Stamina −1  |
-| 62  | Ruptured aorta\*      | Stamina −2  |
+| 61  | Ruptured jugular\*    | Health −2   |
+| 62  | Ruptured aorta\*      | Health −4   |
 | 63  | Disembowelled         | Death       |
 | 64  | Crushed skull         | Death       |
 | 65  | Pierced head          | Death       |
 | 66  | Impaled heart         | Death       |
 
-_\*Potentially lethal critical injuries. Roll for Stamina. If you fail, you die._
+_\*Potentially lethal critical injuries. Roll for STRENGTH. If you fail, you die._
 
 _†Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 
@@ -543,6 +659,10 @@ You can use this talent to gain a bonus equal to the level of this talent to any
 
 Your maximum [Health](#health) score is increased by 1 per the level of this talent.
 
+#### Intimidating
+
+You can use this talent to gain a bonus equal to the level of this talent to any STRENGTH roll to intimidate.
+
 #### Improvised Weapons
 
 You gain a bonus equal to the level of this talent for [combat](#combat) actions, such as parrying or attacks, using improvised weapons such as clubs.
@@ -558,6 +678,10 @@ You gain a bonus equal to the level of this talent for ranged attacks.
 #### Sword Fighter
 
 You gain a bonus equal to the level of this talent for [combat](#combat) actions using swords, such as parrying or attacks.
+
+### Craft Talents
+
+There are many crafts covered by this category of talents. These include: fletching, smithing, mining, carpentry, etc. Each speciality is a separate talent. You gain a bonus equal to the level of a craft talent for rolls involving your craft.
 
 ### General Talents
 
@@ -577,13 +701,17 @@ You gain a bonus equal to the level of this talent to EMPATHY rolls to comfort o
 
 You gain a bonus equal to the level of this talent to EMPATHY rolls to deceive.
 
-#### Grit
+#### Force
 
-Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
+You gain a bonus equal to the level of this talent to STRENGTH rolls related to raw feats of physical might.
 
 #### Insightful
 
 You gain a bonus equal to the level of this talent to EMPATHY rolls to read other people and see through lies.
+
+#### History
+
+You gain a bonus equal to the level of this talent for WITS rolls to recall historical lore.
 
 #### Persuasive
 
@@ -593,13 +721,33 @@ You gain a bonus equal to the level of this talent to EMPATHY rolls to persuade,
 
 You can push any skill roll based on AGILITY twice, not just once like other characters.
 
+#### Religion
+
+You gain a bonus equal to the level of this talent for WITS rolls to recall religious lore.
+
 #### Sleight of Hand
 
 You gain a bonus equal to the level of this talent for rolls to hide or sneak around undetected.
 
+#### Stamina
+
+You gain a bonus equal to the level of this talent for STRENGTH rolls related to physical endurance or vigour.
+
 #### Stealthy
 
 You gain a bonus equal to the level of this talent for rolls to hide or sneak around undetected.
+
+#### Streetwise
+
+You gain a bonus equal to the level of this talent for rolls related to city life and the criminal underworld.
+
+#### Survival
+
+You gain a bonus equal to the level of this talent for rolls to related to wilderness survival, wilderness journeys or hunting.
+
+#### Trade
+
+You gain a bonus equal to the level of this talent for rolls to related to the buying and selling of goods, such as bartering.
 
 #### Traveller
 
@@ -609,9 +757,11 @@ You gain a bonus equal to the level of this talent for rolls to recall the lore 
 
 You gain a bonus equal to the level of this talent for rolls to hide or sneak around undetected.
 
-### Magic Talents
+#### Willpower
 
-#### Alchemist
+Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
+
+### Magic Talents
 
 #### Arcane
 
@@ -622,7 +772,7 @@ Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are
 
 #### Channel
 
-You can use EMPATH to sense, summon and control spirits, such as angels, demons and...
+You can use EMPATHY to sense, summon and control spirits, such as angels, demons and...
 
 #### Darkvision
 
@@ -657,69 +807,7 @@ You can use WITS to sense, summon and control the
 undead. Typically, this is an [opposed roll](#opposed-rolls). Some [equipment](#equipment) can give you [Gear
 Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
 
-#### Prophecy
-
-#### Ward
-
-### Occupational Talents
-
-#### Apothecary
-
-#### Agitator
-
-#### Assassin
-
-#### Burglar
-
-#### Carpenter
-
-#### Cook
-
-#### Diplomat
-
-#### Fanatic
-
-Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
-
-#### Fence
-
-#### Fletcher
-
-#### Footpad
-
-#### Guard
-
-#### Healer
-
-#### Hermit
-
-#### Historian
-
-#### Hunter
-
-#### Minstrel
-
-#### Miner
-
-#### Mummer
-
-#### Noble
-
-#### Historian
-
-#### Peddlar
-
-#### Priest
-
-#### Ruffian
-
-#### Sailor
-
-#### Smith
-
-#### Soldier
-
-#### Woodsman
+#### Protection
 
 ## Appendices
 

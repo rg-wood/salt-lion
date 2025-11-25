@@ -89,7 +89,7 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 
 ## Backgrounds
 
-Backgrounds represent your occupation before you became an adventurer. You can pick two [talents](#talents) from your background during [character creation](#player-characters).
+Backgrounds represent your occupation before you became an adventurer. You can pick two [talents](#talents) from your background during [character creation](#player-characters).
 
 | D66 | BACKGROUND        | TALENTS                                                                                        |
 | --- | ----------------- | ---------------------------------------------------------------------------------------------- |
@@ -111,14 +111,14 @@ Backgrounds represent your occupation before you became an adventurer. You can p
 | 31  | Miner             |                                                                                                |
 | 32  | Mummer            |                                                                                                |
 | 33  | Noble             | [Command](#command)                                                                            |
-| 34  | Peddler           |                                                                                                |
+| 34  | Peddler           | [Trade](#trade)                                                                                |
 | 35  | Priest            |                                                                                                |
 | 36  | Ruffian           |                                                                                                |
 | 41  | Sailor            |                                                                                                |
 | 42  | Scholar           |                                                                                                |
 | 43  | Smith             |                                                                                                |
 | 44  | Soldier           |                                                                                                |
-|     | Tumbler           | [Acrobatics](#acrobatics)                                                                      |
+|     | Tumbler           | [Acrobatics](#acrobatics), [Fast Reflexes](#fast-reflexes)                                     |
 | 45  | Woodcutter        |                                                                                                |
 
 ## Class
@@ -739,7 +739,7 @@ As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls
 
 #### Healing
 
-As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) EMPATHY roll to heal [damage](#damage-and-stress) and [critical injuries](critical-injuries). Factors that can modify the role are as follows:
+As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) EMPATHY roll to heal [damage](#damage-and-stress) and [critical injuries](critical-injuries). Factors that can modify the role are as follows:
 
 | EFFECT                                                              | MODIFIER |
 | ------------------------------------------------------------------- | -------- |

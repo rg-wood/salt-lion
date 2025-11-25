@@ -101,11 +101,12 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 | 15   | Diplomat          | [Deceitful](#deceitful), [Persuasive](#persuasive), [Trade](#trade) |
 | 16   | Fanatic           | [Religion](#religion), [Willpower](#willpower)               |
 | 21   | Fence             | [Deceitful](#deceitful), [Persuasive](#persuasive), [Streetwise](#streetwise), [Trade](#trade) |
-| 22   | Fletcher          | [Fletching Craft](#craft-talents)                            |
+| 22   | Fletcher          | [Fletching Craft](#craft-talents), [Marksmanship](#marksmanship) |
 | 23   | Guard             |                                                              |
 | 24   | Healer            |                                                              |
 |      | Hedge witch       |                                                              |
 | 25   | Hermit            |                                                              |
+|      | Labourer          | [Stamina](#stamina), [Vigour](#vigour)                       |
 | 26   | Minstrel          |                                                              |
 | 31   | Miner             |                                                              |
 | 32   | Mummer            |                                                              |
@@ -117,17 +118,22 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 | 42   | Scholar           |                                                              |
 | 43   | Smith             |                                                              |
 | 44   | Soldier           |                                                              |
+|      | Tumbler           | [Acrobatics](#acrobatics)                                    |
 | 45   | Woodcutter        |                                                              |
 
 ## Class
 
 ### Fighter
 
-**Talents:** [Defender](#defender), [Tough](#tough)
+**Talents:** Any [combat talent](#combat-talents), [Stamina](#stamina), [Tough](#tough)
 
 ### Rogue
 
+**Talents:** [Adaptable](#adaptable), [Fast Reflexes](#fast-reflexes), [Improvised Weapons](#improvised-weapons), [Knife Fighter](#knife-fighter), [Stealthy](#stealthy), [Sleight of Hand](#sleight-of-hand)
+
 ### Saint
+
+**Talents:** [Channeling](#channeling), [Compassionate](#compassionate), [Healing](#healing), [Protection](#protection), [Religion](#religion), [Willpower](#willpower)
 
 ### Sorcerer
 
@@ -589,7 +595,7 @@ You gain a bonus equal to the level of this talent to dodge [actions](#fast-acti
 
 You can use this talent to gain a bonus equal to the level of this talent to any melee attacks. When you use this talent, attacks against you have +2 modifier until your next [turn](#turns).
 
-#### Hardy
+#### Tough
 
 Your maximum [Health](#health) score is increased by 1 per the level of this talent.
 
@@ -689,7 +695,7 @@ You gain a bonus equal to the level of this talent for rolls to recall the lore 
 
 #### Vigilant
 
-You gain a bonus equal to the level of this talent for rolls to hide or sneak around undetected.
+You gain a bonus equal to the level of this talent for rolls to notice things, such as approaching danger.
 
 #### Willpower
 

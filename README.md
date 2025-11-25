@@ -8,7 +8,7 @@ How you create your player character is explained in detail in this
 chapter. The summary below is a helpful overview. Grab a character
 sheet, a pencil, and follow these steps:
 
-1.  Choose a [background](#background).
+1.  Choose or roll for a [background](#background).
 2.  Choose your [class](#class).
 3.  Determine your [attributes](#attributes).
 4.  Determine your [talents](#talents).
@@ -89,7 +89,7 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 
 ## Backgrounds
 
-
+Backgrounds represent your occupation before you became an adventurer. You can pick two [talents](#talents) from your background during [character creation](#player-characters).
 
 | D66  | BACKGROUND        | TALENTS                                                      |
 | ---- | ----------------- | ------------------------------------------------------------ |

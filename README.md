@@ -798,9 +798,7 @@ Assume the first roll on the d66 you would normally roll for a critical injury i
 Some [equipment](#equipment) can give you [Gear
 Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls), and are typically [opposed](#opposed-rolls).
 
-#### Memory of Ages
 
-You have lived a hundred lifetimes, and can plumb the depths of your centuries-long memories. However, you risk reliving past traumas. You can push WITS rolls related to any kinds of lore (history, religion, etc.) twice, not just once like other characters. You gain a bonus equal to the level of this talent to these rolls.
 
 #### Necromancer
 

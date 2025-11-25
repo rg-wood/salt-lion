@@ -1,6 +1,6 @@
 # Year Zero Fantasy
 
-Year Zero Fantasy is a hack of the Year Zero Engine for fantasy roleplaying, focussing on simplicity while building on top of the original fast, accessible and story-driven system.
+Year Zero Fantasy is a hack of the Year Zero Engine for fantasy roleplaying, focussing on simplicity while building on top of the original fast, accessible and story-driven system. This is a more narrative form of the Engine.
 
 ## Player Characters
 
@@ -91,31 +91,33 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 
 
 
-| D66  | BACKGROUND | TALENTS                                                      |
-| ---- | ---------- | ------------------------------------------------------------ |
-| 11   | Artisan    | Any [crafting talent](#crafting-talents)                     |
-| 12   | Agitator   | [Persuasive](#persuasive)                                    |
-| 13   | Burglar    | [Stealthy](#stealthy), [Streetwise](#streetwise)             |
-| 14   | Cook       |                                                              |
-| 15   | Diplomat   | [Deceitful](#deceitful), [Persuasive](#persuasive), [Trade](#trade) |
-| 16   | Fanatic    | [Religion](#religion), [Willpower](#willpower)               |
-| 21   | Fence      | [Deceitful](#deceitful), [Persuasive](#persuasive), [Streetwise](#streetwise), [Trade](#trade) |
-| 22   | Fletcher   | [Fletching Craft](#craft-talents)                            |
-| 23   | Guard      |                                                              |
-| 24   | Healer     |                                                              |
-| 25   | Hermit     |                                                              |
-| 26   | Minstrel   |                                                              |
-| 31   | Miner      |                                                              |
-| 32   | Mummer     |                                                              |
-| 33   | Noble      | [Command](#command)                                          |
-| 34   | Peddler    |                                                              |
-| 35   | Priest     |                                                              |
-| 36   | Ruffian    |                                                              |
-| 41   | Sailor     |                                                              |
-| 42   | Scholar    |                                                              |
-| 43   | Smith      |                                                              |
-| 44   | Soldier    |                                                              |
-| 45   | Woodcutter |                                                              |
+| D66  | BACKGROUND        | TALENTS                                                      |
+| ---- | ----------------- | ------------------------------------------------------------ |
+| 12   | Agitator          | [Persuasive](#persuasive)                                    |
+|      | Apprentice wizard |                                                              |
+| 11   | Artisan           | Any [crafting talent](#crafting-talents)                     |
+| 13   | Burglar           | [Stealthy](#stealthy), [Streetwise](#streetwise)             |
+| 14   | Cook              |                                                              |
+| 15   | Diplomat          | [Deceitful](#deceitful), [Persuasive](#persuasive), [Trade](#trade) |
+| 16   | Fanatic           | [Religion](#religion), [Willpower](#willpower)               |
+| 21   | Fence             | [Deceitful](#deceitful), [Persuasive](#persuasive), [Streetwise](#streetwise), [Trade](#trade) |
+| 22   | Fletcher          | [Fletching Craft](#craft-talents)                            |
+| 23   | Guard             |                                                              |
+| 24   | Healer            |                                                              |
+|      | Hedge witch       |                                                              |
+| 25   | Hermit            |                                                              |
+| 26   | Minstrel          |                                                              |
+| 31   | Miner             |                                                              |
+| 32   | Mummer            |                                                              |
+| 33   | Noble             | [Command](#command)                                          |
+| 34   | Peddler           |                                                              |
+| 35   | Priest            |                                                              |
+| 36   | Ruffian           |                                                              |
+| 41   | Sailor            |                                                              |
+| 42   | Scholar           |                                                              |
+| 43   | Smith             |                                                              |
+| 44   | Soldier           |                                                              |
+| 45   | Woodcutter        |                                                              |
 
 ## Class
 
@@ -129,7 +131,7 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 
 ### Sorcerer
 
-**Talents:** [Necromancer](#necromancer).
+**Talents:** [Arcane](#arcane), [Channeling](#channeling), [Elementalist](#elementalist), [Necromancer](#necromancer), [Willpower](#willpower)
 
 ## Rolling
 
@@ -572,7 +574,7 @@ You gain a bonus equal to the level of this talent for unarmed attacks.
 
 #### Command
 
-As a [fast action](#fast-actions) you can make a successful EMPATHY roll to give an ally an extra [slow action](#slow-actions) for their next turn. 
+As a [fast action](#fast-actions) you can make a successful EMPATHY roll to give an ally an extra [slow action](#slow-actions) for their next turn. 
 
 #### Defender
 
@@ -707,7 +709,10 @@ Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are
 
 #### Channel
 
-You can use EMPATHY to sense, summon and control spirits, such as angels, demons and...
+**Requirements:** [Arcane](#arcane)
+
+You can use EMPATHY or WITS to sense, summon and control spirits. Typically, this is an [opposed roll](#opposed-rolls). Some [equipment](#equipment) can give you [Gear
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
 
 #### Darkvision
 
@@ -715,9 +720,35 @@ You gain a bonus equal to the level of this talent to these rolls to use WITS to
 
 #### Elementalist
 
+**Requirements:** [Arcane](#arcane)
+
+As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) WITS roll to summon or destroy elements (fire, water, air and earth). Factors that can modify the role are as follows:
+
+| EFFECT                                   | MODIFIER |
+| ---------------------------------------- | -------- |
+| Create a small amount of an element      | 0        |
+| Heal [broken](#broken)                   | -1       |
+| Throw element as MEDIUM ranged weapon () |          |
+| Create a large amount of an element      | -3       |
+
 #### Healing
 
+As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) EMPATHY roll to heal [damage](#damage-and-stress) and [critical injuries](critical-injuries). Factors that can modify the role are as follows:
+
+| EFFECT                                                       | MODIFIER |
+| ------------------------------------------------------------ | -------- |
+| Heal [damage](#damage-and-stress) (1 [Health](#health) per success) | 0        |
+| Heal a non-permanent [critical injury](critical-injuries)    | -3       |
+
 #### Illusion
+
+As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) EMPATHY roll to create illusions. Some [equipment](#equipment) can give you [Gear
+Dice](#gear-dice) that can be added to the roll. Factors that can modify the role are as follows:
+
+| EFFECT         | MODIFIER |
+| -------------- | -------- |
+| Minor illusion | 0        |
+| Major illusion | -2       |
 
 #### Malediction
 
@@ -729,8 +760,6 @@ Assume the first roll on the d66 you would normally roll for a critical injury i
 
 Some [equipment](#equipment) can give you [Gear
 Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls), and are typically [opposed](#opposed-rolls).
-
-
 
 #### Necromancer
 

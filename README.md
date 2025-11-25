@@ -91,35 +91,35 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 
 Backgrounds represent your occupation before you became an adventurer. You can pick two [talents](#talents) from your background during [character creation](#player-characters).
 
-| D66  | BACKGROUND        | TALENTS                                                      |
-| ---- | ----------------- | ------------------------------------------------------------ |
-| 12   | Agitator          | [Persuasive](#persuasive)                                    |
-|      | Apprentice wizard |                                                              |
-| 11   | Artisan           | Any [crafting talent](#crafting-talents)                     |
-| 13   | Burglar           | [Stealthy](#stealthy), [Streetwise](#streetwise)             |
-| 14   | Cook              |                                                              |
-| 15   | Diplomat          | [Deceitful](#deceitful), [Persuasive](#persuasive), [Trade](#trade) |
-| 16   | Fanatic           | [Religion](#religion), [Willpower](#willpower)               |
-| 21   | Fence             | [Deceitful](#deceitful), [Persuasive](#persuasive), [Streetwise](#streetwise), [Trade](#trade) |
-| 22   | Fletcher          | [Fletching Craft](#craft-talents), [Marksmanship](#marksmanship) |
-| 23   | Guard             |                                                              |
-| 24   | Healer            |                                                              |
-|      | Hedge witch       |                                                              |
-| 25   | Hermit            |                                                              |
-|      | Labourer          | [Stamina](#stamina), [Vigour](#vigour)                       |
-| 26   | Minstrel          |                                                              |
-| 31   | Miner             |                                                              |
-| 32   | Mummer            |                                                              |
-| 33   | Noble             | [Command](#command)                                          |
-| 34   | Peddler           |                                                              |
-| 35   | Priest            |                                                              |
-| 36   | Ruffian           |                                                              |
-| 41   | Sailor            |                                                              |
-| 42   | Scholar           |                                                              |
-| 43   | Smith             |                                                              |
-| 44   | Soldier           |                                                              |
-|      | Tumbler           | [Acrobatics](#acrobatics)                                    |
-| 45   | Woodcutter        |                                                              |
+| D66 | BACKGROUND        | TALENTS                                                                                        |
+| --- | ----------------- | ---------------------------------------------------------------------------------------------- |
+| 12  | Agitator          | [Persuasive](#persuasive)                                                                      |
+|     | Apprentice wizard |                                                                                                |
+| 11  | Artisan           | Any [crafting talent](#crafting-talents)                                                       |
+| 13  | Burglar           | [Stealthy](#stealthy), [Streetwise](#streetwise)                                               |
+| 14  | Cook              |                                                                                                |
+| 15  | Diplomat          | [Deceitful](#deceitful), [Persuasive](#persuasive), [Trade](#trade)                            |
+| 16  | Fanatic           | [Religion](#religion), [Willpower](#willpower)                                                 |
+| 21  | Fence             | [Deceitful](#deceitful), [Persuasive](#persuasive), [Streetwise](#streetwise), [Trade](#trade) |
+| 22  | Fletcher          | [Fletching Craft](#craft-talents), [Marksmanship](#marksmanship)                               |
+| 23  | Guard             |                                                                                                |
+| 24  | Healer            |                                                                                                |
+|     | Hedge witch       |                                                                                                |
+| 25  | Hermit            |                                                                                                |
+|     | Labourer          | [Stamina](#stamina), [Vigour](#vigour)                                                         |
+| 26  | Minstrel          |                                                                                                |
+| 31  | Miner             |                                                                                                |
+| 32  | Mummer            |                                                                                                |
+| 33  | Noble             | [Command](#command)                                                                            |
+| 34  | Peddler           |                                                                                                |
+| 35  | Priest            |                                                                                                |
+| 36  | Ruffian           |                                                                                                |
+| 41  | Sailor            |                                                                                                |
+| 42  | Scholar           |                                                                                                |
+| 43  | Smith             |                                                                                                |
+| 44  | Soldier           |                                                                                                |
+|     | Tumbler           | [Acrobatics](#acrobatics)                                                                      |
+| 45  | Woodcutter        |                                                                                                |
 
 ## Class
 
@@ -580,7 +580,7 @@ You gain a bonus equal to the level of this talent for unarmed attacks.
 
 #### Command
 
-As a [fast action](#fast-actions) you can make a successful EMPATHY roll to give an ally an extra [slow action](#slow-actions) for their next turn. 
+As a [fast action](#fast-actions) you can make a successful EMPATHY roll to give an ally an extra [slow action](#slow-actions) for their next turn.
 
 #### Defender
 
@@ -741,10 +741,10 @@ As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls
 
 As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) EMPATHY roll to heal [damage](#damage-and-stress) and [critical injuries](critical-injuries). Factors that can modify the role are as follows:
 
-| EFFECT                                                       | MODIFIER |
-| ------------------------------------------------------------ | -------- |
+| EFFECT                                                              | MODIFIER |
+| ------------------------------------------------------------------- | -------- |
 | Heal [damage](#damage-and-stress) (1 [Health](#health) per success) | 0        |
-| Heal a non-permanent [critical injury](critical-injuries)    | -3       |
+| Heal a non-permanent [critical injury](critical-injuries)           | -3       |
 
 #### Illusion
 

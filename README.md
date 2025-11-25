@@ -739,12 +739,12 @@ As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls
 
 #### Healing
 
-As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) EMPATHY roll to heal [damage](#damage-and-stress) and [critical injuries](critical-injuries). Factors that can modify the role are as follows:
+As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) EMPATHY roll to heal [damage](#damage-and-stress) and [critical injuries](#critical-injuries). Factors that can modify the role are as follows:
 
 | EFFECT                                                              | MODIFIER |
 | ------------------------------------------------------------------- | -------- |
 | Heal [damage](#damage-and-stress) (1 [Health](#health) per success) | 0        |
-| Heal a non-permanent [critical injury](critical-injuries)           | -3       |
+| Heal a non-permanent [critical injury](#critical-injuries)          | -3       |
 
 #### Illusion
 

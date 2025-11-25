@@ -89,105 +89,33 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 
 ## Backgrounds
 
-### Artisan
 
-**Talents:** Any [crafting talent](#crafting-talents)
 
-### Agitator
-
-**Talents:** [Persuasive](#persuasive)
-
-### Burglar
-
-**Talents:** [Intimidating](#intimidating), [Streetwise](#streetwise)
-
-### Cook
-
-**Talents:**
-
-### Diplomat
-
-**Talents:** [Deceitful](#deceitful), [Persuasive](#persuasive), [Trade](#trade)
-
-### Fanatic
-
-**Talents:** [Religion](#religion), [Willpower](#willpower)
-
-### Fence
-
-**Talents:**
-
-### Fletcher
-
-**Talents:** [Fletching Craft](#craft-talents)
-
-### Guard
-
-**Talents:**
-
-### Healer
-
-**Talents:**
-
-### Hermit
-
-**Talents:**
-
-### Hunter
-
-**Talents:**
-
-### Minstrel
-
-**Talents:**
-
-### Miner
-
-**Talents:**
-
-### Mummer
-
-**Talents:**
-
-### Noble
-
-**Talents:**
-
-### Historian
-
-**Talents:**
-
-### Peddlar
-
-**Talents:**
-
-### Priest
-
-**Talents:**
-
-### Ruffian
-
-**Talents:** [Intimidating](#intimidating), [Streetwise](#streetwise)
-
-### Sailor
-
-**Talents:**
-
-### Scholar
-
-**Talents:**
-
-### Smith
-
-**Talents:**
-
-### Soldier
-
-**Talents:**
-
-### Woodsman
-
-**Talents:**
+| D66  | BACKGROUND | TALENTS                                                      |
+| ---- | ---------- | ------------------------------------------------------------ |
+| 11   | Artisan    | Any [crafting talent](#crafting-talents)                     |
+| 12   | Agitator   | [Persuasive](#persuasive)                                    |
+| 13   | Burglar    | [Stealthy](#stealthy), [Streetwise](#streetwise)             |
+| 14   | Cook       |                                                              |
+| 15   | Diplomat   | [Deceitful](#deceitful), [Persuasive](#persuasive), [Trade](#trade) |
+| 16   | Fanatic    | [Religion](#religion), [Willpower](#willpower)               |
+| 21   | Fence      | [Deceitful](#deceitful), [Persuasive](#persuasive), [Streetwise](#streetwise), [Trade](#trade) |
+| 22   | Fletcher   | [Fletching Craft](#craft-talents)                            |
+| 23   | Guard      |                                                              |
+| 24   | Healer     |                                                              |
+| 25   | Hermit     |                                                              |
+| 26   | Minstrel   |                                                              |
+| 31   | Miner      |                                                              |
+| 32   | Mummer     |                                                              |
+| 33   | Noble      | [Command](#command)                                          |
+| 34   | Peddler    |                                                              |
+| 35   | Priest     |                                                              |
+| 36   | Ruffian    |                                                              |
+| 41   | Sailor     |                                                              |
+| 42   | Scholar    |                                                              |
+| 43   | Smith      |                                                              |
+| 44   | Soldier    |                                                              |
+| 45   | Woodcutter |                                                              |
 
 ## Class
 
@@ -641,6 +569,10 @@ You gain a bonus equal to the level of this talent for [combat](#combat) actions
 #### Brawler
 
 You gain a bonus equal to the level of this talent for unarmed attacks.
+
+#### Command
+
+As a [fast action](#fast-actions) you can make a successful EMPATHY roll to give an ally an extra [slow action](#slow-actions) for their next turn. 
 
 #### Defender
 

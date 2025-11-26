@@ -52,7 +52,7 @@ Talents give you +1 to +3 bonus dice to your [base dice
 pool](#base-dice), depending on their level. Some talents may give you
 other benefits, which are listed in their descriptions.
 
-You can distribute 5 points across your starting talents. No talent can start above level 2.
+You choose your starting talents from your [background](#backgrounds) (any two) and [class](#class) (any three). Each talent starts at rank 1. If you choose the same talent twice, it starts at rank 2.
 
 ### Health
 
@@ -62,7 +62,7 @@ Your starting Health equals your Strength and Agility scores. See [Damage and St
 
 Your starting Resolve equals your Wits and Empathy scores. See [Damage and Stress](#damage-and-stress) for more information.
 
-#### Personality Traits
+### Personality Traits
 
 ### Experience
 
@@ -93,8 +93,8 @@ Backgrounds represent your occupation before you became an adventurer. You can p
 
 | D66 | BACKGROUND        | TALENTS                                                                                        |
 | --- | ----------------- | ---------------------------------------------------------------------------------------------- |
-| 12  | Agitator          | [Persuasive](#persuasive)                                                                      |
-|     | Apprentice wizard |                                                                                                |
+| 12  | Agitator          | [History](#history), [Persuasive](#persuasive), [Vigilant](#vigilant)                          |
+|     | Apprentice wizard | [Arcana](#arcana), [History](#history)                                                         |
 | 11  | Artisan           | Any [crafting talent](#crafting-talents)                                                       |
 | 13  | Burglar           | [Stealthy](#stealthy), [Streetwise](#streetwise)                                               |
 | 14  | Cook              |                                                                                                |
@@ -106,13 +106,16 @@ Backgrounds represent your occupation before you became an adventurer. You can p
 | 24  | Healer            |                                                                                                |
 |     | Hedge witch       |                                                                                                |
 | 25  | Hermit            |                                                                                                |
+|     | Hunter            | [[Sleight-of-Hand](#sleight-of-hand), [Stealthy](#stealthy)](#survival), [Marksman](#marksman) |
 |     | Labourer          | [Stamina](#stamina), [Vigour](#vigour)                                                         |
 | 26  | Minstrel          |                                                                                                |
 | 31  | Miner             |                                                                                                |
 | 32  | Mummer            |                                                                                                |
 | 33  | Noble             | [Command](#command)                                                                            |
 | 34  | Peddler           | [Trade](#trade)                                                                                |
+|     | Pickpocket        | [Sleight-of-Hand](#sleight-of-hand), [Stealthy](#stealthy)                                     |
 | 35  | Priest            |                                                                                                |
+|     | Ranger            | [Survival](#survival)                                                                          |
 | 36  | Ruffian           |                                                                                                |
 | 41  | Sailor            |                                                                                                |
 | 42  | Scholar           |                                                                                                |
@@ -123,21 +126,31 @@ Backgrounds represent your occupation before you became an adventurer. You can p
 
 ## Class
 
+Class represent your role in an adventuring party. You can pick three [talents](#talents) from your background during [character creation](#player-characters). Normally you can put a maximum score of 4 in an attribute. Each class has a “key attribute.” You can have a maximum score of 5 in your key attribute.
+
 ### Fighter
+
+**Key Attribute:** STRENGTH
 
 **Talents:** Any [combat talent](#combat-talents), [Stamina](#stamina), [Tough](#tough)
 
 ### Rogue
 
+**Key Attribute:** AGILITY
+
 **Talents:** [Adaptable](#adaptable), [Fast Reflexes](#fast-reflexes), [Improvised Weapons](#improvised-weapons), [Knife Fighter](#knife-fighter), [Stealthy](#stealthy), [Sleight of Hand](#sleight-of-hand)
 
 ### Saint
+
+**Key Attribute:** EMPATHY
 
 **Talents:** [Channeling](#channeling), [Compassionate](#compassionate), [Healing](#healing), [Protection](#protection), [Religion](#religion), [Willpower](#willpower)
 
 ### Sorcerer
 
-**Talents:** [Arcane](#arcane), [Channeling](#channeling), [Elementalist](#elementalist), [Necromancer](#necromancer), [Willpower](#willpower)
+**Key Attribute:** WITS
+
+**Talents:** [Thaumaturgy](#thaumaturgy), [Channeling](#channeling), [Elementalist](#elementalist), [Necromancer](#necromancer), [Willpower](#willpower)
 
 ## Rolling
 
@@ -568,6 +581,15 @@ _\*Requires two hands to wield._
 
 ## Talents
 
+Your [talents](#talents) are the knowledge and abilities you have acquired during
+your life. They are important, as they determine, along with your
+[attributes](#attributes), how effectively you can perform certain
+actions in the game.
+
+Talents give you +1 to +3 bonus dice to your [base dice
+pool](#base-dice), depending on their level. Some talents may give you
+other benefits, which are listed in their descriptions.
+
 ### Combat Talents
 
 #### Axe Fighter
@@ -625,13 +647,17 @@ There are many crafts covered by this category of talents. These include: fletch
 
 ### General Talents
 
-#### Acrobatic
+#### Acrobatics
 
 You gain a bonus equal to the level of this talent for AGILITY rolls to balance, jump, tumble or other acrobatic feats.
 
 #### Adaptable
 
 You can switch to using a different attribute for a roll. You gain a bonus equal to the level of this talent to this roll, but the roll is [aggravated](#aggravated-rolls).
+
+#### Arcana
+
+You gain a bonus equal to the level of this talent to WITS rolls to recall occult knowledge of matters magical and arcane.
 
 #### Compassionate
 
@@ -652,6 +678,10 @@ You gain a bonus equal to the level of this talent to EMPATHY rolls to read othe
 #### History
 
 You gain a bonus equal to the level of this talent for WITS rolls to recall historical lore.
+
+#### Mobility
+
+You gain a bonus equal to the level of this talent for AGILITY rolls that require speed or motor control
 
 #### Persuasive
 
@@ -703,11 +733,6 @@ Your maximum [Resolve](#resolve) score is increased by 1 per the level of this t
 
 ### Magic Talents
 
-#### Arcane
-
-As a [slow action](#slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
-
 #### Bless
 
 As a [slow action](#slow-actions) you can use EMPATHY to deal a [critical injury](#critical-injury) to a gift a target within Medium [range](#ranges) a +1 to +3 bonus to rolls involving one attribute. Some [equipment](#equipment) can give you [Gear
@@ -715,7 +740,7 @@ Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are
 
 #### Channel
 
-**Requirements:** [Arcane](#arcane)
+**Requirements:** [Thaumaturgy](#thaumaturgy)
 
 You can use EMPATHY or WITS to sense, summon and control spirits. Typically, this is an [opposed roll](#opposed-rolls). Some [equipment](#equipment) can give you [Gear
 Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
@@ -726,7 +751,7 @@ You gain a bonus equal to the level of this talent to these rolls to use WITS to
 
 #### Elementalist
 
-**Requirements:** [Arcane](#arcane)
+**Requirements:** [Thaumaturgy](#thaumaturgy)
 
 As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) WITS roll to summon or destroy elements (fire, water, air and earth). Factors that can modify the role are as follows:
 
@@ -758,7 +783,7 @@ Dice](#gear-dice) that can be added to the roll. Factors that can modify the rol
 
 #### Malediction
 
-**Requirements:** [Arcane](#arcane)
+**Requirements:** [Thaumaturgy](#thaumaturgy)
 
 As a [slow action](#slow-actions) you can use WITS to deal a [critical injury](#critical-injury) to a target within Medium [range](#ranges). The caster decides whether the injury is physical or mental.
 
@@ -769,13 +794,16 @@ Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are
 
 #### Necromancer
 
-**Requirements:** [Arcane](#arcane)
+**Requirements:** [Thaumaturgy](#thaumaturgy)
 
 You can use WITS to sense, summon and control the
 undead. Typically, this is an [opposed roll](#opposed-rolls). Some [equipment](#equipment) can give you [Gear
 Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
 
-#### Protection
+#### Thaumaturgy
+
+As a [slow action](#slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). Some [equipment](#equipment) can give you [Gear
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
 
 ## Appendices
 

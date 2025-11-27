@@ -52,7 +52,7 @@ Talents give you +1 to +3 bonus dice to your [base dice
 pool](#base-dice), depending on their level. Some talents may give you
 other benefits, which are listed in their descriptions.
 
-You choose your starting talents from your [background](#backgrounds) (any two) and [class](#class) (any three). Each talent starts at rank 1. If you choose the same talent twice, it starts at rank 2.
+You choose your starting talents from your [background](#backgrounds) (any two) and [class](#class) (any three). Each talent starts at rank 1. If you choose the same talent twice, it starts at rank 2.
 
 ### Health
 
@@ -106,7 +106,7 @@ Backgrounds represent your occupation before you became an adventurer. You can p
 | 24  | Healer            |                                                                                                |
 |     | Hedge witch       |                                                                                                |
 | 25  | Hermit            |                                                                                                |
-|     | Hunter            | [[Sleight-of-Hand](#sleight-of-hand), [Stealthy](#stealthy)](#survival), [Marksman](#marksman) |
+|     | Hunter            | [Stealthy](#stealthy), [Survival](#survival), [Marksman](#marksman)                            |
 |     | Labourer          | [Stamina](#stamina), [Vigour](#vigour)                                                         |
 | 26  | Minstrel          |                                                                                                |
 | 31  | Miner             |                                                                                                |
@@ -126,7 +126,7 @@ Backgrounds represent your occupation before you became an adventurer. You can p
 
 ## Class
 
-Class represent your role in an adventuring party. You can pick three [talents](#talents) from your background during [character creation](#player-characters). Normally you can put a maximum score of 4 in an attribute. Each class has a “key attribute.” You can have a maximum score of 5 in your key attribute.
+Class represent your role in an adventuring party. You can pick three [talents](#talents) from your class during [character creation](#player-characters). Normally you can put a maximum score of 4 in an attribute. Each class has a “key attribute.” You can have a maximum score of 5 in your key attribute.
 
 ### Fighter
 

@@ -8,14 +8,13 @@ How you create your player character is explained in detail in this
 chapter. The summary below is a helpful overview. Grab a character
 sheet, a pencil, and follow these steps:
 
-1.  Choose or roll for a [background](#background).
-2.  Choose your [class](#class).
-3.  Determine your [attributes](#attributes).
-4.  Determine your [talents](#talents).
-5.  Determine your [Health](#health) and [Resolve](#resolve).
-6.  Determine your personality traits.
-7.  Pick your gear.
-8.  Choose a name.
+1.  Choose your [class](#class).
+2.  Determine your [attributes](#attributes).
+3.  Determine your [talents](#talents).
+4.  Determine your [Health](#health) and [Resolve](#resolve).
+5.  Determine your personality traits.
+6.  Pick your gear.
+7.  Choose a name.
 
 ### Attributes
 
@@ -52,7 +51,7 @@ Talents give you +1 to +3 bonus dice to your [base dice
 pool](#base-dice), depending on their level. Some talents may give you
 other benefits, which are listed in their descriptions.
 
-You choose your starting talents from your [background](#backgrounds) (any two) and [class](#class) (any three). Each talent starts at rank 1. If you choose the same talent twice, it starts at rank 2.
+You start with any two [general talents](#general-talents) and any three talents from your [class](#class). Each talent starts at level 1. If you choose the same talent twice, it starts at level 2.
 
 ### Health
 
@@ -86,43 +85,6 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 | 1            | 5 XP  |
 | 2            | 10 XP |
 | 3            | 15 XP |
-
-## Backgrounds
-
-Backgrounds represent your occupation before you became an adventurer. You can pick two [talents](#talents) from your background during [character creation](#player-characters).
-
-| D66 | BACKGROUND        | TALENTS                                                                                        |
-| --- | ----------------- | ---------------------------------------------------------------------------------------------- |
-| 12  | Agitator          | [History](#history), [Persuasive](#persuasive), [Vigilant](#vigilant)                          |
-|     | Apprentice wizard | [Arcana](#arcana), [History](#history)                                                         |
-| 11  | Artisan           | Any [crafting talent](#crafting-talents)                                                       |
-| 13  | Burglar           | [Stealthy](#stealthy), [Streetwise](#streetwise)                                               |
-| 14  | Cook              |                                                                                                |
-| 15  | Diplomat          | [Deceitful](#deceitful), [Persuasive](#persuasive), [Trade](#trade)                            |
-| 16  | Fanatic           | [Religion](#religion), [Willpower](#willpower)                                                 |
-| 21  | Fence             | [Deceitful](#deceitful), [Persuasive](#persuasive), [Streetwise](#streetwise), [Trade](#trade) |
-| 22  | Fletcher          | [Fletching Craft](#craft-talents), [Marksmanship](#marksmanship)                               |
-| 23  | Guard             |                                                                                                |
-| 24  | Healer            |                                                                                                |
-|     | Hedge witch       |                                                                                                |
-| 25  | Hermit            |                                                                                                |
-|     | Hunter            | [Stealthy](#stealthy), [Survival](#survival), [Marksman](#marksman)                            |
-|     | Labourer          | [Stamina](#stamina), [Vigour](#vigour)                                                         |
-| 26  | Minstrel          |                                                                                                |
-| 31  | Miner             |                                                                                                |
-| 32  | Mummer            |                                                                                                |
-| 33  | Noble             | [Command](#command)                                                                            |
-| 34  | Peddler           | [Trade](#trade)                                                                                |
-|     | Pickpocket        | [Sleight-of-Hand](#sleight-of-hand), [Stealthy](#stealthy)                                     |
-| 35  | Priest            |                                                                                                |
-|     | Ranger            | [Survival](#survival)                                                                          |
-| 36  | Ruffian           |                                                                                                |
-| 41  | Sailor            |                                                                                                |
-| 42  | Scholar           |                                                                                                |
-| 43  | Smith             |                                                                                                |
-| 44  | Soldier           |                                                                                                |
-|     | Tumbler           | [Acrobatics](#acrobatics), [Fast Reflexes](#fast-reflexes)                                     |
-| 45  | Woodcutter        |                                                                                                |
 
 ## Class
 
@@ -641,47 +603,63 @@ You gain a bonus equal to the level of this talent for ranged attacks.
 
 You gain a bonus equal to the level of this talent for [combat](#combat) actions using swords, such as parrying or attacks.
 
-### Craft Talents
-
-There are many crafts covered by this category of talents. These include: fletching, smithing, mining, carpentry, etc. Each speciality is a separate talent. You gain a bonus equal to the level of a craft talent for rolls involving your craft.
-
 ### General Talents
 
 #### Acrobatics
 
 You gain a bonus equal to the level of this talent for AGILITY rolls to balance, jump, tumble or other acrobatic feats.
 
-#### Adaptable
+#### Agitator
 
-You can switch to using a different attribute for a roll. You gain a bonus equal to the level of this talent to this roll, but the roll is [aggravated](#aggravated-rolls).
-
-#### Arcana
-
-You gain a bonus equal to the level of this talent to WITS rolls to recall occult knowledge of matters magical and arcane.
+#### Burglar
 
 #### Compassionate
 
 You gain a bonus equal to the level of this talent to EMPATHY rolls to comfort others, particularly when healing [Resolve](#resolve).
 
+#### Cook
+
 #### Deceitful
 
 You gain a bonus equal to the level of this talent to EMPATHY rolls to deceive.
+
+#### Diplomacy
+
+#### Fence
+
+#### Fletcher
 
 #### Force
 
 You gain a bonus equal to the level of this talent to STRENGTH rolls related to raw feats of physical might.
 
-#### Insightful
+#### Guard
 
-You gain a bonus equal to the level of this talent to EMPATHY rolls to read other people and see through lies.
+#### Healing
+
+*Same name as Magic Talent?*
 
 #### History
 
 You gain a bonus equal to the level of this talent for WITS rolls to recall historical lore.
 
+#### Hunter
+
+#### Insightful
+
+You gain a bonus equal to the level of this talent to EMPATHY rolls to read other people and see through lies.
+
+#### Miner
+
+#### Minstrel
+
 #### Mobility
 
 You gain a bonus equal to the level of this talent for AGILITY rolls that require speed or motor control
+
+#### Noble
+
+#### Peddler
 
 #### Persuasive
 
@@ -695,9 +673,21 @@ You can push any skill roll based on AGILITY twice, not just once like other cha
 
 You gain a bonus equal to the level of this talent for WITS rolls to recall religious lore.
 
+#### Ruffian
+
+You can roll using STRENGTH instead of EMPATHY when you threaten someone. When you do so you gain a bonus equal to the level of this talent.
+
+#### Sailor
+
+#### Scholar
+
 #### Sleight of Hand
 
 You gain a bonus equal to the level of this talent for rolls to hide or sneak around undetected.
+
+#### Smith
+
+#### Soldier
 
 #### Stamina
 
@@ -723,6 +713,8 @@ You gain a bonus equal to the level of this talent for rolls to related to the b
 
 You gain a bonus equal to the level of this talent for rolls to recall the lore of far lands and countries.
 
+#### Tumbler
+
 #### Vigilant
 
 You gain a bonus equal to the level of this talent for rolls to notice things, such as approaching danger.
@@ -739,8 +731,6 @@ As a [slow action](#slow-actions) you can use EMPATHY to deal a [critical injury
 Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
 
 #### Channel
-
-**Requirements:** [Thaumaturgy](#thaumaturgy)
 
 You can use EMPATHY or WITS to sense, summon and control spirits. Typically, this is an [opposed roll](#opposed-rolls). Some [equipment](#equipment) can give you [Gear
 Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
@@ -803,7 +793,7 @@ Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are
 #### Thaumaturgy
 
 As a [slow action](#slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls). You also gain a bonus equal to the level of this talent to WITS rolls to recall occult knowledge of matters magical and arcane.
 
 ## Appendices
 

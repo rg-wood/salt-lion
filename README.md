@@ -535,11 +535,11 @@ _\*Requires two hands to wield._
 
 ### Arcane Tools
 
-| ITEM            | PRICE    | BONUS                          |
-| --------------- | -------- | ------------------------------ |
-| Dead man's hand | 10 GOLD  | +1 [Necromancy](#necromancer). |
-| Libre Noctus    | 20 GOLD  | +2 [Necromancy](#necromancer). |
-| Necronomicon    | 100 GOLD | +3 [Necromancy](#necromancer). |
+| ITEM            | PRICE    | BONUS                        |
+| --------------- | -------- | ---------------------------- |
+| Dead man's hand | 10 GOLD  | +1 [Necromancy](#necromancy) |
+| Libre Noctus    | 20 GOLD  | +1 [Necromancy](#necromancy) |
+| Necronomicon    | 100 GOLD | +1 [Necromancy](#necromancy) |
 
 ## Talents
 
@@ -583,10 +583,6 @@ You can use this talent to gain a bonus equal to the level of this talent to any
 
 Your maximum [Health](#health) score is increased by 1 per the level of this talent.
 
-#### Intimidating
-
-You can use this talent to gain a bonus equal to the level of this talent to any STRENGTH roll to intimidate.
-
 #### Improvised Weapons
 
 You gain a bonus equal to the level of this talent for [combat](#combat) actions, such as parrying or attacks, using improvised weapons such as clubs.
@@ -604,10 +600,6 @@ You gain a bonus equal to the level of this talent for ranged attacks.
 You gain a bonus equal to the level of this talent for [combat](#combat) actions using swords, such as parrying or attacks.
 
 ### General Talents
-
-#### Acrobatics
-
-You gain a bonus equal to the level of this talent for AGILITY rolls to balance, jump, tumble or other acrobatic feats.
 
 #### Agitator
 
@@ -635,7 +627,7 @@ You gain a bonus equal to the level of this talent to STRENGTH rolls related to 
 
 #### Guard
 
-#### Healing
+#### Healer
 
 _Same name as Magic Talent?_
 
@@ -648,6 +640,10 @@ You gain a bonus equal to the level of this talent for WITS rolls to recall hist
 #### Insightful
 
 You gain a bonus equal to the level of this talent to EMPATHY rolls to read other people and see through lies.
+
+#### Interrogator
+
+You can roll using WITS instead of EMPATHY when you threaten someone. When you do so you gain a bonus equal to the level of this talent.
 
 #### Miner
 
@@ -705,7 +701,7 @@ You gain a bonus equal to the level of this talent for rolls related to city lif
 
 #### Survival
 
-You gain a bonus equal to the level of this talent for rolls to related to wilderness survival, wilderness journeys or hunting.
+You gain a bonus equal to the level of this talent for rolls to related to wilderness survival and navigating the wilds.
 
 #### Trade
 
@@ -716,6 +712,8 @@ You gain a bonus equal to the level of this talent for rolls to related to the b
 You gain a bonus equal to the level of this talent for rolls to recall the lore of far lands and countries.
 
 #### Tumbler
+
+You gain a bonus equal to the level of this talent for AGILITY rolls to balance, jump, tumble or other acrobatic feats.
 
 #### Vigilant
 
@@ -784,7 +782,7 @@ Assume the first roll on the d66 you would normally roll for a critical injury i
 Some [equipment](#equipment) can give you [Gear
 Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls), and are typically [opposed](#opposed-rolls).
 
-#### Necromancer
+#### Necromancy
 
 **Requirements:** [Thaumaturgy](#thaumaturgy)
 

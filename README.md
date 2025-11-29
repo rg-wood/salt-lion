@@ -637,7 +637,7 @@ You gain a bonus equal to the level of this talent to STRENGTH rolls related to 
 
 #### Healing
 
-*Same name as Magic Talent?*
+_Same name as Magic Talent?_
 
 #### History
 
@@ -672,6 +672,8 @@ You can push any skill roll based on AGILITY twice, not just once like other cha
 #### Religion
 
 You gain a bonus equal to the level of this talent for WITS rolls to recall religious lore.
+
+#### Rider
 
 #### Ruffian
 

@@ -603,6 +603,10 @@ You gain a bonus equal to the level of this talent for [combat](#combat) actions
 
 #### Agitator
 
+#### Berserker
+
+During combat, you can push any attack roll based on STRENGTH twice, not just once like other characters.
+
 #### Burglar
 
 #### Compassionate

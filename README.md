@@ -1,6 +1,6 @@
-# Year Zero Fantasy
+# Salt Lion
 
-Year Zero Fantasy is a hack of the Year Zero Engine for fantasy roleplaying, focussing on simplicity while building on top of the original fast, accessible and story-driven system. This is a more narrative form of the Engine.
+**Salt Lion** is a hack of the Year Zero Engine for fantasy roleplaying, focussing on simplicity while building on top of the original fast, accessible and story-driven system.
 
 ## Player Characters
 
@@ -12,7 +12,7 @@ sheet, a pencil, and follow these steps:
 2.  Determine your [attributes](#attributes).
 3.  Determine your [talents](#talents).
 4.  Determine your [Health](#health) and [Resolve](#resolve).
-5.  Determine your personality traits.
+5.  Determine your [personality traits](#personality-traits).
 6.  Pick your gear.
 7.  Choose a name.
 
@@ -25,12 +25,17 @@ how much [damage and stress](#damage-and-stress) can withstand before
 you become [broken](#broken).
 
 Distribute 14 points across your attributes. You can assign no less than
-2 and no more than 5 points to any attribute.
+2 and no more than 4 points to any attribute.
 
 - **STRENGTH:** Raw muscle power and brawn.
+
 - **AGILITY:** Body control, speed, and motor skills.
+
 - **WITS:** Sensory perception, intelligence, and sanity.
+
 - **EMPATHY:** Personal charisma and ability to manipulate others.
+
+#### Descriptions of attribute ranks
 
 | ATTRIBUTE | DESCRIPTION   |
 | --------- | ------------- |
@@ -63,6 +68,16 @@ Your starting Resolve equals your Wits and Empathy scores. See [Damage and Stres
 
 ### Personality Traits
 
+Personality Traits give your PC unique qualities beyond the numerical stats. Pick a pride and a weakness during character creation.
+
+#### Pride
+
+Something specific that defines your character and makes them stand out. It can be an ability, an event in your past, or something else. Once per game session, you may check your Pride to get one automatic success in a dice roll. You must justify how your Pride helps you.
+
+#### Weakness
+
+An Achilles heel that can get you into trouble somehow. Your weakness adds depth and personality to your character and can also be used by the GM to create challenges for you. Roleplaying according to your weakness gives you extra XP at the end of the session.
+
 ### Experience
 
 The things you learn during the game are measured in Experience Points (XP). You receive XP after the end of each game session. Talk it through and let the whole group discuss what has happened. For each of the below questions that you can reply “yes” to, you get one XP:
@@ -71,7 +86,7 @@ The things you learn during the game are measured in Experience Points (XP). You
 - Did you explore a new location?
 - Did you defeat one or more dangerous adversaries?
 - Did you overcome an obstacle without using force?
-- Did you act according to your [weakness](#weaknesses) / dark secret / big dream / relationships?
+- Did you act according to your [weakness](#weakness)?
 - Did you perform another extraordinary action of some kind?
 
 The GM has the final word when it comes to how much XP each character should get.
@@ -94,25 +109,33 @@ Class represent your role in an adventuring party. You can pick three [talents](
 
 **Key Attribute:** STRENGTH
 
-**Talents:** Any [combat talent](#combat-talents), [Stamina](#stamina), [Tough](#tough)
+**Talents:** Any [combat talents](#combat-talents), [Stamina](#stamina)
+
+**Gear:** Buckler, chainmail, sword, 2D6 SILVER
 
 ### Rogue
 
 **Key Attribute:** AGILITY
 
-**Talents:** [Adaptable](#adaptable), [Fast Reflexes](#fast-reflexes), [Improvised Weapons](#improvised-weapons), [Knife Fighter](#knife-fighter), [Stealthy](#stealthy), [Sleight of Hand](#sleight-of-hand)
+**Talents:** [Fast Reflexes](#fast-reflexes), [Improvised Weapons](#improvised-weapons), [Knife Fighter](#knife-fighter), [Stealthy](#stealthy), [Sleight of Hand](#sleight-of-hand)
+
+**Gear:** Leather armour, knife, lock pick, lantern, 3D6 SILVER
 
 ### Saint
 
 **Key Attribute:** EMPATHY
 
-**Talents:** [Channel](#channel), [Compassionate](#compassionate), [Healing](#healing), [Protection](#protection), [Religion](#religion), [Willpower](#willpower)
+**Talents:** [Channel](#channel), [Compassionate](#compassionate), [Healing](#healing), [Protection](#protection), [Religion](#religion), [Willpower](#willpower)](#tough)
+
+**Gear:** Holy symbol, simple robes, staff, 2D6 SILVER
 
 ### Sorcerer
 
 **Key Attribute:** WITS
 
 **Talents:** [Channel](#channel), [Elementalist](#elementalist), [Necromancer](#necromancer), [Thaumaturgy](#thaumaturgy), [Willpower](#willpower)
+
+**Gear:** Common grimoire, 3D6 SILVER
 
 ## Rolling
 
@@ -266,7 +289,7 @@ The rules will tell you when a roll is aggravated. Typically when you're using [
 
 ## Combat
 
-Combat is deadly in Year Zero Fantasy. Before you enter a fight, you should always ask yourself: Is it worth it?
+Combat is deadly in **Salt Lion**. Before you enter a fight, you should always ask yourself: Is it worth it?
 
 ### Zones
 
@@ -355,7 +378,7 @@ Various factors can affect rolls in combat. The following is a (non-exhaustive) 
 | Target prone       | +2       |
 | Defenceless target | +3       |
 
-### Armour
+### Body Armour
 
 Body armour can protect you from damage. Armour doesn’t
 provide protection from other kinds of damage, or from damage you inflict on yourself when you push a roll. The effect of
@@ -510,12 +533,29 @@ _\*Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 
 ## Equipment
 
-| ITEM         | PRICE | BONUS                     |
-| ------------ | ----- | ------------------------- |
-| Cloak        |       | +1 [Stealthy](#stealthy). |
-| Cloak, black |       | +2 [Stealthy](#stealthy). |
-| Lockpick     |       | +3 [Burglar](#burglar)    |
-|              |       |                           |
+| ITEM            | PRICE | BONUS                                        |
+| --------------- | ----- | -------------------------------------------- |
+| Bandages        |       | +1 [Healer](#healer)                         |
+| Clothes, common |       | —                                            |
+| Clothes, fine   |       | +1 [Diplomat](#diplomat) and [Noble](#noble) |
+| Cloak           |       | +1 [Stealthy](#stealthy).                    |
+| Cloak, black    |       | +2 [Stealthy](#stealthy).                    |
+| Lockpick        |       | +3 [Burglar](#burglar)                       |
+| Rations         |       |                                              |
+| Rope            |       |                                              |
+
+### Armour
+
+| ARMOUR    | BONUS | EFFECT                   |
+| --------- | ----- | ------------------------ |
+| Hide      | +1    | —                        |
+| Padded    | +2    | —                        |
+| Leather   | +2    | —                        |
+| Chainmail | +6    | -1 AGILITY               |
+| Plate     | +8    | -2 AGILITY               |
+| Helmet    | +2    | -1 [Vigilant](#vigilant) |
+| Buckler   | +1    |                          |
+| Shield    | +2    |                          |
 
 ### Weapons
 
@@ -524,6 +564,7 @@ _\*Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 | Unarmed          | —     | 1      | Engaged |
 | Blunt instrument | +2    | 2      | Engaged |
 | Knife            | +2    | 3      | Engaged |
+| Staff            | +2    | 2      | Short   |
 | Club             | +3    | 2      | Engaged |
 | Sword            | +3    | 3      | Engaged |
 | Battleaxe\*      | +3    | 3      | Engaged |
@@ -539,7 +580,9 @@ _\*Requires two hands to wield._
 
 | ITEM            | PRICE    | BONUS                        |
 | --------------- | -------- | ---------------------------- |
+| Crystal ball    |          |                              |
 | Dead man's hand | 10 GOLD  | +1 [Necromancy](#necromancy) |
+| Holy symbol     |          |                              |
 | Libre Noctus    | 20 GOLD  | +1 [Necromancy](#necromancy) |
 | Necronomicon    | 100 GOLD | +1 [Necromancy](#necromancy) |
 
@@ -839,7 +882,7 @@ And in a separate window execute:
 
 ### Design Notes
 
-This section describes the various choices and deviations I made writing Year Zero Fantasy, based on material from the original [Year Zero Engine SRD](https://freeleaguepublishing.com/wp-content/uploads/2023/11/YZE-Standard-Reference-Document.pdf).
+This section describes the various choices and deviations I made writing **Salt Lion**, based on material from the original [Year Zero Engine SRD](https://freeleaguepublishing.com/wp-content/uploads/2023/11/YZE-Standard-Reference-Document.pdf).
 
 This game is designed to be open and modifiable, and this section may be of use to those hacking it.
 

@@ -560,7 +560,7 @@ You gain a bonus equal to the level of this talent for [combat](#combat) actions
 
 #### Berserker
 
-During combat, you can push any attack roll based on STRENGTH twice, not just once like other characters.
+During combat, you can push any attack roll based on STRENGTH twice, not just once like other characters. You may do this a number of times per combat equal to the level of this talent.
 
 #### Brawler
 
@@ -568,7 +568,7 @@ You gain a bonus equal to the level of this talent for unarmed attacks.
 
 #### Command
 
-As a [fast action](#fast-actions) you can make a successful EMPATHY roll to give an ally an extra [slow action](#slow-actions) for their next turn.
+As a [fast action](#fast-actions) you can make a successful EMPATHY roll to give an ally an extra [slow action](#slow-actions) for their next turn. You gain a bonus to this roll equal to the level of this talent.
 
 #### Defender
 
@@ -579,17 +579,13 @@ within SHORT distance of you as a [reaction](#reactions). You also gain a bonus 
 
 You gain a bonus equal to the level of this talent to dodge [actions](#fast-actions) and other AGILITY rolls to react to sudden events.
 
-#### Frenzy
-
-You can use this talent to gain a bonus equal to the level of this talent to any melee attacks. When you use this talent, attacks against you have +2 modifier until your next [turn](#turns).
-
 #### Tough
 
 Your maximum [Health](#health) score is increased by 1 per the level of this talent.
 
 #### Improvised Weapons
 
-You gain a bonus equal to the level of this talent for [combat](#combat) actions, such as parrying or attacks, using improvised weapons such as clubs.
+You gain a bonus equal to the level of this talent for [combat](#combat) actions, such as parrying or attacks, using improvised weapons such as clubs or mauls.
 
 #### Knife Fighter
 
@@ -604,6 +600,8 @@ You gain a bonus equal to the level of this talent for ranged attacks.
 You gain a bonus equal to the level of this talent for [combat](#combat) actions using swords, such as parrying or attacks.
 
 ### General Talents
+
+This section includes a number of general talents specific to the low fantasy genre.ties,
 
 #### Agitator
 
@@ -621,11 +619,11 @@ You gain a bonus equal to the level of this talent for rolls related to food or 
 
 #### Fletcher
 
+You get a bonus equal to the level of this talent in situations where the care, repair of crafting of arrows and bows is relevant.
+
 #### Force
 
 You gain a bonus equal to the level of this talent to STRENGTH rolls related to raw feats of physical might.
-
-#### Guard
 
 #### Guile
 
@@ -633,7 +631,7 @@ You gain a bonus equal to the level of this talent to EMPATHY rolls to deceive.
 
 #### Healer
 
-_Same name as Magic Talent?_
+You gain a bonus equal to the level of this talent to WITS rolls to mend wounds and prepare remedies, and care for the sick, particularly when healing [Health](#health).
 
 #### History
 
@@ -653,9 +651,11 @@ You can roll using WITS instead of EMPATHY when you threaten someone. When you d
 
 #### Minstrel
 
+You get a bonus equal to the level of this talent in situations where singing or playing an instrument is helpful.
+
 #### Mobility
 
-You gain a bonus equal to the level of this talent for AGILITY rolls that require speed or motor control
+You gain a bonus equal to the level of this talent for AGILITY rolls that require speed or motor control.
 
 #### Noble
 

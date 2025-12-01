@@ -111,7 +111,7 @@ Class represent your role in an adventuring party. You can pick three [talents](
 
 **Talents:** Any [combat talents](#combat-talents), [Stamina](#stamina)
 
-**Gear:** Buckler, chainmail, sword, 2D6 SILVER
+**Gear:** Buckler, chainmail, sword, warrant or mercenary contract, 1D6 SILVER
 
 ### Rogue
 
@@ -119,15 +119,17 @@ Class represent your role in an adventuring party. You can pick three [talents](
 
 **Talents:** [Fast Reflexes](#fast-reflexes), [Improvised Weapons](#improvised-weapons), [Knife Fighter](#knife-fighter), [Stealthy](#stealthy), [Sleight of Hand](#sleight-of-hand)
 
-**Gear:** Leather armour, knife, lock pick, lantern, 3D6 SILVER
+**Gear:** Leather armour, knife, lock pick, lantern, 2D6 SILVER
 
 ### Saint
 
 **Key Attribute:** EMPATHY
 
-**Talents:** [Channel](#channel), [Compassionate](#compassionate), [Healing](#healing), [Protection](#protection), [Religion](#religion), [Willpower](#willpower)](#tough)
+**Talents:** [Channel](#channel), [Compassionate](#compassionate), [Divination](#divination) [Healing](#healing), [Protection](#protection), [Religion](#religion), [Willpower](#willpower)
 
-**Gear:** Holy symbol, simple robes, staff, 2D6 SILVER
+**Gear:** Holy symbol, religious writings, simple robes, staff, 1D6 SILVER
+
+Some are chosen for more, touched by the gods and gifted
 
 ### Sorcerer
 
@@ -135,7 +137,9 @@ Class represent your role in an adventuring party. You can pick three [talents](
 
 **Talents:** [Channel](#channel), [Elementalist](#elementalist), [Necromancer](#necromancer), [Thaumaturgy](#thaumaturgy), [Willpower](#willpower)
 
-**Gear:** Common grimoire, 3D6 SILVER
+**Gear:** Common grimoire, 2D6 SILVER
+
+Alternatively, sorcerers are those who take magic, whether through otherworldly pacts or occult knowledge. These individuals are rare, and generally feared and reviled by common folk.
 
 ## Rolling
 
@@ -533,16 +537,40 @@ _\*Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 
 ## Equipment
 
-| ITEM            | PRICE | BONUS                                        |
-| --------------- | ----- | -------------------------------------------- |
-| Bandages        |       | +1 [Healer](#healer)                         |
-| Clothes, common |       | —                                            |
-| Clothes, fine   |       | +1 [Diplomat](#diplomat) and [Noble](#noble) |
-| Cloak           |       | +1 [Stealthy](#stealthy).                    |
-| Cloak, black    |       | +2 [Stealthy](#stealthy).                    |
-| Lockpick        |       | +3 [Burglar](#burglar)                       |
-| Rations         |       |                                              |
-| Rope            |       |                                              |
+| ITEM                   | PRICE | BONUS                                        |
+| ---------------------- | ----- | -------------------------------------------- |
+| Alchemical instruments |       |                                              |
+| Bandages               |       | +1 [Healer](#healer)                         |
+| Boat, rowing           |       |                                              |
+| Candles                |       |                                              |
+| Cards                  |       |                                              |
+| Clothes, common        |       | —                                            |
+| Clothes, fine          |       | +1 [Diplomat](#diplomat) and [Noble](#noble) |
+| Cloak                  |       | +1 [Stealthy](#stealthy).                    |
+| Cloak, black           |       | +2 [Stealthy](#stealthy).                    |
+| Cooking utensils       |       | +2 [Cook](#cook)                             |
+| Contract, mercenary    |       | +1 [Guard](#guard)                           |
+| Contract, trade        |       |                                              |
+| Costume                |       | +1 [Mummer](#mummer)                         |
+| Dice                   |       |                                              |
+| Face paint             |       | +1 [Mummer](#mummer)                         |
+| Hammer                 |       | +1 [Smith](#smith)                           |
+| Ink and parchment      |       | +2 [Historian](#historian)                   |
+| Lantern                |       | —                                            |
+| Livery                 |       |                                              |
+| Lockpick               |       | +3 [Burglar](#burglar)                       |
+| Manacles               |       |                                              |
+| Mask                   |       |                                              |
+| Papers, diplomatic     |       | +2 [Diplomat](#diplomat)                     |
+| Papers, false          |       | +2 [Diplomat](#diplomat)                     |
+| Rations                |       |                                              |
+| Remedy                 |       | +3 [Healer](#healer)                         |
+| Rope                   |       |                                              |
+| Royal Seal             |       | +2 [Noble](#noble)                           |
+| Warrant                |       | +2 [Guard](#guard)                           |
+| Writings, occult       |       |                                              |
+| Writings, religious    |       | +2 [Religion](#religion)                     |
+| Writings, seditious    |       | +2 [Agitator](#agitator)                     |
 
 ### Armour
 
@@ -572,6 +600,7 @@ _\*Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 | Rock             | —     | 2      | Medium  |
 | Sling            | +1    | 2      | Medium  |
 | Bow\*            | +2    | 2      | Long    |
+| Crossbow         | +3    | 2      | Long    |
 | Pistol           | +2    | 3      | Medium  |
 
 _\*Requires two hands to wield._
@@ -580,9 +609,9 @@ _\*Requires two hands to wield._
 
 | ITEM            | PRICE    | BONUS                        |
 | --------------- | -------- | ---------------------------- |
-| Crystal ball    |          |                              |
+| Crystal ball    |          | +1 [Divination](#divination) |
 | Dead man's hand | 10 GOLD  | +1 [Necromancy](#necromancy) |
-| Holy symbol     |          |                              |
+| Holy symbol     |          | +1 [Channel](#channel)       |
 | Libre Noctus    | 20 GOLD  | +1 [Necromancy](#necromancy) |
 | Necronomicon    | 100 GOLD | +1 [Necromancy](#necromancy) |
 
@@ -679,6 +708,10 @@ You gain a bonus equal to the level of this talent to STRENGTH rolls related to 
 #### Guile
 
 You gain a bonus equal to the level of this talent to EMPATHY rolls to deceive.
+
+#### Guard
+
+You gain a bonus equal to the level of this talent to EMPATHY rolls to enforce your authority as a representative of the law.
 
 #### Healer
 
@@ -799,6 +832,17 @@ Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are
 #### Darkvision
 
 You gain a bonus equal to the level of this talent to these rolls to use WITS to observe in low-light and darkness.
+
+#### Divination
+
+You can use EMPATHY to diving knowledge from another time or place. You gain a bonus to this roll equal to the level of the talent. On a success you can ask the GM one question and they must answer truthfully. Rolls involving this talent are [aggravated](#aggravated-rolls).
+
+| EFFECT                          | MODIFIER |
+| ------------------------------- | -------- |
+| Common knowledge                | 0        |
+| Obscure knowledge               | -1       |
+| Dangerous and obscure knowledge | -2       |
+| Only what the gods know         | -3       |
 
 #### Elementalist
 

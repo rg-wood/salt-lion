@@ -514,6 +514,8 @@ _\*Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 | ------------ | ----- | ------------------------- |
 | Cloak        |       | +1 [Stealthy](#stealthy). |
 | Cloak, black |       | +2 [Stealthy](#stealthy). |
+| Lockpick     |       | +3 [Burglar](#burglar)    |
+|              |       |                           |
 
 ### Weapons
 
@@ -605,7 +607,11 @@ This section includes a number of general talents specific to the low fantasy ge
 
 #### Agitator
 
+You get a bonus equal to the level of this talent in for EMPATHY rolls to inspire or foment dissent.
+
 #### Burglar
+
+You get a bonus equal to the level of this talent in for rolls to break doors or pick locks.
 
 #### Compassionate
 
@@ -616,6 +622,8 @@ You gain a bonus equal to the level of this talent to EMPATHY rolls to comfort o
 You gain a bonus equal to the level of this talent for rolls related to food or the preparation of food.
 
 #### Diplomacy
+
+You get a bonus equal to the level of this talent in for EMPATHY rolls where politics, tact and etiquette are relevant.
 
 #### Fletcher
 
@@ -639,6 +647,8 @@ You gain a bonus equal to the level of this talent for WITS rolls to recall hist
 
 #### Hunter
 
+You get a bonus equal to the level of this talent in situations for hunting prey, tracking through the wilderness and preparing game.
+
 #### Insightful
 
 You gain a bonus equal to the level of this talent to EMPATHY rolls to read other people and see through lies.
@@ -646,8 +656,6 @@ You gain a bonus equal to the level of this talent to EMPATHY rolls to read othe
 #### Interrogator
 
 You can roll using WITS instead of EMPATHY when you threaten someone. When you do so you gain a bonus equal to the level of this talent.
-
-#### Miner
 
 #### Minstrel
 
@@ -659,7 +667,11 @@ You gain a bonus equal to the level of this talent for AGILITY rolls that requir
 
 #### Noble
 
+You get a bonus equal to the level of this talent in for EMPATHY rolls to command authority.
+
 #### Peddler
+
+You gain a bonus equal to the level of this talent for rolls to related to the buying and selling of goods, such as bartering.
 
 #### Persuasive
 
@@ -675,13 +687,15 @@ You gain a bonus equal to the level of this talent for WITS rolls to recall reli
 
 #### Rider
 
+You get a bonus equal to the level of this talent in for AGILITY rolls to ride horses.
+
 #### Ruffian
 
 You can roll using STRENGTH instead of EMPATHY when you threaten someone. When you do so you gain a bonus equal to the level of this talent.
 
 #### Sailor
 
-#### Scholar
+You get a bonus equal to the level of this talent in situations where knowledge of the sailing boats is relevant, such as navigating waters.
 
 #### Sleight of Hand
 
@@ -689,7 +703,7 @@ You gain a bonus equal to the level of this talent for rolls to
 
 #### Smith
 
-#### Soldier
+You get a bonus equal to the level of this talent in situations where the care, repair of crafting of metal weapons and armour.
 
 #### Stamina
 
@@ -706,10 +720,6 @@ You gain a bonus equal to the level of this talent for rolls related to city lif
 #### Survival
 
 You gain a bonus equal to the level of this talent for rolls to related to wilderness survival and navigating the wilds.
-
-#### Trade
-
-You gain a bonus equal to the level of this talent for rolls to related to the buying and selling of goods, such as bartering.
 
 #### Traveller
 
@@ -728,6 +738,10 @@ You gain a bonus equal to the level of this talent for rolls to notice things, s
 Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
 
 ### Magic Talents
+
+What most people call magic is a catch-all term for forces at work behind the veil of the world, beyond what the common folk understand or dare perceive.
+
+Using magic is not without risk. Most magic talents require some kind of [aggravated](#aggravated-rolls) roll, which can run a higher risk of [breaking](#broken) characters and inflicting mental [critical injuries](#critical-injuries).
 
 #### Bless
 

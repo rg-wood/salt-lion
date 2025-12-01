@@ -558,6 +558,10 @@ other benefits, which are listed in their descriptions.
 
 You gain a bonus equal to the level of this talent for [combat](#combat) actions using axes, such as parrying or attacks.
 
+#### Berserker
+
+During combat, you can push any attack roll based on STRENGTH twice, not just once like other characters.
+
 #### Brawler
 
 You gain a bonus equal to the level of this talent for unarmed attacks.
@@ -603,10 +607,6 @@ You gain a bonus equal to the level of this talent for [combat](#combat) actions
 
 #### Agitator
 
-#### Berserker
-
-During combat, you can push any attack roll based on STRENGTH twice, not just once like other characters.
-
 #### Burglar
 
 #### Compassionate
@@ -615,13 +615,9 @@ You gain a bonus equal to the level of this talent to EMPATHY rolls to comfort o
 
 #### Cook
 
-#### Deceitful
-
-You gain a bonus equal to the level of this talent to EMPATHY rolls to deceive.
+You gain a bonus equal to the level of this talent for rolls related to food or the preparation of food.
 
 #### Diplomacy
-
-#### Fence
 
 #### Fletcher
 
@@ -630,6 +626,10 @@ You gain a bonus equal to the level of this talent to EMPATHY rolls to deceive.
 You gain a bonus equal to the level of this talent to STRENGTH rolls related to raw feats of physical might.
 
 #### Guard
+
+#### Guile
+
+You gain a bonus equal to the level of this talent to EMPATHY rolls to deceive.
 
 #### Healer
 
@@ -685,7 +685,7 @@ You can roll using STRENGTH instead of EMPATHY when you threaten someone. When y
 
 #### Sleight of Hand
 
-You gain a bonus equal to the level of this talent for rolls to hide or sneak around undetected.
+You gain a bonus equal to the level of this talent for rolls to
 
 #### Smith
 

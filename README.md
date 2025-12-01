@@ -106,13 +106,13 @@ Class represent your role in an adventuring party. You can pick three [talents](
 
 **Key Attribute:** EMPATHY
 
-**Talents:** [Channeling](#channeling), [Compassionate](#compassionate), [Healing](#healing), [Protection](#protection), [Religion](#religion), [Willpower](#willpower)
+**Talents:** [Channel](#channel), [Compassionate](#compassionate), [Healing](#healing), [Protection](#protection), [Religion](#religion), [Willpower](#willpower)
 
 ### Sorcerer
 
 **Key Attribute:** WITS
 
-**Talents:** [Thaumaturgy](#thaumaturgy), [Channeling](#channeling), [Elementalist](#elementalist), [Necromancer](#necromancer), [Willpower](#willpower)
+**Talents:** [Channel](#channel), [Elementalist](#elementalist), [Necromancer](#necromancer), [Thaumaturgy](#thaumaturgy), [Willpower](#willpower)
 
 ## Rolling
 

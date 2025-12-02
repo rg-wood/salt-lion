@@ -562,6 +562,7 @@ _\*Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 | Livery                 |           |                                              |
 | Lockpick               |           | +3 [Burglar](#burglar)                       |
 | Manacles               |           |                                              |
+| Map                    |           | +2 [Traveller](#traveller)                   |
 | Mask                   |           |                                              |
 | Papers, diplomatic     |           | +2 [Diplomat](#diplomat)                     |
 | Papers, false          |           | +2 [Diplomat](#diplomat)                     |
@@ -798,11 +799,11 @@ You gain a bonus equal to the level of this talent for rolls related to city lif
 
 #### Survival
 
-You gain a bonus equal to the level of this talent for rolls to related to wilderness survival and navigating the wilds.
+You gain a bonus equal to the level of this talent for rolls to related to wilderness survival.
 
 #### Traveller
 
-You gain a bonus equal to the level of this talent for rolls to recall the lore of far lands and countries.
+You gain a bonus equal to the level of this talent for rolls for navigation and to recall the lore of far lands and countries.
 
 #### Tumbler
 

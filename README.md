@@ -537,83 +537,86 @@ _\*Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 
 ## Equipment
 
-| ITEM                   | PRICE | BONUS                                        |
-| ---------------------- | ----- | -------------------------------------------- |
-| Alchemical instruments |       |                                              |
-| Bandages               |       | +1 [Healer](#healer)                         |
-| Boat, rowing           |       |                                              |
-| Candles                |       |                                              |
-| Cards                  |       |                                              |
-| Clothes, common        |       | —                                            |
-| Clothes, fine          |       | +1 [Diplomat](#diplomat) and [Noble](#noble) |
-| Cloak                  |       | +1 [Stealthy](#stealthy).                    |
-| Cloak, black           |       | +2 [Stealthy](#stealthy).                    |
-| Cooking utensils       |       | +2 [Cook](#cook)                             |
-| Contract, mercenary    |       | +1 [Guard](#guard)                           |
-| Contract, trade        |       |                                              |
-| Costume                |       | +1 [Mummer](#mummer)                         |
-| Dice                   |       |                                              |
-| Face paint             |       | +1 [Mummer](#mummer)                         |
-| Hammer                 |       | +1 [Smith](#smith)                           |
-| Ink and parchment      |       | +2 [Historian](#historian)                   |
-| Lantern                |       | —                                            |
-| Livery                 |       |                                              |
-| Lockpick               |       | +3 [Burglar](#burglar)                       |
-| Manacles               |       |                                              |
-| Mask                   |       |                                              |
-| Papers, diplomatic     |       | +2 [Diplomat](#diplomat)                     |
-| Papers, false          |       | +2 [Diplomat](#diplomat)                     |
-| Rations                |       |                                              |
-| Remedy                 |       | +3 [Healer](#healer)                         |
-| Rope                   |       |                                              |
-| Royal Seal             |       | +2 [Noble](#noble)                           |
-| Warrant                |       | +2 [Guard](#guard)                           |
-| Writings, occult       |       |                                              |
-| Writings, religious    |       | +2 [Religion](#religion)                     |
-| Writings, seditious    |       | +2 [Agitator](#agitator)                     |
+| ITEM                   | PRICE     | BONUS                                        |
+| ---------------------- | --------- | -------------------------------------------- |
+| Alchemical instruments |           |                                              |
+| Bandages               | 1 COPPER  | +1 [Healer](#healer)                         |
+| Boat, rowing           |           |                                              |
+| Candle                 | 2 SILVER  | +1 [Vigilant](#vigilant)                     |
+| Cards                  |           |                                              |
+| Clothes, common        | 4 SILVER  | —                                            |
+| Clothes, fine          | 30 SILVER | +1 [Diplomat](#diplomat) and [Noble](#noble) |
+| Clothes, peasant       | 1 SILVER  | —                                            |
+| Cloak                  |           | +1 [Stealthy](#stealthy).                    |
+| Cloak, black           |           | +2 [Stealthy](#stealthy).                    |
+| Cooking utensils       |           | +2 [Cook](#cook)                             |
+| Contract, mercenary    |           | +1 [Guard](#guard)                           |
+| Contract, trade        |           |                                              |
+| Costume                |           | +1 [Mummer](#mummer)                         |
+| Crowbar                |           | +2 [Burglar](#burglar) and [Force](#force)   |
+| Dice                   |           |                                              |
+| Face paint             |           | +1 [Mummer](#mummer)                         |
+| Hammer                 |           | +1 [Smith](#smith)                           |
+| Ink and parchment      |           | +2 [Historian](#historian)                   |
+| Lantern                | 14 SILVER | +3 [Vigilant](#vigilant)                     |
+| Livery                 |           |                                              |
+| Lockpick               |           | +3 [Burglar](#burglar)                       |
+| Manacles               |           |                                              |
+| Mask                   |           |                                              |
+| Papers, diplomatic     |           | +2 [Diplomat](#diplomat)                     |
+| Papers, false          |           | +2 [Diplomat](#diplomat)                     |
+| Rations                |           |                                              |
+| Remedy                 |           | +3 [Healer](#healer)                         |
+| Rope                   |           |                                              |
+| Royal Seal             |           | +2 [Noble](#noble)                           |
+| Warrant                |           | +2 [Guard](#guard)                           |
+| Writings, occult       |           |                                              |
+| Writings, religious    |           | +2 [Religion](#religion)                     |
+| Writings, seditious    |           | +2 [Agitator](#agitator)                     |
 
 ### Armour
 
-| ARMOUR    | BONUS | EFFECT                   |
-| --------- | ----- | ------------------------ |
-| Hide      | +1    | —                        |
-| Padded    | +2    | —                        |
-| Leather   | +2    | —                        |
-| Chainmail | +6    | -1 AGILITY               |
-| Plate     | +8    | -2 AGILITY               |
-| Helmet    | +2    | -1 [Vigilant](#vigilant) |
-| Buckler   | +1    |                          |
-| Shield    | +2    |                          |
+| ARMOUR    | PRICE     | BONUS | EFFECT                   |
+| --------- | --------- | ----- | ------------------------ |
+| Hide      | 10 SILVER | +1    | —                        |
+| Padded    | 15 SILVER | +2    | —                        |
+| Leather   | 20 SILVER | +2    | —                        |
+| Chainmail | 60 SILVER | +6    | -1 AGILITY               |
+| Plate     | 3 GOLD    | +8    | -2 AGILITY               |
+| Helmet    | 7 SILVER  | +2    | -1 [Vigilant](#vigilant) |
+| Buckler   | 5 SILVER  | +1    |                          |
+| Shield    | 15 SILVER | +2    |                          |
 
 ### Weapons
 
-| WEAPON           | BONUS | DAMAGE | RANGE   |
-| ---------------- | ----- | ------ | ------- |
-| Unarmed          | —     | 1      | Engaged |
-| Blunt instrument | +2    | 2      | Engaged |
-| Knife            | +2    | 3      | Engaged |
-| Staff            | +2    | 2      | Short   |
-| Club             | +3    | 2      | Engaged |
-| Sword            | +3    | 3      | Engaged |
-| Battleaxe\*      | +3    | 3      | Engaged |
-| Spear            | +2    | 2      | Short   |
-| Rock             | —     | 2      | Medium  |
-| Sling            | +1    | 2      | Medium  |
-| Bow\*            | +2    | 2      | Long    |
-| Crossbow         | +3    | 2      | Long    |
-| Pistol           | +2    | 3      | Medium  |
+| WEAPON           | PRICE     | BONUS | DAMAGE | RANGE   |
+| ---------------- | --------- | ----- | ------ | ------- |
+| Unarmed          | —         | —     | 1      | Engaged |
+| Blunt instrument | —         | +2    | 2      | Engaged |
+| Knife            | 2 SILVER  | +2    | 3      | Engaged |
+| Staff            | 3 SILVER  | +2    | 2      | Short   |
+| Club             | —         | +3    | 2      | Engaged |
+| Sword            | 10 SILVER | +3    | 3      | Engaged |
+| Battleaxe\*      | 7 SILVER  | +3    | 3      | Engaged |
+| Spear            | 5 SILVER  | +2    | 2      | Short   |
+| Rock             | —         | —     | 2      | Medium  |
+| Sling            | 2 SILVER  | +1    | 2      | Medium  |
+| Bow\*            | 35 SILVER | +2    | 2      | Long    |
+| Crossbow         | 50 SILVER | +3    | 2      | Long    |
+| Pistol           | 10 GOLD   | +2    | 3      | Medium  |
 
 _\*Requires two hands to wield._
 
 ### Arcane Tools
 
-| ITEM            | PRICE    | BONUS                        |
-| --------------- | -------- | ---------------------------- |
-| Crystal ball    |          | +1 [Divination](#divination) |
-| Dead man's hand | 10 GOLD  | +1 [Necromancy](#necromancy) |
-| Holy symbol     |          | +1 [Channel](#channel)       |
-| Libre Noctus    | 20 GOLD  | +1 [Necromancy](#necromancy) |
-| Necronomicon    | 100 GOLD | +1 [Necromancy](#necromancy) |
+| ITEM                | PRICE    | BONUS                                                |
+| ------------------- | -------- | ---------------------------------------------------- |
+| Bracelet of Shadows |          | [Darkvision](#darkvision) and +3 [Channel](#channel) |
+| Crystal ball        |          | +1 [Divination](#divination)                         |
+| Dead man's hand     | 10 GOLD  | +1 [Necromancy](#necromancy)                         |
+| Holy symbol         |          | +1 [Channel](#channel)                               |
+| Libre Noctus        | 20 GOLD  | +1 [Necromancy](#necromancy)                         |
+| Necronomicon        | 100 GOLD | +1 [Necromancy](#necromancy)                         |
 
 ## Talents
 

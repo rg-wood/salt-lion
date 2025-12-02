@@ -2,6 +2,8 @@
 
 **Salt Lion** is a hack of the Year Zero Engine for fantasy roleplaying, focussing on simplicity while building on top of the original fast, accessible and story-driven system.
 
+The focus of **Salt Lion** is less on combat and travel, and more on investigation and interpersonal relationships. With this in mind, the rules have been simplified, inspired by the new system flavour from _Coriolis - The Great Dark_.
+
 ## Player Characters
 
 How you create your player character is explained in detail in this

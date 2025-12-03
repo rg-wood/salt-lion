@@ -992,8 +992,8 @@ Some new mechanics have been added, although I've tried to keep these to a minim
 
 The most notable addition to the Year Zero Engine are [aggravated rolls](#aggravated-rolls), which have been added as a way of eliminating the need for willpower points.
 
-Also, GM [moves](#moves) has been imported from _Dungeon World_.
+Also, GM [moves](#moves) has been imported from _Dungeon World_.
 
 ### Style Guide
 
-This document user British English for spelling and grammar. It does not use the Oxford comma. Attributes, prices, table headers and bulleted subsection titles are all caps. [Talents](#taletns), [personality traits](#personality-traits), [Health](#health) and [Resolve](#resolve) are capitalised. The title of this document is always in bold.
+This document user British English for spelling and grammar. It does not use the Oxford comma. Attributes, prices, table headers and bulleted subsection titles are all caps. [Talents](#taletns), [personality traits](#personality-traits), [Health](#health) and [Resolve](#resolve) are capitalised. The title of this document is always in bold.

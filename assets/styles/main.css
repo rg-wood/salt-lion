@@ -25,7 +25,6 @@ vellum-doc::part(index) {
 }
 
 vellum-doc::part(index-h1) {
-  margin-top: 12rem;
   font-size: 1.4em;
   text-transform: uppercase;
 }
@@ -42,21 +41,40 @@ vellum-doc::part(index-h4) {
   font-size: 0.8em;
 }
 
-section#document {
+#document {
   padding-left: 5em;
   padding-right: 5em;
 }
 
-section#document > section {
+@media (max-width: 600px) {
+  #document {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+#document > section {
   width: 100%;
 }
 
-section#document > section:has(h4:first-child) {
+#document > section:has(h4:first-child) {
   width: 47%;
 }
 
 @media (max-width: 750px) {
-  section#document > section:has(h4:first-child) {
+  #document > section:has(h4:first-child) {
     width: 100%;
   }
+}
+
+#document h1,
+#document h2,
+#document h3,
+#document h4 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+#document footer {
+  border-top: 1px solid;
 }

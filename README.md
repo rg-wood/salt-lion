@@ -13,7 +13,7 @@ sheet, a pencil, and follow these steps:
 3.  Determine your [talents](#talents).
 4.  Determine your [Health](#health) and [Resolve](#resolve).
 5.  Determine your [personality traits](#personality-traits).
-6.  Pick your gear.
+6.  Pick your [gear](#gear).
 7.  Choose a name.
 
 ### Attributes
@@ -113,6 +113,8 @@ Class represent your role in an adventuring party. You can pick three [talents](
 
 **Gear:** Buckler, chainmail, sword, warrant or mercenary contract, 1D6 SILVER
 
+Fighters are those who have dedicated their lives to the martial arts. A fighter could be a soldier, footpad, knight, gladiator or some other martial profession, depending on what talents they have.
+
 ### Rogue
 
 **Key Attribute:** AGILITY
@@ -120,6 +122,8 @@ Class represent your role in an adventuring party. You can pick three [talents](
 **Talents:** [Fast Reflexes](#fast-reflexes), [Improvised Weapons](#improvised-weapons), [Knife Fighter](#knife-fighter), [Stealthy](#stealthy), [Sleight of Hand](#sleight-of-hand)
 
 **Gear:** Leather armour, knife, lock pick, lantern, 2D6 SILVER
+
+Rogues are
 
 ### Saint
 
@@ -129,7 +133,7 @@ Class represent your role in an adventuring party. You can pick three [talents](
 
 **Gear:** Holy symbol, religious writings, simple robes, staff, 1D6 SILVER
 
-Some are chosen for more, touched by the gods and gifted
+Saints are those who have been blessed by the gods for their religious service, piety and dedication. Their deities reward them with the ability to perform miracles. Saints are rare, and can be both revered and reviled.
 
 ### Sorcerer
 
@@ -139,7 +143,7 @@ Some are chosen for more, touched by the gods and gifted
 
 **Gear:** Book of Shadows, staff, 2D6 SILVER
 
-Alternatively, sorcerers are those who take magic, whether through otherworldly pacts or occult knowledge. These individuals are rare, and generally feared and reviled by common folk.
+Sorcerers are those. who seek and use knowledge of the arcane, whether through otherworldly pacts or occult knowledge. These individuals are rare, and generally feared and reviled by common folk.
 
 ## Rolling
 
@@ -165,7 +169,7 @@ for your attribute alone.
 
 ### Gear Dice
 
-Useful gear can give you extra dice to roll, called a gear bonus.
+Useful [gear](#gear) can give you extra dice to roll, called a gear bonus.
 
 For every bane (1) you roll on your base dice from gear when pushing,
 the item's gear bonus is decreased by one. It simply doesn't work as
@@ -535,9 +539,9 @@ _†Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 
 _\*Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 
-## Equipment
+## Gear
 
-Equipment is vital
+Gear is vital part of **Salt Lion**. Most gear offers some kind of bonus which gives you additional [gear dice](#gear-dice). This bonus can be reduced by gear damage or by [pushing rolls](#pushing).
 
 ### Money
 
@@ -546,11 +550,11 @@ Prices are expressed in copper, silver and gold coins (denoted as COPPER, SILVER
 - 1 GOLD = 10 SILVER
 - 1 SILVER = 10 COPPER
 
-### Common Equipment
+### Common Gear
 
 This table lists common equipment at average prices. Prices and availability may vary.
 
-BONUS: Indicates the [gear dice](#gear-dice) you add to rolls with certain [general talents](#general-talents). This bonus can be reduced by equipment damage or by [pushing rolls](#pushing). If the bonus is reduced to zero, the item breaks and needs to be repaired.
+BONUS: Indicates the [gear dice](#gear-dice) you add to rolls with certain [general talents](#general-talents). This bonus can be reduced by gear damage or by [pushing rolls](#pushing). If the bonus is reduced to zero, the item breaks and needs to be repaired.
 
 | ITEM                | PRICE     | BONUS                                        |
 | ------------------- | --------- | -------------------------------------------- |
@@ -858,19 +862,17 @@ Your maximum [Resolve](#resolve) score is increased by 1 per the level of this t
 
 What most people call magic is a catch-all term for forces at work behind the veil of the world, beyond what the common folk understand or dare perceive.
 
-Unlike [general talents](#general-talents), you must have the magic talent to use its abilities. The only exception to this is if you possess a [magic item](#magic-items) that offers a bonus to a magic talent, in which case you can use that magic talent.
+Unlike [general talents](#general-talents), you must have the magic talent to use its abilities. The only exception to this is if you possess a [magic item](#magic-items) that offers a bonus to a magic talent, in which case you can use that magic talent.
 
 Using magic is not without risk. Most magic talents require some kind of [aggravated](#aggravated-rolls) roll, which can run a higher risk of [breaking](#broken) characters and inflicting mental [critical injuries](#critical-injuries).
 
 #### Bless
 
-As a [slow action](#slow-actions) you can use EMPATHY to deal a [critical injury](#critical-injury) to a gift a target within Medium [range](#ranges) a +1 to +3 bonus to rolls involving one attribute. Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
+As a [slow action](#slow-actions) you can use EMPATHY to deal a [critical injury](#critical-injury) to a gift a target within Medium [range](#ranges) a +1 to +3 bonus to rolls involving one attribute. Rolls involving this talent are [aggravated](#aggravated-rolls).
 
 #### Channel
 
-You can use EMPATHY or WITS to sense, summon and control spirits. Typically, this is an [opposed roll](#opposed-rolls). Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
+You can use EMPATHY or WITS to sense, summon and control spirits. Typically, this is an [opposed roll](#opposed-rolls). Rolls involving this talent are [aggravated](#aggravated-rolls).
 
 #### Darkvision
 
@@ -937,8 +939,7 @@ undead. Typically, this is an [opposed roll](#opposed-rolls). Rolls involving th
 
 #### Thaumaturgy
 
-As a [slow action](#slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls). You also gain a bonus equal to the level of this talent to WITS rolls to recall occult knowledge of matters magical and arcane.
+As a [slow action](#slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). Rolls involving this talent are [aggravated](#aggravated-rolls). You also gain a bonus equal to the level of this talent to WITS rolls to recall occult knowledge of matters magical and arcane.
 
 ## Appendices
 
@@ -976,14 +977,19 @@ This document is designed to be open and modifiable, and this section may be of 
 
 #### Simplifications
 
-**Salt Lion** is a paired down version of the Year Zero Engine, modified with simplicity in mind. In particular, it only uses D6s and it removes skills altogether, replacing them with talents.
+**Salt Lion** is a paired down version of the Year Zero Engine, modified with simplicity in mind. In particular, it only uses D6s, and willpower points and skills have been removed.
 
 Other simplifications include:
 
-[Health](#health) and [Resolve](#resolve) are the totals of two attributes, rather than their average. This means they are double the values expected from the Year Zero SRD, so damages are roughly doubled as well.
+- We do not track encumbrance
+- [Health](#health) and [Resolve](#resolve) are the totals of two attributes, rather than their average. This means they are double the values expected from the Year Zero SRD, so damages are roughly doubled as well.
+- [Critical injuries](#critical-injuries) follow the rules for conditions.
+- The complicated descriptions of various combat actions have been removed, instead relying on GM rulings and common sense. For example, it's obvious a grapple action should be an opposed roll of STRENGTH vs STRENGTH/AGILITY.
+
+#### New Mechanics
+
+The most notable addition to the Year Zero Engine are [aggravated rolls](#aggravated-rolls), which have been added as a way of eliminating the need for willpower points.
 
 ### Style Guide
 
-This document user British English for spelling and grammar. It does not use the Oxford comma.
-
-Attributes, prices, table headers and
+This document user British English for spelling and grammar. It does not use the Oxford comma. Attributes, prices, table headers and bulleted sub-section titles are all caps. Talent names are capitalised. The title of this document is always in bold.

@@ -554,7 +554,7 @@ Prices are expressed in copper, silver and gold coins (denoted as COPPER, SILVER
 
 This table lists common equipment at average prices. Prices and availability may vary.
 
-BONUS: Indicates the [gear dice](#gear-dice) you add to rolls with certain [general talents](#general-talents). This bonus can be reduced by gear damage or by [pushing rolls](#pushing). If the bonus is reduced to zero, the item breaks and needs to be repaired.
+BONUS: Indicates the [gear dice](#gear-dice) you add to rolls with certain [general talents](#general-talents). This bonus can be reduced by gear damage or by [pushing rolls](#pushing). If the bonus is reduced to zero, the item is exhausted, or it breaks and needs to be repaired.
 
 | ITEM                | PRICE     | BONUS                                        |
 | ------------------- | --------- | -------------------------------------------- |

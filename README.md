@@ -537,7 +537,7 @@ _\*Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 
 ## Equipment
 
-Equipment is vital 
+Equipment is vital
 
 ### Money
 
@@ -641,18 +641,18 @@ Magic items are rare objects that possess arcane secrets. They can be anything f
 
 BONUS: Indicates the [gear dice](#gear-dice) you add to rolls with certain [magic talents](#magic-talents). This bonus can be reduced by equipment damage or by [pushing rolls](#pushing). If the bonus is reduced to zero, the item breaks and needs to be repaired.
 
-| ITEM                | BONUS                                                        |
-| ------------------- | ------------------------------------------------------------ |
-| Book of Keys        | +2 [Channel](#channel)                                       |
-| Book of Omens       | +2 [Divination](#divination)                                 |
+| ITEM                | BONUS                                                                                                                                         |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Book of Keys        | +2 [Channel](#channel)                                                                                                                        |
+| Book of Omens       | +2 [Divination](#divination)                                                                                                                  |
 | Book of Shadows     | +1 [Channel](#channel), [Elementalist](#elementalist), [Malediction](#malediction), [Necromancy](#necromancy) and [Thaumaturgy](#thaumaturgy) |
-| Bracelet of Shadows | [Darkvision](#darkvision) and +3 [Channel](#channel)         |
-| Crystal ball        | +1 [Divination](#divination)                                 |
-| Dead man's hand     | +1 [Necromancy](#necromancy)                                 |
-| Fairy token         | +1 [Illusion](#illusion)                                     |
-| Holy symbol         | +1 [Channel](#channel)                                       |
-| Libre Noctus        | +1 [Necromancy](#necromancy)                                 |
-| Necronomicon        | +3 [Necromancy](#necromancy)                                 |
+| Bracelet of Shadows | +3 [Darkvision](#darkvision) and [Channel](#channel)                                                                                          |
+| Crystal ball        | +1 [Divination](#divination)                                                                                                                  |
+| Dead man's hand     | +1 [Necromancy](#necromancy)                                                                                                                  |
+| Fairy token         | +1 [Illusion](#illusion)                                                                                                                      |
+| Holy symbol         | +1 [Channel](#channel)                                                                                                                        |
+| Libre Noctus        | +1 [Necromancy](#necromancy)                                                                                                                  |
+| Necronomicon        | +3 [Necromancy](#necromancy)                                                                                                                  |
 
 ## Talents
 
@@ -666,6 +666,8 @@ pool](#base-dice), depending on their level. Some talents may give you
 other benefits, which are listed in their descriptions.
 
 ### Combat Talents
+
+Combat talents offer bonuses during combat.
 
 #### Axe Fighter
 
@@ -714,7 +716,7 @@ You gain a bonus equal to the level of this talent for [combat](#combat) actions
 
 ### General Talents
 
-This section includes a number of general talents specific to the low fantasy genre.ties,
+General talents offer bonus [base dice](#base-dice) for common actions. You can still roll for an action even if you don't have the relevant general talent.
 
 #### Agitator
 
@@ -942,8 +944,12 @@ Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are
 
 ### Hacking
 
-Requires [Node.js](http://nodejs.org/). To set up your environment execute:
+Requires [Node.js](http://nodejs.org/) to build **Salt Lion** from the source files.
 
+To set up your environment execute:
+
+    $ git clone git@github.com:rg-wood/salt-lion.git
+    $ cd salt-lion
     $ npm i
 
 To build:
@@ -966,14 +972,18 @@ And in a separate window execute:
 
 This section describes the various choices and deviations I made writing **Salt Lion**, based on material from the original [Year Zero Engine SRD](https://freeleaguepublishing.com/wp-content/uploads/2023/11/YZE-Standard-Reference-Document.pdf).
 
-This game is designed to be open and modifiable, and this section may be of use to those hacking it.
+This document is designed to be open and modifiable, and this section may be of use to those making their own hacks.
 
 #### Simplifications
 
-Only uses D6s.
+**Salt Lion** is a paired down version of the Year Zero Engine, modified with simplicity in mind. In particular, it only uses D6s and it removes skills altogether, replacing them with talents.
+
+Other simplifications include:
 
 [Health](#health) and [Resolve](#resolve) are the totals of two attributes, rather than their average. This means they are double the values expected from the Year Zero SRD, so damages are roughly doubled as well.
 
 ### Style Guide
 
-This document user British English for spelling and grammar.
+This document user British English for spelling and grammar. It does not use the Oxford comma.
+
+Attributes, prices, table headers and

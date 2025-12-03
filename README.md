@@ -123,7 +123,7 @@ Fighters are those who have dedicated their lives to the martial arts. A fighter
 
 **Gear:** Leather armour, knife, lock pick, lantern, 2D6 SILVER
 
-Rogues are
+Rogues are dubious characters, specialists in criminal skills who live by their wits.
 
 ### Saint
 
@@ -541,7 +541,7 @@ _\*Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 
 ## Gear
 
-Gear is vital part of **Salt Lion**. Most gear offers some kind of bonus which gives you additional [gear dice](#gear-dice). This bonus can be reduced by gear damage or by [pushing rolls](#pushing).
+Gear is a vital part of **Salt Lion**. Most gear offers some kind of bonus which gives you additional [gear dice](#gear-dice). This bonus can be reduced by gear damage or by [pushing rolls](#pushing).
 
 ### Money
 
@@ -988,8 +988,12 @@ Other simplifications include:
 
 #### New Mechanics
 
+Some new mechanics have been added, although I've tried to keep these to a minimum.
+
 The most notable addition to the Year Zero Engine are [aggravated rolls](#aggravated-rolls), which have been added as a way of eliminating the need for willpower points.
+
+Also, GM [moves](#moves) has been imported from _Dungeon World_.
 
 ### Style Guide
 
-This document user British English for spelling and grammar. It does not use the Oxford comma. Attributes, prices, table headers and bulleted sub-section titles are all caps. Talent names are capitalised. The title of this document is always in bold.
+This document user British English for spelling and grammar. It does not use the Oxford comma. Attributes, prices, table headers and bulleted subsection titles are all caps. [Talents](#taletns), [personality traits](#personality-traits), [Health](#health) and [Resolve](#resolve) are capitalised. The title of this document is always in bold.

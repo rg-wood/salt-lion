@@ -1,8 +1,6 @@
 # Salt Lion
 
-**Salt Lion** is a hack of the Year Zero Engine for fantasy roleplaying, focussing on simplicity while building on top of the original fast, accessible and story-driven system.
-
-The focus of **Salt Lion** is less on combat and travel, and more on investigation and interpersonal relationships. With this in mind, the rules have been simplified, inspired by the new system flavour from _Coriolis - The Great Dark_.
+**Salt Lion** is a hack of the Year Zero Engine for fantasy roleplaying, focussing on simplicity while building on top of the original fast, accessible and story-driven system. The rules have been simplified, inspired by the new system flavour used in _Coriolis - The Great Dark_.
 
 ## Player Characters
 
@@ -139,7 +137,7 @@ Some are chosen for more, touched by the gods and gifted
 
 **Talents:** [Channel](#channel), [Elementalist](#elementalist), [Necromancer](#necromancer), [Thaumaturgy](#thaumaturgy), [Willpower](#willpower)
 
-**Gear:** Common grimoire, 2D6 SILVER
+**Gear:** Book of Shadows, staff, 2D6 SILVER
 
 Alternatively, sorcerers are those who take magic, whether through otherworldly pacts or occult knowledge. These individuals are rare, and generally feared and reviled by common folk.
 
@@ -539,45 +537,64 @@ _\*Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 
 ## Equipment
 
-| ITEM                   | PRICE     | BONUS                                        |
-| ---------------------- | --------- | -------------------------------------------- |
-| Alchemical instruments |           |                                              |
-| Bandages               | 1 COPPER  | +1 [Healer](#healer)                         |
-| Boat, rowing           |           |                                              |
-| Candle                 | 2 SILVER  | +1 [Vigilant](#vigilant)                     |
-| Cards                  |           |                                              |
-| Clothes, common        | 4 SILVER  | —                                            |
-| Clothes, fine          | 30 SILVER | +1 [Diplomat](#diplomat) and [Noble](#noble) |
-| Clothes, peasant       | 1 SILVER  | —                                            |
-| Cloak                  |           | +1 [Stealthy](#stealthy).                    |
-| Cloak, black           |           | +2 [Stealthy](#stealthy).                    |
-| Cooking utensils       |           | +2 [Cook](#cook)                             |
-| Contract, mercenary    |           | +1 [Guard](#guard)                           |
-| Contract, trade        |           |                                              |
-| Costume                |           | +1 [Mummer](#mummer)                         |
-| Crowbar                |           | +2 [Burglar](#burglar) and [Force](#force)   |
-| Dice                   |           |                                              |
-| Face paint             |           | +1 [Mummer](#mummer)                         |
-| Hammer                 |           | +1 [Smith](#smith)                           |
-| Ink and parchment      |           | +2 [Historian](#historian)                   |
-| Lantern                | 14 SILVER | +3 [Vigilant](#vigilant)                     |
-| Livery                 |           |                                              |
-| Lockpick               |           | +3 [Burglar](#burglar)                       |
-| Manacles               |           |                                              |
-| Map                    |           | +2 [Traveller](#traveller)                   |
-| Mask                   |           |                                              |
-| Papers, diplomatic     |           | +2 [Diplomat](#diplomat)                     |
-| Papers, false          |           | +2 [Diplomat](#diplomat)                     |
-| Rations                |           |                                              |
-| Remedy                 |           | +3 [Healer](#healer)                         |
-| Rope                   |           |                                              |
-| Royal Seal             |           | +2 [Noble](#noble)                           |
-| Warrant                |           | +2 [Guard](#guard)                           |
-| Writings, occult       |           |                                              |
-| Writings, religious    |           | +2 [Religion](#religion)                     |
-| Writings, seditious    |           | +2 [Agitator](#agitator)                     |
+Equipment is vital 
+
+### Money
+
+Prices are expressed in copper, silver and gold coins (denoted as COPPER, SILVER and GOLD respectively). These are valued as follows:
+
+- 1 GOLD = 10 SILVER
+- 1 SILVER = 10 COPPER
+
+### Common Equipment
+
+This table lists common equipment at average prices. Prices and availability may vary.
+
+BONUS: Indicates the [gear dice](#gear-dice) you add to rolls with certain [general talents](#general-talents). This bonus can be reduced by equipment damage or by [pushing rolls](#pushing). If the bonus is reduced to zero, the item breaks and needs to be repaired.
+
+| ITEM                | PRICE     | BONUS                                        |
+| ------------------- | --------- | -------------------------------------------- |
+| Bandages            | 1 COPPER  | +1 [Healer](#healer)                         |
+| Boat, rowing        | 6 GOLD    | +2 [Sailor](#sailor)                         |
+| Candle              | 2 SILVER  | +1 [Vigilant](#vigilant)                     |
+| Cards               | 1 GOLD    | —                                            |
+| Clothes, common     | 4 SILVER  | —                                            |
+| Clothes, livery     | 10 SILVER | —                                            |
+| Clothes, fine       | 3 GOLD    | +1 [Diplomat](#diplomat) and [Noble](#noble) |
+| Clothes, peasant    | 1 SILVER  | —                                            |
+| Cloak               | 1 SILVER  | +1 [Stealthy](#stealthy).                    |
+| Cloak, black        | 2 SILVER  | +2 [Stealthy](#stealthy).                    |
+| Cooking utensils    | 2 GOLD    | +2 [Cook](#cook)                             |
+| Contract, mercenary | 5 GOLD    | +1 [Guard](#guard)                           |
+| Contract, trade     | 10 GOLD   | +2 [Peddler](#peddler)                       |
+| Costume             | 1 GOLD    | +1 [Mummer](#mummer)                         |
+| Crowbar             | 2 SILVER  | +2 [Burglar](#burglar) and [Force](#force)   |
+| Dice                | 5 SILVER  | —                                            |
+| Face paint          | 5 SILVER  | +1 [Mummer](#mummer)                         |
+| Hammer              | 1 GOLD    | +1 [Smith](#smith)                           |
+| Ink and parchment   | 2 GOLD    | +1 [Historian](#historian)                   |
+| Lantern             | 14 SILVER | +2 [Vigilant](#vigilant)                     |
+| Lock pick           | 25 SILVER | +2 [Burglar](#burglar)                       |
+| Manacles            | 4 SILVER  | +2 Grapple                                   |
+| Map, common         | 1 SILVER  | +2 [Traveller](#traveller)                   |
+| Papers, diplomatic  | 20 GOLD   | +2 [Diplomat](#diplomat)                     |
+| Papers, false       | 2 GOLD    | +2 [Diplomat](#diplomat)                     |
+| Rations             | 1 SILVER  | —                                            |
+| Remedy              | 5 SILVER  | +2 [Healer](#healer)                         |
+| Rope                | 1 SILVER  | +2 Climbing                                  |
+| Royal Seal          | 100 GOLD  | +2 [Noble](#noble)                           |
+| Warrant             | 5 GOLD    | +2 [Guard](#guard)                           |
+| Whetstone           | 1 SILVER  | +1 [Smith](#smith)                           |
+| Writings, religious | 2 SILVER  | +2 [Religion](#religion)                     |
+| Writings, seditious | 1 GOLD    | +2 [Agitator](#agitator)                     |
 
 ### Armour
+
+[Body armour](#body-armour) will protect you during combat. The table below describes a few typical forms of armour.
+
+BONUS: Indicates the [gear dice](#gear-dice) you roll to determine how much damage an attack is reduced by. This bonus can be reduced by equipment damage or by [pushing rolls](#pushing). If the bonus is reduced to zero, the armour breaks, offers no more protection and needs to be repaired.
+
+EFFECT: Indicates the penalties to your attributes and talents that apply when wearing a set of armour. These are cumulative.
 
 | ARMOUR    | PRICE     | BONUS | EFFECT                   |
 | --------- | --------- | ----- | ------------------------ |
@@ -587,39 +604,55 @@ _\*Permanent injury, cannot be [recovered](#recovering-from-injuries)._
 | Chainmail | 60 SILVER | +6    | -1 AGILITY               |
 | Plate     | 3 GOLD    | +8    | -2 AGILITY               |
 | Helmet    | 7 SILVER  | +2    | -1 [Vigilant](#vigilant) |
-| Buckler   | 5 SILVER  | +1    |                          |
-| Shield    | 15 SILVER | +2    |                          |
+| Buckler   | 5 SILVER  | +1    | —                        |
+| Shield    | 15 SILVER | +2    | -1 AGILITY               |
 
 ### Weapons
 
-| WEAPON           | PRICE     | BONUS | DAMAGE | RANGE   |
-| ---------------- | --------- | ----- | ------ | ------- |
-| Unarmed          | —         | —     | 1      | Engaged |
-| Blunt instrument | —         | +2    | 2      | Engaged |
-| Knife            | 2 SILVER  | +2    | 3      | Engaged |
-| Staff            | 3 SILVER  | +2    | 2      | Short   |
-| Club             | —         | +3    | 2      | Engaged |
-| Sword            | 10 SILVER | +3    | 3      | Engaged |
-| Battleaxe\*      | 7 SILVER  | +3    | 3      | Engaged |
-| Spear            | 5 SILVER  | +2    | 2      | Short   |
-| Rock             | —         | —     | 2      | Medium  |
-| Sling            | 2 SILVER  | +1    | 2      | Medium  |
-| Bow\*            | 35 SILVER | +2    | 2      | Long    |
-| Crossbow         | 50 SILVER | +3    | 2      | Long    |
-| Pistol           | 10 GOLD   | +2    | 3      | Medium  |
+Using a weapon will greatly improve your effectiveness in combat. The table below describes a few typical weapons of various types.
+
+BONUS: Indicates the [gear dice](#gear-dice) you add to an attack roll when using the weapon. This bonus can be reduced by damage or by [pushing rolls](#pushing). If the bonus is reduced to zero, the weapon breaks and needs to be repaired.
+
+DAMAGE: Indicates your base damage rating, i.e. how many points of damage your opponent suffers if your attack is successful. If you roll extra successes, you deal additional damage.
+
+RANGE: Indicates the maximum range category at which the weapon can be used.
+
+| WEAPON           | PRICE    | BONUS | DAMAGE | RANGE   |
+| ---------------- | -------- | ----- | ------ | ------- |
+| Unarmed          | —        | —     | 1      | Engaged |
+| Blunt instrument | —        | +2    | 2      | Engaged |
+| Knife            | 2 SILVER | +2    | 3      | Engaged |
+| Staff            | 3 SILVER | +2    | 2      | Short   |
+| Club             | —        | +3    | 2      | Engaged |
+| Sword            | 1 GOLD   | +3    | 3      | Engaged |
+| Battleaxe\*      | 7 SILVER | +3    | 3      | Engaged |
+| Spear            | 5 SILVER | +2    | 2      | Short   |
+| Rock             | —        | —     | 2      | Medium  |
+| Sling            | 2 SILVER | +1    | 2      | Medium  |
+| Bow\*            | 3 GOLD   | +2    | 2      | Long    |
+| Crossbow         | 5 GOLD   | +3    | 2      | Long    |
+| Pistol           | 10 GOLD  | +2    | 3      | Medium  |
 
 _\*Requires two hands to wield._
 
-### Arcane Tools
+### Magic Items
 
-| ITEM                | PRICE    | BONUS                                                |
-| ------------------- | -------- | ---------------------------------------------------- |
-| Bracelet of Shadows |          | [Darkvision](#darkvision) and +3 [Channel](#channel) |
-| Crystal ball        |          | +1 [Divination](#divination)                         |
-| Dead man's hand     | 10 GOLD  | +1 [Necromancy](#necromancy)                         |
-| Holy symbol         |          | +1 [Channel](#channel)                               |
-| Libre Noctus        | 20 GOLD  | +1 [Necromancy](#necromancy)                         |
-| Necronomicon        | 100 GOLD | +1 [Necromancy](#necromancy)                         |
+Magic items are rare objects that possess arcane secrets. They can be anything from rings to tomes to bits of dead bodies.
+
+BONUS: Indicates the [gear dice](#gear-dice) you add to rolls with certain [magic talents](#magic-talents). This bonus can be reduced by equipment damage or by [pushing rolls](#pushing). If the bonus is reduced to zero, the item breaks and needs to be repaired.
+
+| ITEM                | BONUS                                                        |
+| ------------------- | ------------------------------------------------------------ |
+| Book of Keys        | +2 [Channel](#channel)                                       |
+| Book of Omens       | +2 [Divination](#divination)                                 |
+| Book of Shadows     | +1 [Channel](#channel), [Elementalist](#elementalist), [Malediction](#malediction), [Necromancy](#necromancy) and [Thaumaturgy](#thaumaturgy) |
+| Bracelet of Shadows | [Darkvision](#darkvision) and +3 [Channel](#channel)         |
+| Crystal ball        | +1 [Divination](#divination)                                 |
+| Dead man's hand     | +1 [Necromancy](#necromancy)                                 |
+| Fairy token         | +1 [Illusion](#illusion)                                     |
+| Holy symbol         | +1 [Channel](#channel)                                       |
+| Libre Noctus        | +1 [Necromancy](#necromancy)                                 |
+| Necronomicon        | +3 [Necromancy](#necromancy)                                 |
 
 ## Talents
 
@@ -823,6 +856,8 @@ Your maximum [Resolve](#resolve) score is increased by 1 per the level of this t
 
 What most people call magic is a catch-all term for forces at work behind the veil of the world, beyond what the common folk understand or dare perceive.
 
+Unlike [general talents](#general-talents), you must have the magic talent to use its abilities. The only exception to this is if you possess a [magic item](#magic-items) that offers a bonus to a magic talent, in which case you can use that magic talent.
+
 Using magic is not without risk. Most magic talents require some kind of [aggravated](#aggravated-rolls) roll, which can run a higher risk of [breaking](#broken) characters and inflicting mental [critical injuries](#critical-injuries).
 
 #### Bless
@@ -874,8 +909,7 @@ As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls
 
 #### Illusion
 
-As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) EMPATHY roll to create illusions. Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Factors that can modify the role are as follows:
+As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) EMPATHY roll to create illusions. Factors that can modify the role are as follows:
 
 | EFFECT         | MODIFIER |
 | -------------- | -------- |
@@ -890,16 +924,14 @@ As a [slow action](#slow-actions) you can use WITS to deal a [critical injury](#
 
 Assume the first roll on the d66 you would normally roll for a critical injury is 1, and roll a 1d6 for the second roll. Each additional success increases the first roll by 1, up to a maximum of 6. For example, if you had 2 successes and rolled a 3, you would inflict the injury listed under 23 on the injury table.
 
-Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls), and are typically [opposed](#opposed-rolls).
+Rolls involving this talent are [aggravated](#aggravated-rolls), and are typically [opposed](#opposed-rolls).
 
 #### Necromancy
 
 **Requirements:** [Thaumaturgy](#thaumaturgy)
 
 You can use WITS to sense, summon and control the
-undead. Typically, this is an [opposed roll](#opposed-rolls). Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
+undead. Typically, this is an [opposed roll](#opposed-rolls). Rolls involving this talent are [aggravated](#aggravated-rolls).
 
 #### Thaumaturgy
 
@@ -938,7 +970,7 @@ This game is designed to be open and modifiable, and this section may be of use 
 
 #### Simplifications
 
-Only use D6s.
+Only uses D6s.
 
 [Health](#health) and [Resolve](#resolve) are the totals of two attributes, rather than their average. This means they are double the values expected from the Year Zero SRD, so damages are roughly doubled as well.
 

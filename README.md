@@ -143,7 +143,7 @@ Saints are those who have been blessed by the gods for their religious service, 
 
 **Gear:** Book of Shadows, staff, 2D6 SILVER
 
-Sorcerers are those. who seek and use knowledge of the arcane, whether through otherworldly pacts or occult knowledge. These individuals are rare, and generally feared and reviled by common folk.
+Sorcerers are those who seek and use knowledge of the arcane, whether through otherworldly pacts or occult knowledge. These individuals are rare, and generally feared and reviled by common folk.
 
 ## Rolling
 

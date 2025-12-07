@@ -289,7 +289,7 @@ Sometimes, rolling a success isn’t enough to succeed with your skill roll. In 
 
 ### Aggravated Rolls
 
-Sometimes actions are more than just difficult: they require willpower to push them over the line and succeed. These are frustrated rolls. With an aggravated roll all [banes](#banes) are active on the first roll, as though you had [pushed](#pushing).
+Sometimes actions are more than just difficult: they require willpower to push them over the line and succeed. These are aggravated rolls. With an aggravated roll all [banes](#banes) are active on the first roll, as though you had [pushed](#pushing).
 
 Additionally, you can incur [critical injuries](#critical-injuries) when you're [broken](#broken) by an aggravated roll. You can still push aggravated rolls.
 

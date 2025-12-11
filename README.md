@@ -854,7 +854,7 @@ Your maximum [Resolve](#resolve) score is increased by 1 per the level of this t
 
 What most people call magic is a catch-all term for forces at work behind the veil of the world, beyond what the common folk understand or dare perceive.
 
-Unlike [general talents](#general-talents), you must have the magic talent to use these abilities. The only exception is if you possess a [magic item](#magic-items) that offers a bonus to a magic talent, in which case you can use that magic talent.
+Unlike [general talents](#general-talents), you must have the magic talent to use these abilities. The only exception is if you possess a [magic item](#magic-items) that offers a bonus to a magic talent, in which case you can use that magic talent when using the item.
 
 Magic is powerful, but it's not without risk. Rolls for magic talents have higher [difficulty](#difficulty). The description for magic talents usually includes a list of possible effects with a negative [modifier](#modifiers). These modifiers are also cumulative. Additionally, [magic items](#magic-items) offer [gear dice](#gear-dice), but these items are expensive to buy and repair/restore, and are very rare.
 

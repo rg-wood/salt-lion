@@ -858,6 +858,25 @@ Unlike [general talents](#general-talents), you must have the magic talent to us
 
 Magic is powerful, but it's not without risk. Rolls for magic talents have higher [difficulty](#difficulty). The description for magic talents usually includes a list of possible effects with a negative [modifier](#modifiers). These modifiers are also cumulative. Additionally, [magic items](#magic-items) offer [gear dice](#gear-dice), but these items are expensive to buy and repair/restore, and are very rare.
 
+Common modifiers are described below:
+
+#### Magic Damage Modifiers
+
+| DAMAGE | MODIFIER |
+| ------ | -------- |
+| 1      | -1       |
+| 2      | -2       |
+| 3      | -3       |
+
+#### Magic Ranged Modifiers
+
+| RANGE   | MODIFIER |
+| ------- | -------- |
+| Engaged | 0        |
+| Short   | -1       |
+| Medium  | -2       |
+| Long    | -3       |
+
 #### Bless
 
 As a [slow action](#slow-actions) you can use EMPATHY to deal a [critical injury](#critical-injury) to a gift a target within Medium [range](#ranges) a +1 to +3 bonus to rolls involving one attribute.
@@ -868,7 +887,7 @@ You can use EMPATHY or WITS to sense, summon and control spirits. Typically, thi
 
 #### Darkvision
 
-You gain a bonus equal to the level of this talent to these rolls to use WITS to observe in low-light and darkness.
+You gain a bonus equal to the level of this talent to rolls to use WITS to observe in low-light and darkness.
 
 #### Divination
 
@@ -901,7 +920,8 @@ As a [slow action](#slow-actions) you can make an EMPATHY roll to heal [damage](
 | EFFECT                                                              | MODIFIER |
 | ------------------------------------------------------------------- | -------- |
 | Heal [damage](#damage-and-stress) (1 [Health](#health) per success) | 0        |
-| Heal a non-permanent [critical injury](#critical-injuries)          | -3       |
+| Heal a non-permanent [critical injury](#critical-injuries)          | -2       |
+| Heal a permanent [critical injury](#critical-injuries)              | -3       |
 
 #### Illusion
 

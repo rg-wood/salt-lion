@@ -287,14 +287,6 @@ NPCs can help each other in the same way as player characters. Letting NPCs act 
 
 Sometimes, rolling a success isn’t enough to succeed with your skill roll. In some cases, you must beat your opponent in an opposed roll. To win an opposed roll, you must roll more successes than your adversary. Every success rolled by your adversary eliminates one of your successes. Only you (the active party) can push your roll – and you can decide to do so even after your opponent rolls.
 
-### Aggravated Rolls
-
-Sometimes actions are more than just difficult: they require willpower to push them over the line and succeed. These are aggravated rolls. With an aggravated roll all [banes](#banes) are active on the first roll, as though you had [pushed](#pushing).
-
-Additionally, you can incur [critical injuries](#critical-injuries) when you're [broken](#broken) by an aggravated roll. You can still push aggravated rolls.
-
-The rules will tell you when a roll is aggravated. Typically when you're using [magic talents](#magic-talents).
-
 ## Combat
 
 Combat is deadly in **Salt Lion**. Before you enter a fight, you should always ask yourself: Is it worth it?
@@ -862,17 +854,17 @@ Your maximum [Resolve](#resolve) score is increased by 1 per the level of this t
 
 What most people call magic is a catch-all term for forces at work behind the veil of the world, beyond what the common folk understand or dare perceive.
 
-Unlike [general talents](#general-talents), you must have the magic talent to use its abilities. The only exception to this is if you possess a [magic item](#magic-items) that offers a bonus to a magic talent, in which case you can use that magic talent.
+Unlike [general talents](#general-talents), you must have the magic talent to use these abilities. The only exception is if you possess a [magic item](#magic-items) that offers a bonus to a magic talent, in which case you can use that magic talent.
 
-Using magic is not without risk. Most magic talents require some kind of [aggravated](#aggravated-rolls) roll, which can run a higher risk of [breaking](#broken) characters and inflicting mental [critical injuries](#critical-injuries).
+Magic is powerful, but it's not without risk. Rolls for magic talents have higher [difficulty](#difficulty). The description for magic talents usually includes a list of possible effects with a negative [modifier](#modifiers). These modifiers are also cumulative. Additionally, [magic items](#magic-items) offer [gear dice](#gear-dice), but these items are expensive to buy and repair/restore, and are very rare.
 
 #### Bless
 
-As a [slow action](#slow-actions) you can use EMPATHY to deal a [critical injury](#critical-injury) to a gift a target within Medium [range](#ranges) a +1 to +3 bonus to rolls involving one attribute. Rolls involving this talent are [aggravated](#aggravated-rolls).
+As a [slow action](#slow-actions) you can use EMPATHY to deal a [critical injury](#critical-injury) to a gift a target within Medium [range](#ranges) a +1 to +3 bonus to rolls involving one attribute.
 
 #### Channel
 
-You can use EMPATHY or WITS to sense, summon and control spirits. Typically, this is an [opposed roll](#opposed-rolls). Rolls involving this talent are [aggravated](#aggravated-rolls).
+You can use EMPATHY or WITS to sense, summon and control spirits. Typically, this is an [opposed roll](#opposed-rolls).
 
 #### Darkvision
 
@@ -880,7 +872,7 @@ You gain a bonus equal to the level of this talent to these rolls to use WITS to
 
 #### Divination
 
-You can use EMPATHY to diving knowledge from another time or place. You gain a bonus to this roll equal to the level of the talent. On a success you can ask the GM one question and they must answer truthfully. Rolls involving this talent are [aggravated](#aggravated-rolls).
+You can use EMPATHY to diving knowledge from another time or place. You gain a bonus to this roll equal to the level of the talent. On a success you can ask the GM one question and they must answer truthfully.
 
 | EFFECT                          | MODIFIER |
 | ------------------------------- | -------- |
@@ -893,7 +885,7 @@ You can use EMPATHY to diving knowledge from another time or place. You gain a b
 
 **Requirements:** [Thaumaturgy](#thaumaturgy)
 
-As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) WITS roll to summon or destroy elements (fire, water, air and earth). Factors that can modify the role are as follows:
+As a [slow action](#slow-actions) you can make an WITS roll to summon or destroy elements (fire, water, air and earth). Factors that can modify the role are as follows:
 
 | EFFECT                                   | MODIFIER |
 | ---------------------------------------- | -------- |
@@ -904,7 +896,7 @@ As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls
 
 #### Healing
 
-As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) EMPATHY roll to heal [damage](#damage-and-stress) and [critical injuries](#critical-injuries). Factors that can modify the role are as follows:
+As a [slow action](#slow-actions) you can make an EMPATHY roll to heal [damage](#damage-and-stress) and [critical injuries](#critical-injuries). Factors that can modify the role are as follows:
 
 | EFFECT                                                              | MODIFIER |
 | ------------------------------------------------------------------- | -------- |
@@ -913,7 +905,7 @@ As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls
 
 #### Illusion
 
-As a [slow action](#slow-actions) you can make an [aggravated](#aggravated-rolls) EMPATHY roll to create illusions. Factors that can modify the role are as follows:
+As a [slow action](#slow-actions) you can make an EMPATHY roll to create illusions. Factors that can modify the role are as follows:
 
 | EFFECT         | MODIFIER |
 | -------------- | -------- |
@@ -928,18 +920,18 @@ As a [slow action](#slow-actions) you can use WITS to deal a [critical injury](#
 
 Assume the first roll on the d66 you would normally roll for a critical injury is 1, and roll a 1d6 for the second roll. Each additional success increases the first roll by 1, up to a maximum of 6. For example, if you had 2 successes and rolled a 3, you would inflict the injury listed under 23 on the injury table.
 
-Rolls involving this talent are [aggravated](#aggravated-rolls), and are typically [opposed](#opposed-rolls).
+Rolls involving this talent are typically [opposed](#opposed-rolls).
 
 #### Necromancy
 
 **Requirements:** [Thaumaturgy](#thaumaturgy)
 
 You can use WITS to sense, summon and control the
-undead. Typically, this is an [opposed roll](#opposed-rolls). Rolls involving this talent are [aggravated](#aggravated-rolls).
+undead. Typically, this is an [opposed roll](#opposed-rolls).
 
 #### Thaumaturgy
 
-As a [slow action](#slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). Rolls involving this talent are [aggravated](#aggravated-rolls). You also gain a bonus equal to the level of this talent to WITS rolls to recall occult knowledge of matters magical and arcane.
+As a [slow action](#slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). You also gain a bonus equal to the level of this talent to WITS rolls to recall occult knowledge of matters magical and arcane.
 
 ## Appendices
 

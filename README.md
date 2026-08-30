@@ -269,7 +269,7 @@ You can only push skill rolls when you actively perform an action.
 
 ### Banes
 
-A base die showing a 1 is called a bane and can never be re-rolled when
+A base die showing a 1 is called a **bane** and can never be re-rolled when
 pushing. After a push, you cannot change back to the previous result.
 All dice count after the push, even any dice you didn't re-roll.
 
@@ -984,7 +984,7 @@ Some new mechanics have been added, although I've tried to keep these to a minim
 
 The most notable addition to the Year Zero Engine are [aggravated rolls](#aggravated-rolls), which have been added as a way of eliminating the need for willpower points.
 
-Also, GM [moves](#moves) has been imported from _Dungeon World_.
+Also, GM [moves](#moves) have been imported from _Dungeon World_.
 
 ### Style Guide
 

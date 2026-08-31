@@ -78,3 +78,7 @@ vellum-doc::part(index-h4) {
 #document footer {
   border-top: 1px solid;
 }
+
+pre {
+  white-space: pre-wrap;
+}

@@ -125,6 +125,26 @@ Fighters are those who have dedicated their lives to the martial arts. A fighter
 
 Rogues are dubious characters, specialists in criminal skills who live by their wits.
 
+### Saint
+
+**Key Attribute:** EMPATHY
+
+**Talents:** [Channel](#channel), [Compassionate](#compassionate), [Divination](#divination) [Healing](#healing), [Protection](#protection), [Religion](#religion), [Willpower](#willpower)
+
+**Gear:** Holy symbol, religious writings, simple robes, staff, 1D6 SILVER
+
+Saints are those who have been blessed by the gods for their religious service, piety and dedication. Their deities reward them with the ability to perform miracles. Saints are rare, and can be both revered and reviled.
+
+### Sorcerer
+
+**Key Attribute:** WITS
+
+**Talents:** [Channel](#channel), [Elementalist](#elementalist), [Necromancer](#necromancer), [Thaumaturgy](#thaumaturgy), [Willpower](#willpower)
+
+**Gear:** Book of Shadows, staff, 2D6 SILVER
+
+Sorcerers are those who seek and use knowledge of the arcane, whether through otherworldly pacts or occult knowledge. These individuals are rare, and generally feared and reviled by common folk.
+
 ## Rolling
 
 Roleplaying is a conversation. The GM describes the scene, you describe
@@ -625,6 +645,25 @@ _\*Requires two hands to wield._
 
 _\*Requires two hands to wield._
 
+### Magic Items
+
+Magic items are rare objects that possess arcane secrets. They can be anything from rings to tomes to bits of dead bodies.
+
+BONUS: Indicates the [gear dice](#gear-dice) you add to rolls with certain [magic talents](#magic-talents). This bonus can be reduced by equipment damage or by [pushing rolls](#pushing). If the bonus is reduced to zero, the item breaks and needs to be repaired.
+
+| ITEM                | BONUS                                                                                                                                         |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Book of Keys        | +2 [Channel](#channel)                                                                                                                        |
+| Book of Omens       | +2 [Divination](#divination)                                                                                                                  |
+| Book of Shadows     | +1 [Channel](#channel), [Elementalist](#elementalist), [Malediction](#malediction), [Necromancy](#necromancy) and [Thaumaturgy](#thaumaturgy) |
+| Bracelet of Shadows | +3 [Darkvision](#darkvision) and [Channel](#channel)                                                                                          |
+| Crystal ball        | +1 [Divination](#divination)                                                                                                                  |
+| Dead man's hand     | +1 [Necromancy](#necromancy)                                                                                                                  |
+| Fairy token         | +1 [Illusion](#illusion)                                                                                                                      |
+| Holy symbol         | +1 [Channel](#channel)                                                                                                                        |
+| Libre Noctus        | +1 [Necromancy](#necromancy)                                                                                                                  |
+| Necronomicon        | +3 [Necromancy](#necromancy)                                                                                                                  |
+
 ## Talents
 
 Your [talents](#talents) are the knowledge and abilities you have acquired during
@@ -824,6 +863,89 @@ You gain a bonus equal to the level of this talent for rolls to notice things, s
 #### Willpower
 
 Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
+
+### Magic Talents
+
+What most people call magic is a catch-all term for forces at work behind the veil of the world, beyond what the common folk understand or dare perceive.
+
+Unlike [general talents](#general-talents), you must have the magic talent to use these abilities. The only exception is if you possess a [magic item](#magic-items) that offers a bonus to a magic talent, in which case you can use that magic talent when using the item.
+
+Magic is powerful, but it's not without risk. Rolls for magic talents have higher [difficulty](#difficulty). The description for magic talents usually includes a list of possible effects with a negative [modifier](#modifiers). These modifiers are also cumulative. Additionally, [magic items](#magic-items) offer [gear dice](#gear-dice), but these items are expensive to buy and repair/restore, and are very rare.
+
+#### Bless
+
+As a [slow action](#slow-actions) you can use EMPATHY to deal a [critical injury](#critical-injury) to a gift a target within Medium [range](#ranges) a +1 to +3 bonus to rolls involving one attribute.
+
+#### Channel
+
+You can use EMPATHY or WITS to sense, summon and control spirits. Typically, this is an [opposed roll](#opposed-rolls).
+
+#### Darkvision
+
+You gain a bonus equal to the level of this talent to these rolls to use WITS to observe in low-light and darkness.
+
+#### Divination
+
+You can use EMPATHY to diving knowledge from another time or place. You gain a bonus to this roll equal to the level of the talent. On a success you can ask the GM one question and they must answer truthfully.
+
+| EFFECT                          | MODIFIER |
+| ------------------------------- | -------- |
+| Common knowledge                | 0        |
+| Obscure knowledge               | -1       |
+| Dangerous and obscure knowledge | -2       |
+| Only what the gods know         | -3       |
+
+#### Elementalist
+
+**Requirements:** [Thaumaturgy](#thaumaturgy)
+
+As a [slow action](#slow-actions) you can make an WITS roll to summon or destroy elements (fire, water, air and earth). Factors that can modify the role are as follows:
+
+| EFFECT                                   | MODIFIER |
+| ---------------------------------------- | -------- |
+| Create a small amount of an element      | 0        |
+| Heal [broken](#broken)                   | -1       |
+| Throw element as MEDIUM ranged weapon () |          |
+| Create a large amount of an element      | -3       |
+
+#### Healing
+
+As a [slow action](#slow-actions) you can make an EMPATHY roll to heal [damage](#damage-and-stress) and [critical injuries](#critical-injuries). Factors that can modify the role are as follows:
+
+| EFFECT                                                              | MODIFIER |
+| ------------------------------------------------------------------- | -------- |
+| Heal [damage](#damage-and-stress) (1 [Health](#health) per success) | 0        |
+| Heal a non-permanent [critical injury](#critical-injuries)          | -3       |
+
+#### Illusion
+
+As a [slow action](#slow-actions) you can make an EMPATHY roll to create illusions. Factors that can modify the role are as follows:
+
+| EFFECT         | MODIFIER |
+| -------------- | -------- |
+| Minor illusion | 0        |
+| Major illusion | -2       |
+
+#### Malediction
+
+**Requirements:** [Thaumaturgy](#thaumaturgy)
+
+As a [slow action](#slow-actions) you can use WITS to deal a [critical injury](#critical-injury) to a target within Medium [range](#ranges). The caster decides whether the injury is physical or mental.
+
+Assume the first roll on the d66 you would normally roll for a critical injury is 1, and roll a 1d6 for the second roll. Each additional success increases the first roll by 1, up to a maximum of 6. For example, if you had 2 successes and rolled a 3, you would inflict the injury listed under 23 on the injury table.
+
+Rolls involving this talent are typically [opposed](#opposed-rolls).
+
+#### Necromancy
+
+**Requirements:** [Thaumaturgy](#thaumaturgy)
+
+You can use WITS to sense, summon and control the
+undead. Typically, this is an [opposed roll](#opposed-rolls).
+
+#### Thaumaturgy
+
+As a [slow action](#slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). You also gain a bonus equal to the level of this talent to WITS rolls to recall occult knowledge of matters magical and arcane.
 
 ## Appendices
 

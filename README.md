@@ -650,7 +650,7 @@ During combat, you can push any attack roll based on STRENGTH twice, not just on
 
 #### Brawler
 
-You gain a bonus equal to the level of this talent for unarmed attacks.
+You gain a bonus equal to the level of this talent for unarmed attacks and attacks with improvised weapons such as clubs.
 
 #### Command
 
@@ -668,10 +668,6 @@ You gain a bonus equal to the level of this talent to dodge [actions](#fast-acti
 #### Tough
 
 Your maximum [Health](#health) score is increased by 1 per the level of this talent.
-
-#### Improvised Weapons
-
-You gain a bonus equal to the level of this talent for [combat](#combat) actions, such as parrying or attacks, using improvised weapons such as clubs or mauls.
 
 #### Knife Fighter
 

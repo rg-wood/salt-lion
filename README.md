@@ -613,21 +613,35 @@ DAMAGE: Indicates your base damage rating, i.e. how many points of damage your o
 
 RANGE: Indicates the maximum range category at which the weapon can be used.
 
-| WEAPON           | PRICE    | BONUS | DAMAGE | RANGE   |
-| ---------------- | -------- | ----- | ------ | ------- |
-| Unarmed          | —        | —     | 1      | Engaged |
-| Blunt instrument | —        | +2    | 2      | Engaged |
-| Knife            | 2 SILVER | +2    | 3      | Engaged |
-| Staff            | 3 SILVER | +2    | 2      | Short   |
-| Club             | —        | +3    | 2      | Engaged |
-| Sword            | 1 GOLD   | +3    | 3      | Engaged |
-| Battleaxe\*      | 7 SILVER | +3    | 3      | Engaged |
-| Spear            | 5 SILVER | +2    | 2      | Short   |
-| Rock             | —        | —     | 2      | Medium  |
-| Sling            | 2 SILVER | +1    | 2      | Medium  |
-| Bow\*            | 3 GOLD   | +2    | 2      | Long    |
-| Crossbow         | 5 GOLD   | +3    | 2      | Long    |
-| Pistol           | 10 GOLD  | +2    | 3      | Medium  |
+#### Close Melee Weapons
+
+| WEAPON           | PRICE    | BONUS | DAMAGE |
+| ---------------- | -------- | ----- | ------ |
+| Unarmed          | —        | —     | 1      |
+| Blunt instrument | —        | +2    | 2      |
+| Knife            | 2 SILVER | +2    | 3      |
+| Club             | —        | +3    | 2      |
+| Sword            | 1 GOLD   | +3    | 3      |
+| Battleaxe\*      | 7 SILVER | +3    | 3      |
+
+_\*Requires two hands to wield._
+
+#### Reach Melee Weapons
+
+| WEAPON | PRICE    | BONUS | DAMAGE |
+| ------ | -------- | ----- | ------ |
+| Staff  | 3 SILVER | +2    | 2      |
+| Spear  | 5 SILVER | +2    | 2      |
+
+#### Ranged Weapons
+
+| WEAPON   | PRICE    | BONUS | DAMAGE |
+| -------- | -------- | ----- | ------ |
+| Rock     | —        | —     | 2      |
+| Sling    | 2 SILVER | +1    | 2      |
+| Bow\*    | 3 GOLD   | +2    | 2      |
+| Crossbow | 5 GOLD   | +3    | 2      |
+| Pistol   | 10 GOLD  | +2    | 3      |
 
 _\*Requires two hands to wield._
 

@@ -874,9 +874,7 @@ Other simplifications include:
 
 Some new mechanics have been added, although I've tried to keep these to a minimum.
 
-The most notable addition to the Year Zero Engine are [aggravated rolls](#aggravated-rolls), which have been added as a way of eliminating the need for willpower points.
-
-Also, GM [moves](#moves) have been imported from _Dungeon World_.
+GM [moves](#moves) have been imported from _Dungeon World_.
 
 ### Style Guide
 

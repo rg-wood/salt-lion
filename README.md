@@ -60,11 +60,11 @@ You start with any two [general talents](#general-talents) and any three talents
 
 ### Health
 
-Your starting Health equals your Strength and Agility scores. See [Damage and Stress](#damage-and-stress) for more information.
+Your starting Health equals the average of your Strength and Agility scores, rounding fractions up plus one. See [Damage and Stress](#damage-and-stress) for more information.
 
 ### Resolve
 
-Your starting Resolve equals your Wits and Empathy scores. See [Damage and Stress](#damage-and-stress) for more information.
+Your starting Resolve equals the average of your Wits and Empathy scores, rounding fractions up plus one. See [Damage and Stress](#damage-and-stress) for more information.
 
 ### Personality Traits
 
@@ -598,11 +598,11 @@ RANGE: Indicates the maximum range category at which the weapon can be used.
 | WEAPON           | PRICE    | BONUS | DAMAGE |
 | ---------------- | -------- | ----- | ------ |
 | Unarmed          | —        | —     | 1      |
-| Blunt instrument | —        | +2    | 2      |
-| Knife            | 2 SILVER | +2    | 3      |
-| Club             | —        | +3    | 2      |
-| Sword            | 1 GOLD   | +3    | 3      |
-| Battleaxe\*      | 7 SILVER | +3    | 3      |
+| Blunt instrument | —        | +1    | 2      |
+| Knife            | 2 SILVER | +1    | 2      |
+| Club             | —        | +2    | 1      |
+| Sword            | 1 GOLD   | +2    | 2      |
+| Battleaxe\*      | 7 SILVER | +2    | 3      |
 
 _\*Requires two hands to wield._
 
@@ -610,8 +610,8 @@ _\*Requires two hands to wield._
 
 | WEAPON | PRICE    | BONUS | DAMAGE |
 | ------ | -------- | ----- | ------ |
-| Staff  | 3 SILVER | +2    | 2      |
-| Spear  | 5 SILVER | +2    | 2      |
+| Staff  | 3 SILVER | +1    | 2      |
+| Spear  | 5 SILVER | +1    | 2      |
 
 #### Ranged Weapons
 
@@ -619,9 +619,9 @@ _\*Requires two hands to wield._
 | -------- | -------- | ----- | ------ |
 | Rock     | —        | —     | 2      |
 | Sling    | 2 SILVER | +1    | 2      |
-| Bow\*    | 3 GOLD   | +2    | 2      |
-| Crossbow | 5 GOLD   | +3    | 2      |
-| Pistol   | 10 GOLD  | +2    | 3      |
+| Bow\*    | 3 GOLD   | +2    | 1      |
+| Crossbow | 5 GOLD   | +3    | 1      |
+| Pistol   | 10 GOLD  | +1    | 3      |
 
 _\*Requires two hands to wield._
 
@@ -862,7 +862,6 @@ This document is designed to be open and modifiable, and this section may be of 
 Other simplifications include:
 
 - We do not track encumbrance
-- [Health](#health) and [Resolve](#resolve) are the totals of two attributes, rather than their average. This means they are double the values expected from the Year Zero SRD, so damages are roughly doubled as well.
 - [Critical injuries](#critical-injuries) follow the rules for conditions.
 - The complicated descriptions of various combat actions have been removed, instead relying on GM rulings and common sense. For example, it's obvious a grapple action should be an opposed roll of STRENGTH vs STRENGTH/AGILITY.
 

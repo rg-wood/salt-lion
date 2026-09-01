@@ -1,5 +1,7 @@
 # Salt Lion
 
+**[Source](https://github.com/rg-wood/salt-lion)** | **[Roadmap](https://github.com/rg-wood/salt-lion/pulls?q=is%3Apr%20is%3Aopen%20label%3Aenhancement)**
+
 **Salt Lion** is a hack of the Year Zero Engine for fantasy roleplaying, focussing on simplicity while building on top of the original fast, accessible and story-driven system. The rules have been simplified, inspired by the new system flavour used in _Coriolis - The Great Dark_.
 
 ## Player Characters

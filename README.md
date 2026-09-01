@@ -869,7 +869,7 @@ Other simplifications include:
 
 Some new mechanics have been added, although I've tried to keep these to a minimum.
 
-GM [moves](#moves) have been imported from _Dungeon World_.
+- GM [moves](#moves) have been imported from _Dungeon World_.
 
 ### Style Guide
 

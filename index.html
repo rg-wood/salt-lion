@@ -95,9 +95,9 @@ pool</a>, depending on their level. Some talents may give you
 other benefits, which are listed in their descriptions.</p>
 <p>You start with any two <a href="#general-talents">general talents</a> and any three talents from your <a href="#class">class</a>. Each talent starts at level 1. If you choose the same talent twice, it starts at level 2.</p>
 <h3>Health</h3>
-<p>Your starting Health equals your Strength and Agility scores. See <a href="#damage-and-stress">Damage and Stress</a> for more information.</p>
+<p>Your starting Health equals the average of your Strength and Agility scores, rounding fractions up plus one. See <a href="#damage-and-stress">Damage and Stress</a> for more information.</p>
 <h3>Resolve</h3>
-<p>Your starting Resolve equals your Wits and Empathy scores. See <a href="#damage-and-stress">Damage and Stress</a> for more information.</p>
+<p>Your starting Resolve equals the average of your Wits and Empathy scores, rounding fractions up plus one. See <a href="#damage-and-stress">Damage and Stress</a> for more information.</p>
 <h3>Personality Traits</h3>
 <p>Personality Traits give your PC unique qualities beyond the numerical stats. Pick a pride and a weakness during character creation.</p>
 <h4>Pride</h4>
@@ -149,16 +149,6 @@ other benefits, which are listed in their descriptions.</p>
 <p><strong>Talents:</strong> <a href="#fast-reflexes">Fast Reflexes</a>, <a href="#improvised-weapons">Improvised Weapons</a>, <a href="#knife-fighter">Knife Fighter</a>, <a href="#stealthy">Stealthy</a>, <a href="#sleight-of-hand">Sleight of Hand</a></p>
 <p><strong>Gear:</strong> Leather armour, knife, lock pick, lantern, 2D6 SILVER</p>
 <p>Rogues are dubious characters, specialists in criminal skills who live by their wits.</p>
-<h3>Saint</h3>
-<p><strong>Key Attribute:</strong> EMPATHY</p>
-<p><strong>Talents:</strong> <a href="#channel">Channel</a>, <a href="#compassionate">Compassionate</a>, <a href="#divination">Divination</a> <a href="#healing">Healing</a>, <a href="#protection">Protection</a>, <a href="#religion">Religion</a>, <a href="#willpower">Willpower</a></p>
-<p><strong>Gear:</strong> Holy symbol, religious writings, simple robes, staff, 1D6 SILVER</p>
-<p>Saints are those who have been blessed by the gods for their religious service, piety and dedication. Their deities reward them with the ability to perform miracles. Saints are rare, and can be both revered and reviled.</p>
-<h3>Sorcerer</h3>
-<p><strong>Key Attribute:</strong> WITS</p>
-<p><strong>Talents:</strong> <a href="#channel">Channel</a>, <a href="#elementalist">Elementalist</a>, <a href="#necromancer">Necromancer</a>, <a href="#thaumaturgy">Thaumaturgy</a>, <a href="#willpower">Willpower</a></p>
-<p><strong>Gear:</strong> Book of Shadows, staff, 2D6 SILVER</p>
-<p>Sorcerers are those. who seek and use knowledge of the arcane, whether through otherworldly pacts or occult knowledge. These individuals are rare, and generally feared and reviled by common folk.</p>
 <h2>Rolling</h2>
 <p>Roleplaying is a conversation. The GM describes the scene, you describe
 how your PCs behave, the GM describes how any NPCs react, you reply, and
@@ -277,7 +267,7 @@ focus, or emotional strain.</p>
 <p>You can only push a skill roll once. If you don’t succeed on your second try, you are stuck dealing with the consequences.</p>
 <p>You can only push skill rolls when you actively perform an action.</p>
 <h3>Banes</h3>
-<p>A base die showing a 1 is called a bane and can never be re-rolled when
+<p>A base die showing a 1 is called a <strong>bane</strong> and can never be re-rolled when
 pushing. After a push, you cannot change back to the previous result.
 All dice count after the push, even any dice you didn&#39;t re-roll.</p>
 <p>Normally, each bane deals 1 point of damage to <a href="#health">Health</a> or <a href="#resolve">Resolve</a>. Rolling a bane on an action involving Empathy or Wits deals damage to Resolve, and Health for Strength or Agility.</p>
@@ -287,10 +277,6 @@ All dice count after the push, even any dice you didn&#39;t re-roll.</p>
 <p>NPCs can help each other in the same way as player characters. Letting NPCs act in groups instead of individually is often an easy way to manage large numbers of NPCs in combat.</p>
 <h3>Opposed Rolls</h3>
 <p>Sometimes, rolling a success isn’t enough to succeed with your skill roll. In some cases, you must beat your opponent in an opposed roll. To win an opposed roll, you must roll more successes than your adversary. Every success rolled by your adversary eliminates one of your successes. Only you (the active party) can push your roll – and you can decide to do so even after your opponent rolls.</p>
-<h3>Aggravated Rolls</h3>
-<p>Sometimes actions are more than just difficult: they require willpower to push them over the line and succeed. These are frustrated rolls. With an aggravated roll all <a href="#banes">banes</a> are active on the first roll, as though you had <a href="#pushing">pushed</a>.</p>
-<p>Additionally, you can incur <a href="#critical-injuries">critical injuries</a> when you&#39;re <a href="#broken">broken</a> by an aggravated roll. You can still push aggravated rolls.</p>
-<p>The rules will tell you when a roll is aggravated. Typically when you&#39;re using <a href="#magic-talents">magic talents</a>.</p>
 <h2>Combat</h2>
 <p>Combat is deadly in <strong>Salt Lion</strong>. Before you enter a fight, you should always ask yourself: Is it worth it?</p>
 <h3>Zones</h3>
@@ -1127,6 +1113,7 @@ see what it is.</p>
 <p>BONUS: Indicates the <a href="#gear-dice">gear dice</a> you add to an attack roll when using the weapon. This bonus can be reduced by damage or by <a href="#pushing">pushing rolls</a>. If the bonus is reduced to zero, the weapon breaks and needs to be repaired.</p>
 <p>DAMAGE: Indicates your base damage rating, i.e. how many points of damage your opponent suffers if your attack is successful. If you roll extra successes, you deal additional damage.</p>
 <p>RANGE: Indicates the maximum range category at which the weapon can be used.</p>
+<h4>Close Melee Weapons</h4>
 <table>
 <thead>
 <tr>
@@ -1134,7 +1121,6 @@ see what it is.</p>
 <th>PRICE</th>
 <th>BONUS</th>
 <th>DAMAGE</th>
-<th>RANGE</th>
 </tr>
 </thead>
 <tbody><tr>
@@ -1142,145 +1128,104 @@ see what it is.</p>
 <td>—</td>
 <td>—</td>
 <td>1</td>
-<td>Engaged</td>
 </tr>
 <tr>
 <td>Blunt instrument</td>
 <td>—</td>
-<td>+2</td>
+<td>+1</td>
 <td>2</td>
-<td>Engaged</td>
 </tr>
 <tr>
 <td>Knife</td>
 <td>2 SILVER</td>
-<td>+2</td>
-<td>3</td>
-<td>Engaged</td>
-</tr>
-<tr>
-<td>Staff</td>
-<td>3 SILVER</td>
-<td>+2</td>
+<td>+1</td>
 <td>2</td>
-<td>Short</td>
 </tr>
 <tr>
 <td>Club</td>
 <td>—</td>
-<td>+3</td>
-<td>2</td>
-<td>Engaged</td>
+<td>+2</td>
+<td>1</td>
 </tr>
 <tr>
 <td>Sword</td>
 <td>1 GOLD</td>
-<td>+3</td>
-<td>3</td>
-<td>Engaged</td>
+<td>+2</td>
+<td>2</td>
 </tr>
 <tr>
 <td>Battleaxe*</td>
 <td>7 SILVER</td>
-<td>+3</td>
+<td>+2</td>
 <td>3</td>
-<td>Engaged</td>
+</tr>
+</tbody></table>
+<p><em>*Requires two hands to wield.</em></p>
+<h4>Reach Melee Weapons</h4>
+<table>
+<thead>
+<tr>
+<th>WEAPON</th>
+<th>PRICE</th>
+<th>BONUS</th>
+<th>DAMAGE</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Staff</td>
+<td>3 SILVER</td>
+<td>+1</td>
+<td>2</td>
 </tr>
 <tr>
 <td>Spear</td>
 <td>5 SILVER</td>
-<td>+2</td>
+<td>+1</td>
 <td>2</td>
-<td>Short</td>
 </tr>
+</tbody></table>
+<h4>Ranged Weapons</h4>
+<table>
+<thead>
 <tr>
+<th>WEAPON</th>
+<th>PRICE</th>
+<th>BONUS</th>
+<th>DAMAGE</th>
+</tr>
+</thead>
+<tbody><tr>
 <td>Rock</td>
 <td>—</td>
 <td>—</td>
 <td>2</td>
-<td>Medium</td>
 </tr>
 <tr>
 <td>Sling</td>
 <td>2 SILVER</td>
 <td>+1</td>
 <td>2</td>
-<td>Medium</td>
 </tr>
 <tr>
 <td>Bow*</td>
 <td>3 GOLD</td>
 <td>+2</td>
-<td>2</td>
-<td>Long</td>
+<td>1</td>
 </tr>
 <tr>
 <td>Crossbow</td>
 <td>5 GOLD</td>
 <td>+3</td>
-<td>2</td>
-<td>Long</td>
+<td>1</td>
 </tr>
 <tr>
 <td>Pistol</td>
 <td>10 GOLD</td>
-<td>+2</td>
+<td>+1</td>
 <td>3</td>
-<td>Medium</td>
 </tr>
 </tbody></table>
 <p><em>*Requires two hands to wield.</em></p>
-<h3>Magic Items</h3>
-<p>Magic items are rare objects that possess arcane secrets. They can be anything from rings to tomes to bits of dead bodies.</p>
-<p>BONUS: Indicates the <a href="#gear-dice">gear dice</a> you add to rolls with certain <a href="#magic-talents">magic talents</a>. This bonus can be reduced by equipment damage or by <a href="#pushing">pushing rolls</a>. If the bonus is reduced to zero, the item breaks and needs to be repaired.</p>
-<table>
-<thead>
-<tr>
-<th>ITEM</th>
-<th>BONUS</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Book of Keys</td>
-<td>+2 <a href="#channel">Channel</a></td>
-</tr>
-<tr>
-<td>Book of Omens</td>
-<td>+2 <a href="#divination">Divination</a></td>
-</tr>
-<tr>
-<td>Book of Shadows</td>
-<td>+1 <a href="#channel">Channel</a>, <a href="#elementalist">Elementalist</a>, <a href="#malediction">Malediction</a>, <a href="#necromancy">Necromancy</a> and <a href="#thaumaturgy">Thaumaturgy</a></td>
-</tr>
-<tr>
-<td>Bracelet of Shadows</td>
-<td>+3 <a href="#darkvision">Darkvision</a> and <a href="#channel">Channel</a></td>
-</tr>
-<tr>
-<td>Crystal ball</td>
-<td>+1 <a href="#divination">Divination</a></td>
-</tr>
-<tr>
-<td>Dead man&#39;s hand</td>
-<td>+1 <a href="#necromancy">Necromancy</a></td>
-</tr>
-<tr>
-<td>Fairy token</td>
-<td>+1 <a href="#illusion">Illusion</a></td>
-</tr>
-<tr>
-<td>Holy symbol</td>
-<td>+1 <a href="#channel">Channel</a></td>
-</tr>
-<tr>
-<td>Libre Noctus</td>
-<td>+1 <a href="#necromancy">Necromancy</a></td>
-</tr>
-<tr>
-<td>Necronomicon</td>
-<td>+3 <a href="#necromancy">Necromancy</a></td>
-</tr>
-</tbody></table>
 <h2>Talents</h2>
 <p>Your <a href="#talents">talents</a> are the knowledge and abilities you have acquired during
 your life. They are important, as they determine, along with your
@@ -1296,7 +1241,7 @@ other benefits, which are listed in their descriptions.</p>
 <h4>Berserker</h4>
 <p>During combat, you can push any attack roll based on STRENGTH twice, not just once like other characters. You may do this a number of times per combat equal to the level of this talent.</p>
 <h4>Brawler</h4>
-<p>You gain a bonus equal to the level of this talent for unarmed attacks.</p>
+<p>You gain a bonus equal to the level of this talent for unarmed attacks and attacks with improvised weapons such as clubs.</p>
 <h4>Command</h4>
 <p>As a <a href="#fast-actions">fast action</a> you can make a successful EMPATHY roll to give an ally an extra <a href="#slow-actions">slow action</a> for their next turn. You gain a bonus to this roll equal to the level of this talent.</p>
 <h4>Defender</h4>
@@ -1306,8 +1251,6 @@ within SHORT distance of you as a <a href="#reactions">reaction</a>. You also ga
 <p>You gain a bonus equal to the level of this talent to dodge <a href="#fast-actions">actions</a> and other AGILITY rolls to react to sudden events.</p>
 <h4>Tough</h4>
 <p>Your maximum <a href="#health">Health</a> score is increased by 1 per the level of this talent.</p>
-<h4>Improvised Weapons</h4>
-<p>You gain a bonus equal to the level of this talent for <a href="#combat">combat</a> actions, such as parrying or attacks, using improvised weapons such as clubs or mauls.</p>
 <h4>Knife Fighter</h4>
 <p>You can use this talent to gain a bonus equal to the level of this talent to any roll involving skill with knives or daggers, including <a href="#combat">combat</a> actions using these weapons.</p>
 <h4>Marksman</h4>
@@ -1384,116 +1327,6 @@ within SHORT distance of you as a <a href="#reactions">reaction</a>. You also ga
 <p>You gain a bonus equal to the level of this talent for rolls to notice things, such as approaching danger.</p>
 <h4>Willpower</h4>
 <p>Your maximum <a href="#resolve">Resolve</a> score is increased by 1 per the level of this talent.</p>
-<h3>Magic Talents</h3>
-<p>What most people call magic is a catch-all term for forces at work behind the veil of the world, beyond what the common folk understand or dare perceive.</p>
-<p>Unlike <a href="#general-talents">general talents</a>, you must have the magic talent to use its abilities. The only exception to this is if you possess a <a href="#magic-items">magic item</a> that offers a bonus to a magic talent, in which case you can use that magic talent.</p>
-<p>Using magic is not without risk. Most magic talents require some kind of <a href="#aggravated-rolls">aggravated</a> roll, which can run a higher risk of <a href="#broken">breaking</a> characters and inflicting mental <a href="#critical-injuries">critical injuries</a>.</p>
-<h4>Bless</h4>
-<p>As a <a href="#slow-actions">slow action</a> you can use EMPATHY to deal a <a href="#critical-injury">critical injury</a> to a gift a target within Medium <a href="#ranges">range</a> a +1 to +3 bonus to rolls involving one attribute. Rolls involving this talent are <a href="#aggravated-rolls">aggravated</a>.</p>
-<h4>Channel</h4>
-<p>You can use EMPATHY or WITS to sense, summon and control spirits. Typically, this is an <a href="#opposed-rolls">opposed roll</a>. Rolls involving this talent are <a href="#aggravated-rolls">aggravated</a>.</p>
-<h4>Darkvision</h4>
-<p>You gain a bonus equal to the level of this talent to these rolls to use WITS to observe in low-light and darkness.</p>
-<h4>Divination</h4>
-<p>You can use EMPATHY to diving knowledge from another time or place. You gain a bonus to this roll equal to the level of the talent. On a success you can ask the GM one question and they must answer truthfully. Rolls involving this talent are <a href="#aggravated-rolls">aggravated</a>.</p>
-<table>
-<thead>
-<tr>
-<th>EFFECT</th>
-<th>MODIFIER</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Common knowledge</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Obscure knowledge</td>
-<td>-1</td>
-</tr>
-<tr>
-<td>Dangerous and obscure knowledge</td>
-<td>-2</td>
-</tr>
-<tr>
-<td>Only what the gods know</td>
-<td>-3</td>
-</tr>
-</tbody></table>
-<h4>Elementalist</h4>
-<p><strong>Requirements:</strong> <a href="#thaumaturgy">Thaumaturgy</a></p>
-<p>As a <a href="#slow-actions">slow action</a> you can make an <a href="#aggravated-rolls">aggravated</a> WITS roll to summon or destroy elements (fire, water, air and earth). Factors that can modify the role are as follows:</p>
-<table>
-<thead>
-<tr>
-<th>EFFECT</th>
-<th>MODIFIER</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Create a small amount of an element</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Heal <a href="#broken">broken</a></td>
-<td>-1</td>
-</tr>
-<tr>
-<td>Throw element as MEDIUM ranged weapon ()</td>
-<td></td>
-</tr>
-<tr>
-<td>Create a large amount of an element</td>
-<td>-3</td>
-</tr>
-</tbody></table>
-<h4>Healing</h4>
-<p>As a <a href="#slow-actions">slow action</a> you can make an <a href="#aggravated-rolls">aggravated</a> EMPATHY roll to heal <a href="#damage-and-stress">damage</a> and <a href="#critical-injuries">critical injuries</a>. Factors that can modify the role are as follows:</p>
-<table>
-<thead>
-<tr>
-<th>EFFECT</th>
-<th>MODIFIER</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Heal <a href="#damage-and-stress">damage</a> (1 <a href="#health">Health</a> per success)</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Heal a non-permanent <a href="#critical-injuries">critical injury</a></td>
-<td>-3</td>
-</tr>
-</tbody></table>
-<h4>Illusion</h4>
-<p>As a <a href="#slow-actions">slow action</a> you can make an <a href="#aggravated-rolls">aggravated</a> EMPATHY roll to create illusions. Factors that can modify the role are as follows:</p>
-<table>
-<thead>
-<tr>
-<th>EFFECT</th>
-<th>MODIFIER</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Minor illusion</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Major illusion</td>
-<td>-2</td>
-</tr>
-</tbody></table>
-<h4>Malediction</h4>
-<p><strong>Requirements:</strong> <a href="#thaumaturgy">Thaumaturgy</a></p>
-<p>As a <a href="#slow-actions">slow action</a> you can use WITS to deal a <a href="#critical-injury">critical injury</a> to a target within Medium <a href="#ranges">range</a>. The caster decides whether the injury is physical or mental.</p>
-<p>Assume the first roll on the d66 you would normally roll for a critical injury is 1, and roll a 1d6 for the second roll. Each additional success increases the first roll by 1, up to a maximum of 6. For example, if you had 2 successes and rolled a 3, you would inflict the injury listed under 23 on the injury table.</p>
-<p>Rolls involving this talent are <a href="#aggravated-rolls">aggravated</a>, and are typically <a href="#opposed-rolls">opposed</a>.</p>
-<h4>Necromancy</h4>
-<p><strong>Requirements:</strong> <a href="#thaumaturgy">Thaumaturgy</a></p>
-<p>You can use WITS to sense, summon and control the
-undead. Typically, this is an <a href="#opposed-rolls">opposed roll</a>. Rolls involving this talent are <a href="#aggravated-rolls">aggravated</a>.</p>
-<h4>Thaumaturgy</h4>
-<p>As a <a href="#slow-actions">slow action</a> you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long <a href="#ranges">range</a>. Rolls involving this talent are <a href="#aggravated-rolls">aggravated</a>. You also gain a bonus equal to the level of this talent to WITS rolls to recall occult knowledge of matters magical and arcane.</p>
 <h2>Appendices</h2>
 <h3>Hacking</h3>
 <p>Requires <a href="http://nodejs.org/">Node.js</a> to build <strong>Salt Lion</strong> from the source files.</p>
@@ -1522,20 +1355,20 @@ $ npm i
 <p>Other simplifications include:</p>
 <ul>
 <li>We do not track encumbrance</li>
-<li><a href="#health">Health</a> and <a href="#resolve">Resolve</a> are the totals of two attributes, rather than their average. This means they are double the values expected from the Year Zero SRD, so damages are roughly doubled as well.</li>
 <li><a href="#critical-injuries">Critical injuries</a> follow the rules for conditions.</li>
 <li>The complicated descriptions of various combat actions have been removed, instead relying on GM rulings and common sense. For example, it&#39;s obvious a grapple action should be an opposed roll of STRENGTH vs STRENGTH/AGILITY.</li>
 </ul>
 <h4>New Mechanics</h4>
 <p>Some new mechanics have been added, although I&#39;ve tried to keep these to a minimum.</p>
-<p>The most notable addition to the Year Zero Engine are <a href="#aggravated-rolls">aggravated rolls</a>, which have been added as a way of eliminating the need for willpower points.</p>
-<p>Also, GM <a href="#moves">moves</a> has been imported from <em>Dungeon World</em>.</p>
+<ul>
+<li>GM <a href="#moves">moves</a> have been imported from <em>Dungeon World</em>.</li>
+</ul>
 <h3>Style Guide</h3>
 <p>This document user British English for spelling and grammar. It does not use the Oxford comma. Attributes, prices, table headers and bulleted subsection titles are all caps. <a href="#taletns">Talents</a>, <a href="#personality-traits">personality traits</a>, <a href="#health">Health</a> and <a href="#resolve">Resolve</a> are capitalised. The title of this document is always in bold.</p>
 
 
         <footer>
-          Version 0.2.0 copyright &copy; 2025
+          Version 0.2.1 copyright &copy; 2025
           <a href="https://grislyeye.com">Ric Wood</a>. This game is not
           affiliated with, sponsored, or endorsed by Fria Ligan AB. The Year
           Zero Engine System Reference Document is used under Fria Ligan AB’s
